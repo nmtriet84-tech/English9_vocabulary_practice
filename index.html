@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=20260517-security-anti-cheat-v7">
+    <link rel="stylesheet" href="style.css?v=20260519-round-scoring-v2">
 </head>
 <body>
     <main class="app-shell">
@@ -82,7 +82,7 @@
                 <div class="exam-topbar">
                     <div>
                         <p class="eyebrow">Đang làm bài</p>
-                        <h2 id="exam-title">Question 1</h2>
+                        <h2 id="exam-title">Làm bài</h2>
                     </div>
                     <div class="exam-status">
                         <div id="timer-badge" class="timer-badge">20:00</div>
@@ -108,7 +108,7 @@
 
                 <div class="nav-footer">
                     <button id="prev-btn" class="secondary-btn" type="button">Previous</button>
-                    <div id="q-counter" class="q-counter">1 / 20</div>
+                    <div id="q-counter" class="q-counter" aria-hidden="true">1 / 20</div>
                     <button id="next-btn" class="secondary-btn" type="button">Next</button>
                     <button id="submit-btn" class="primary-btn submit-btn" type="button" hidden>Nộp bài</button>
                 </div>
@@ -139,6 +139,7 @@
                         <span id="final-score" class="score-value">0</span>
                         <span id="score-label-text" class="score-label">Đúng 0 câu</span>
                     </div>
+                    <div id="result-attempt-summary" class="result-attempt-summary" aria-live="polite"></div>
                     <p id="result-msg" class="result-msg"></p>
                     <button id="new-exam-btn" class="primary-btn" type="button">Làm đề mới</button>
                 </div>
@@ -167,6 +168,6 @@
         </div>
     </div>
 
-    <script src="app.js?v=20260517-security-anti-cheat-v7"></script>
+    <script src="app.js?v=20260519-round-scoring-v2"></script>
 </body>
 </html>

@@ -11,6 +11,13 @@ let ALL_INSTRUCTIONS = {};
 let currentExam = [];
 let userAnswers = {};
 let currentIdx = 0;
+let initialExamCount = 0;
+let maxBonusQuestions = 0;
+let addedBonusQuestions = 0;
+let bonusQuestionQueue = [];
+let evaluatedQuestionIds = new Set();
+let baseExamQuestionCount = 20;
+let totalExamSeconds = 0;
 let remainingSeconds = 0;
 let timerId = null;
 let examStartTime = null;   // Thời điểm bắt đầu làm bài
@@ -54,6 +61,29 @@ const timerBadge = document.getElementById("timer-badge");
 // Các phần tử form thông tin học sinh
 const studentNameInput = document.getElementById("student-name");
 const studentClassInput = document.getElementById("student-class");
+
+const RETRY_COUNT_KEY = "examPendingRetryCount";
+const SCORE_HISTORY_KEY = "examScoreHistory";
+let suppressCheatDetection = false;
+
+function runWithCheatDetectionPaused(callback) {
+    suppressCheatDetection = true;
+    try {
+        return callback();
+    } finally {
+        window.setTimeout(() => {
+            suppressCheatDetection = false;
+        }, 300);
+    }
+}
+
+function safeAlert(message) {
+    return runWithCheatDetectionPaused(() => alert(message));
+}
+
+function safeConfirm(message) {
+    return runWithCheatDetectionPaused(() => confirm(message));
+}
 
 // Tải thông tin học sinh đã lưu từ localStorage
 function loadStudentInfo() {
@@ -331,6 +361,33 @@ function updateSelectionSummary() {
     }
 }
 
+function getPendingRetryCount() {
+    const raw = localStorage.getItem(RETRY_COUNT_KEY);
+    if (!raw) return { count: 0, base: 0 };
+
+    try {
+        const parsed = JSON.parse(raw);
+        return {
+            count: Number(parsed.count) || 0,
+            base: Number(parsed.base) || 0
+        };
+    } catch {
+        const value = Number(raw);
+        return { count: Number.isFinite(value) ? value : 0, base: 0 };
+    }
+}
+
+function setPendingRetryCount(count) {
+    if (count > 0) {
+        localStorage.setItem(RETRY_COUNT_KEY, JSON.stringify({
+            count,
+            base: baseExamQuestionCount || currentExamTargetCount || 20
+        }));
+    } else {
+        localStorage.removeItem(RETRY_COUNT_KEY);
+    }
+}
+
 function generateExam(targetCount) {
     // Yêu cầu điền tên trước khi làm bài
     const nameVal = studentNameInput ? studentNameInput.value.trim() : '';
@@ -349,6 +406,9 @@ function generateExam(targetCount) {
         return;
     }
     
+    const pendingRetry = getPendingRetryCount();
+    baseExamQuestionCount = pendingRetry.base || targetCount;
+    targetCount = Math.max(targetCount, pendingRetry.count);
     currentExamTargetCount = targetCount;
     if (pool.length < targetCount) {
         alert(`Ngân hàng đề không đủ ${targetCount} câu (hiện chỉ có ${pool.length} câu trong các phần đã chọn). Vui lòng chọn thêm Unit/Chuyên đề.`);
@@ -442,10 +502,13 @@ function generateExam(targetCount) {
         return;
     }
 
-    currentExam = finalExam.map(question => ({
-        ...question,
-        shuffledOptions: shuffle(question.o.map((text, originalIdx) => ({ text, originalIdx })))
-    }));
+    currentExam = finalExam.map(prepareExamQuestion);
+    initialExamCount = currentExam.length;
+    maxBonusQuestions = initialExamCount;
+    addedBonusQuestions = 0;
+    evaluatedQuestionIds = new Set();
+    const selectedIds = new Set(currentExam.map((question) => question.id));
+    bonusQuestionQueue = shuffle(pool.filter((question) => !selectedIds.has(question.id)));
     
     startTest();
 }
@@ -475,6 +538,7 @@ function startTest() {
     if (dCountEl) dCountEl.textContent = currentExam.length === 40 ? 30 : 15;
     
     startTimer();
+    updateExamStats();
     window.scrollTo({ top: 0, behavior: "auto" });
     renderQuestion();
 }
@@ -482,8 +546,9 @@ function startTest() {
 function startTimer() {
     stopTimer();
     
-    const durationMins = currentExamTargetCount === 40 ? 30 : 15;
-    remainingSeconds = durationMins * 60;
+    const baseSeconds = baseExamQuestionCount === 40 ? 30 * 60 : 15 * 60;
+    totalExamSeconds = baseSeconds + Math.max(0, currentExam.length - baseExamQuestionCount) * 30;
+    remainingSeconds = totalExamSeconds;
     
     updateTimerDisplay();
     timerId = window.setInterval(() => {
@@ -512,15 +577,83 @@ function updateTimerDisplay() {
     timerBadge.classList.toggle("timer-warning", safeSeconds <= 60);
 }
 
+function prepareExamQuestion(question) {
+    return {
+        ...question,
+        bonusChecked: false,
+        shuffledOptions: shuffle(question.o.map((text, originalIdx) => ({ text, originalIdx })))
+    };
+}
+
+function getMaxExamCount() {
+    return initialExamCount + maxBonusQuestions;
+}
+
+function updateExamStats() {
+    const total = currentExam.length;
+    const maxTotal = getMaxExamCount();
+    const answeredCount = Object.keys(userAnswers).length;
+    const qCountEl = document.getElementById("stat-questions");
+    const dCountEl = document.getElementById("stat-duration");
+
+    if (qCountEl && initialExamCount > 0) qCountEl.textContent = `${total}/${maxTotal}`;
+    if (dCountEl && totalExamSeconds > 0) dCountEl.textContent = Math.ceil(totalExamSeconds / 60);
+    answeredBadge.textContent = `${answeredCount}/${total} \u0111\u00e3 tr\u1ea3 l\u1eddi - t\u1ed1i \u0111a ${maxTotal} c\u00e2u`;
+}
+
+function appendBonusQuestion() {
+    if (addedBonusQuestions >= maxBonusQuestions) return false;
+    const usedIds = new Set(currentExam.map((item) => item.id));
+    const nextQuestion = bonusQuestionQueue.find((item) => !usedIds.has(item.id));
+    if (!nextQuestion) return false;
+
+    bonusQuestionQueue = bonusQuestionQueue.filter((item) => item.id !== nextQuestion.id);
+    currentExam.push(prepareExamQuestion(nextQuestion));
+    addedBonusQuestions += 1;
+    totalExamSeconds += 30;
+    remainingSeconds += 30;
+    setPendingRetryCount(currentExam.length);
+    return true;
+}
+
+function addBonusQuestionsForCurrentRound() {
+    let addedCount = 0;
+    let wrongCount = 0;
+
+    currentExam.forEach((question) => {
+        if (evaluatedQuestionIds.has(question.id)) return;
+
+        const selectedIdx = userAnswers[question.id];
+        if (selectedIdx === undefined) return;
+
+        evaluatedQuestionIds.add(question.id);
+        const selectedOption = question.shuffledOptions[selectedIdx];
+        if (selectedOption?.originalIdx !== 0) {
+            wrongCount += 1;
+            if (appendBonusQuestion()) {
+                addedCount += 1;
+            }
+        }
+    });
+
+    if (addedCount > 0) {
+        safeAlert(`Bạn làm sai ${wrongCount} câu, đề sẽ tự động thêm ${addedCount} câu để làm lại.`);
+        currentIdx = currentExam.length - addedCount;
+        updateTimerDisplay();
+        updateExamStats();
+        renderQuestion();
+    }
+
+    return { addedCount, wrongCount };
+}
+
 function renderQuestion() {
     const question = currentExam[currentIdx];
     const total = currentExam.length;
-    const answeredCount = Object.keys(userAnswers).length;
-
     progressFill.style.width = `${((currentIdx + 1) / total) * 100}%`;
     qCounter.textContent = `${currentIdx + 1} / ${total}`;
-    examTitle.textContent = `Question ${currentIdx + 1}`;
-    answeredBadge.textContent = `${answeredCount}/${total} đã trả lời`;
+    examTitle.textContent = "L\u00e0m b\u00e0i";
+    updateExamStats();
     
     questionMeta.textContent = getGrammarKey(question);
     
@@ -533,7 +666,6 @@ function renderQuestion() {
         questionInstruction.style.display = 'none';
     }
 
-    renderQuestionNav();
     renderReading(question);
     questionText.innerHTML = question.q;
     
@@ -567,27 +699,6 @@ function renderQuestion() {
 
 function renderQuestionNav() {
     questionNav.replaceChildren();
-    let activeButton = null;
-
-    currentExam.forEach((question, index) => {
-        const button = document.createElement("button");
-        button.type = "button";
-        button.className = "question-nav-btn";
-        if (index === currentIdx) {
-            button.classList.add("active");
-            activeButton = button;
-        }
-        if (userAnswers[question.id] !== undefined) button.classList.add("answered");
-        button.textContent = index + 1;
-        button.setAttribute("aria-label", `Question ${index + 1}`);
-        button.addEventListener("click", () => {
-            currentIdx = index;
-            renderQuestion();
-        });
-        questionNav.appendChild(button);
-    });
-
-    activeButton?.scrollIntoView({ block: "nearest", inline: "center" });
 }
 
 function renderReading(question) {
@@ -639,6 +750,7 @@ function selectOption(index) {
 
 function showResult(options = {}) {
     stopTimer();
+    setPendingRetryCount(0);
     examScreen.hidden = true;
     resultScreen.hidden = false;
     document.body.classList.remove("exam-active");
@@ -686,16 +798,81 @@ function showResult(options = {}) {
     finalScore.textContent = `${formattedScore} điểm`;
 
     // Cập nhật nhãn số câu trả lời đúng
+    const scoreSummary = saveAttemptScore(scoreTenVal);
+    renderScoreSummary(scoreSummary, formattedScore);
+
     const labelEl = document.getElementById('score-label-text');
     if (labelEl) {
         labelEl.textContent = `Đúng ${score}/${currentExam.length} câu`;
     }
 
     resultMsg.textContent = options.timedOut ? `Hết giờ. ${getResultMessage(score)}` : getResultMessage(score);
+    if (labelEl && initialExamCount > 0) {
+        labelEl.textContent += ` - t\u1ed1i \u0111a ${getMaxExamCount()} c\u00e2u`;
+    }
     renderReview();
 }
 
+function getScoreHistoryKey() {
+    const datasetId = currentDataset?.id || "default";
+    const student = (studentName || "guest").toLowerCase();
+    return `${SCORE_HISTORY_KEY}:${datasetId}:${student}`;
+}
+
+function saveAttemptScore(scoreTenVal) {
+    const key = getScoreHistoryKey();
+    let history = [];
+
+    try {
+        history = JSON.parse(localStorage.getItem(key) || "[]");
+    } catch {
+        history = [];
+    }
+
+    history.push(Number(scoreTenVal.toFixed(2)));
+    localStorage.setItem(key, JSON.stringify(history));
+
+    const total = history.reduce((sum, value) => sum + value, 0);
+    const average = history.length ? total / history.length : scoreTenVal;
+    return {
+        attempt: history.length,
+        average: Number(average.toFixed(2))
+    };
+}
+
+function formatScoreValue(value) {
+    return Number(value.toFixed(2)).toString().replace('.', ',');
+}
+
+function renderScoreSummary(summary, currentScoreText) {
+    const container = document.getElementById("result-attempt-summary");
+    if (!container) return;
+
+    container.replaceChildren();
+
+    const rows = [
+        ["L\u1ea7n l\u00e0m b\u00e0i", summary.attempt],
+        ["\u0110i\u1ec3m trung b\u00ecnh", `${formatScoreValue(summary.average)} \u0111i\u1ec3m`],
+        ["\u0110i\u1ec3m l\u1ea7n n\u00e0y", `${currentScoreText} \u0111i\u1ec3m`]
+    ];
+
+    rows.forEach(([label, value]) => {
+        const item = document.createElement("div");
+        const labelEl = document.createElement("span");
+        const valueEl = document.createElement("strong");
+        labelEl.textContent = label;
+        valueEl.textContent = value;
+        item.append(labelEl, valueEl);
+        container.appendChild(item);
+    });
+}
+
 function getResultMessage(score) {
+    const ratio = currentExam.length ? score / currentExam.length : 0;
+    if (ratio >= 0.9) return "Excellent! B\u1ea1n \u0111\u00e3 s\u1eb5n s\u00e0ng cho b\u00e0i ki\u1ec3m tra th\u1eadt.";
+    if (ratio >= 0.75) return "Good job! Ch\u1ec9 c\u1ea7n \u00f4n l\u1ea1i v\u00e0i \u0111i\u1ec3m nh\u1ecf n\u1eefa.";
+    if (ratio >= 0.5) return "Kh\u00e1 \u1ed5n, nh\u01b0ng n\u00ean xem l\u1ea1i ph\u1ea7n gi\u1ea3i th\u00edch b\u00ean d\u01b0\u1edbi.";
+    return "N\u00ean \u00f4n t\u1eadp th\u00eam c\u00e1c ki\u1ebfn th\u1ee9c r\u1ed3i th\u1eed l\u1ea1i m\u1ed9t \u0111\u1ec1 m\u1edbi.";
     if (score >= 18) return "Excellent! Bạn đã sẵn sàng cho bài kiểm tra thật.";
     if (score >= 15) return "Good job! Chỉ cần ôn lại vài điểm nhỏ nữa.";
     if (score >= 10) return "Khá ổn, nhưng nên xem lại phần giải thích bên dưới.";
@@ -784,6 +961,13 @@ selectAllBtn.addEventListener("click", () => setAllSelections(true));
 clearAllBtn.addEventListener("click", () => setAllSelections(false));
 if (start15Btn) start15Btn.addEventListener("click", () => generateExam(20));
 if (start30Btn) start30Btn.addEventListener("click", () => generateExam(40));
+
+window.addEventListener("beforeunload", () => {
+    if (document.body.classList.contains("exam-active") && currentExam.length > 0) {
+        setPendingRetryCount(currentExam.length);
+    }
+});
+
 prevBtn.addEventListener("click", () => {
     if (currentIdx > 0) {
         currentIdx--;
@@ -798,11 +982,14 @@ nextBtn.addEventListener("click", () => {
 });
 submitBtn.addEventListener("click", () => {
     const answeredCount = Object.keys(userAnswers).length;
-    if (answeredCount < currentExam.length && !confirm(`Bạn mới trả lời ${answeredCount}/${currentExam.length} câu. Vẫn nộp bài?`)) return;
+    if (answeredCount < currentExam.length && !safeConfirm(`Bạn mới trả lời ${answeredCount}/${currentExam.length} câu. Vẫn nộp bài?`)) return;
+    const bonusResult = addBonusQuestionsForCurrentRound();
+    if (bonusResult.addedCount > 0) return;
     showResult();
 });
 newExamBtn.addEventListener("click", () => {
     stopTimer();
+    setPendingRetryCount(0);
     resultScreen.hidden = true;
     setupScreen.hidden = false;
     document.body.classList.remove("exam-active", "result-active");
@@ -853,11 +1040,12 @@ let isCheatTriggered = false;
 
 function handleExamCheating() {
     // Chỉ kích hoạt hình phạt khi đang ở trong phòng thi tích cực và chưa bị cảnh báo trước đó
-    if (!document.body.classList.contains("exam-active") || isCheatTriggered) {
+    if (suppressCheatDetection || !document.body.classList.contains("exam-active") || isCheatTriggered) {
         return;
     }
     
     isCheatTriggered = true;
+    setPendingRetryCount(currentExam.length || currentExamTargetCount || 20);
     stopTimer(); // Dừng thời gian đếm ngược ngay lập tức
     
     // Hiển thị modal cảnh báo gian lận
@@ -875,7 +1063,7 @@ if (cheatResetBtn) {
         isCheatTriggered = false;
         
         // Hủy kết quả làm bài hiện tại và tự động bốc bộ đề mới với cấu hình tương đương
-        const targetCount = currentExamTargetCount || 20;
+        const targetCount = currentExam.length || currentExamTargetCount || 20;
         generateExam(targetCount);
     });
 }
