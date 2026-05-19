@@ -1,0 +1,12 @@
+[
+  {
+    "id": "EN09_VOCAB",
+    "title": "Luyện Từ Vựng Tiếng Anh 9",
+    "subtitle": "Tạo đề luyện tập trắc nghiệm từ vựng và collocations từ Unit 1 đến Unit 12.",
+    "eyebrow": "Grade 9 Vocabulary",
+    "setup_title": "Vocabulary Units",
+    "type": "vocab",
+    "has_reading": false,
+    "path": "data/EN09_VOCAB"
+  }
+]

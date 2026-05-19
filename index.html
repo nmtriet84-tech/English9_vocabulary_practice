@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <title>Exam Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=20260517-security-anti-cheat-v7">
+</head>
+<body>
+    <main class="app-shell">
+        <section class="brand-panel">
+            <div>
+                <p id="brand-eyebrow" class="eyebrow">Grade 8 English</p>
+                <h1>Exam Practice</h1>
+                <p id="brand-subtitle" class="subtitle">Đang tải cấu hình bộ đề...</p>
+            </div>
+            
+            <div id="dataset-selector" class="mode-selector">
+                <!-- Nút chọn bộ đề sẽ được render tự động bằng JS -->
+            </div>
+            
+            <div class="stats-strip" aria-label="Thông tin đề luyện tập">
+                <div>
+                    <strong id="stat-questions">20</strong>
+                    <span>câu hỏi</span>
+                </div>
+                <div id="reading-stat">
+                    <strong id="stat-readings">2</strong>
+                    <span>bài đọc</span>
+                </div>
+                <div>
+                    <strong id="stat-duration">15</strong>
+                    <span>phút</span>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="workspace-panel">
+            <div id="setup-screen" class="screen setup-screen">
+                <div class="panel-heading">
+                    <div>
+                        <p class="eyebrow">Chọn nội dung</p>
+                        <h2 id="setup-title">Grammar Points</h2>
+                    </div>
+                    <div class="selection-actions" aria-label="Thao tác chọn nhanh">
+                        <button id="select-all-btn" class="ghost-btn" type="button">Chọn tất cả</button>
+                        <button id="clear-all-btn" class="ghost-btn" type="button">Bỏ chọn</button>
+                    </div>
+                </div>
+
+                <div class="selection-summary">
+                    <span id="selection-count">Đang tải danh sách...</span>
+                    <span id="question-pool-count"></span>
+                </div>
+
+                <div id="unified-selector" class="unified-selector" aria-live="polite"></div>
+
+                <div class="student-info-form">
+                    <div class="student-info-field">
+                        <label for="student-name">👤 Họ và tên</label>
+                        <input type="text" id="student-name" placeholder="Nhập họ và tên..." autocomplete="off" maxlength="80">
+                    </div>
+                    <div class="student-info-field">
+                        <label for="student-class">🏫 Lớp</label>
+                        <input type="text" id="student-class" placeholder="Ví dụ: 8A1" autocomplete="off" maxlength="20">
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 12px; margin-top: 16px; width: 100%;">
+                    <button id="start-15-btn" class="primary-btn" type="button" style="flex: 1; padding: 0 10px; font-size: 0.9rem; min-height: 48px; border-radius: 8px; font-weight: 800;">Làm 15 phút<br><span style="font-size: 0.78rem; font-weight: 500; opacity: 0.9;">(20 câu)</span></button>
+                    <button id="start-30-btn" class="primary-btn" type="button" style="flex: 1; padding: 0 10px; font-size: 0.9rem; min-height: 48px; border-radius: 8px; font-weight: 800; background: var(--accent); box-shadow: 0 10px 22px rgb(217 137 53 / 0.23);">Làm 30 phút<br><span style="font-size: 0.78rem; font-weight: 500; opacity: 0.9;">(40 câu)</span></button>
+                </div>
+            </div>
+
+            <div id="exam-screen" class="screen exam-screen" hidden>
+                <div class="exam-topbar">
+                    <div>
+                        <p class="eyebrow">Đang làm bài</p>
+                        <h2 id="exam-title">Question 1</h2>
+                    </div>
+                    <div class="exam-status">
+                        <div id="timer-badge" class="timer-badge">20:00</div>
+                        <div id="answered-badge" class="answered-badge">0/20 đã trả lời</div>
+                    </div>
+                </div>
+
+                <div class="progress-bar" aria-hidden="true">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+
+                <div id="question-nav" class="question-nav" aria-label="Danh sách câu hỏi"></div>
+
+                <article id="reading-area" class="reading-context" hidden></article>
+
+                <article class="question-card">
+                    <p id="question-meta" class="question-meta"></p>
+                    <div id="question-instruction" style="font-style: italic; color: #4b5563; margin-bottom: 15px; font-weight: 500; display: none;"></div>
+                    <h3 id="question-text" class="question-text">Loading question...</h3>
+                    <img id="question-img" style="max-width: 100%; border-radius: 8px; margin: 15px 0; display: none;" />
+                    <div id="options-list" class="options-list"></div>
+                </article>
+
+                <div class="nav-footer">
+                    <button id="prev-btn" class="secondary-btn" type="button">Previous</button>
+                    <div id="q-counter" class="q-counter">1 / 20</div>
+                    <button id="next-btn" class="secondary-btn" type="button">Next</button>
+                    <button id="submit-btn" class="primary-btn submit-btn" type="button" hidden>Nộp bài</button>
+                </div>
+            </div>
+
+            <div id="result-screen" class="screen result-screen" hidden>
+                <div class="result-hero">
+                    <p class="eyebrow">Kết quả</p>
+                    <h2>Exam Completed</h2>
+
+                    <div id="result-student-card" class="result-student-card">
+                        <div class="result-student-row">
+                            <span class="result-student-icon">👤</span>
+                            <span id="result-student-name" class="result-student-value">—</span>
+                        </div>
+                        <div class="result-student-row">
+                            <span class="result-student-icon">🏫</span>
+                            <span id="result-student-class" class="result-student-value">—</span>
+                        </div>
+                        <div class="result-meta-row">
+                            <span id="result-datetime">—</span>
+                            <span class="result-sep">·</span>
+                            <span>Thời gian làm bài: <strong id="result-duration">—</strong></span>
+                        </div>
+                    </div>
+
+                    <div class="score-circle">
+                        <span id="final-score" class="score-value">0</span>
+                        <span id="score-label-text" class="score-label">Đúng 0 câu</span>
+                    </div>
+                    <p id="result-msg" class="result-msg"></p>
+                    <button id="new-exam-btn" class="primary-btn" type="button">Làm đề mới</button>
+                </div>
+
+                <section class="review-section">
+                    <div class="panel-heading">
+                        <div>
+                            <p class="eyebrow">Xem lại</p>
+                            <h2>Đáp án và giải thích</h2>
+                        </div>
+                    </div>
+                    <div id="review-list" class="review-list"></div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal Cảnh báo gian lận (Tab switch detection warning) -->
+    <div id="cheat-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-card">
+            <div class="modal-icon">⚠️</div>
+            <h2>Phát hiện chuyển Tab!</h2>
+            <p>Hệ thống phát hiện bạn đã rời khỏi màn hình làm bài thi.</p>
+            <p class="modal-sub">Để bảo đảm tính khách quan, bài thi hiện tại đã bị hủy. Nhấn nút bên dưới để nhận đề thi mới.</p>
+            <button id="cheat-reset-btn" class="primary-btn" type="button" style="width: 100%; min-height: 48px; font-weight: 800;">Bốc đề mới & Làm lại</button>
+        </div>
+    </div>
+
+    <script src="app.js?v=20260517-security-anti-cheat-v7"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+{
+  "U01": {
+    "title": "Unit 1: LOCAL COMMUNITY",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U02": {
+    "title": "Unit 2: CITY LIFE",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U03": {
+    "title": "Unit 3: HEALTHY LIVING FOR TEENS",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U04": {
+    "title": "Unit 4: REMEMBERING THE PAST",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U05": {
+    "title": "Unit 5: OUR EXPERIENCES",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U06": {
+    "title": "Unit 6: VIETNAMESE LIFESTYLE THEN AND NOW",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U07": {
+    "title": "Unit 7: NATURAL WONDERS OF THE WORLD",
+    "grammar": {
+      "GR-01": "Từ vựng",
+      "GR-02": "Collocations / Cụm từ"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U08": {
+    "title": "Unit 8: TOURISM",
+    "grammar": {
+      "GR-01": "Từ vựng",
+      "GR-02": "Collocations / Cụm từ"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U09": {
+    "title": "Unit 9: WORLD ENGLISHES",
+    "grammar": {
+      "GR-01": "Từ vựng",
+      "GR-02": "Collocations / Cụm từ"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U10": {
+    "title": "Unit 10: PLANET EARTH",
+    "grammar": {
+      "GR-01": "Từ vựng",
+      "GR-02": "Collocations / Cụm từ"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U11": {
+    "title": "Unit 11: ELECTRONIC DEVICES",
+    "grammar": {
+      "GR-01": "Từ vựng",
+      "GR-02": "Collocations / Cụm từ"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U12": {
+    "title": "Unit 12: CAREER CHOICES",
+    "grammar": {
+      "GR-01": "Từ vựng",
+      "GR-02": "Collocations / Cụm từ"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  }
+}
