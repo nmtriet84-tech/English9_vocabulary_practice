@@ -12,7 +12,6 @@ let currentExam = [];
 let userAnswers = {};
 let currentIdx = 0;
 let initialExamCount = 0;
-let maxBonusQuestions = 0;
 let addedBonusQuestions = 0;
 let bonusQuestionQueue = [];
 let evaluatedQuestionIds = new Set();
@@ -127,7 +126,6 @@ function createSessionSnapshot() {
         userAnswers,
         currentIdx,
         initialExamCount,
-        maxBonusQuestions,
         addedBonusQuestions,
         bonusQuestionQueue,
         evaluatedQuestionIds: [...evaluatedQuestionIds],
@@ -149,7 +147,6 @@ function restoreActiveSession(session) {
     userAnswers = session.userAnswers || {};
     currentIdx = Math.min(session.currentIdx || 0, Math.max(currentExam.length - 1, 0));
     initialExamCount = session.initialExamCount || currentExam.length;
-    maxBonusQuestions = session.maxBonusQuestions || initialExamCount;
     addedBonusQuestions = session.addedBonusQuestions || 0;
     bonusQuestionQueue = session.bonusQuestionQueue || [];
     evaluatedQuestionIds = new Set(session.evaluatedQuestionIds || []);
@@ -645,7 +642,6 @@ function generateExam(targetCount, options = {}) {
 
     currentExam = finalExam.map(prepareExamQuestion);
     initialExamCount = currentExam.length;
-    maxBonusQuestions = initialExamCount;
     addedBonusQuestions = 0;
     evaluatedQuestionIds = new Set();
     const selectedIds = new Set(currentExam.map((question) => question.id));
@@ -732,19 +728,14 @@ function prepareExamQuestion(question) {
     };
 }
 
-function getMaxExamCount() {
-    return initialExamCount + maxBonusQuestions;
-}
-
 function updateExamStats() {
     const total = currentExam.length;
-    const maxTotal = getMaxExamCount();
     const answeredCount = Object.keys(userAnswers).length;
     const scoreInfo = getRealtimeScoreInfo();
     const qCountEl = document.getElementById("stat-questions");
     const dCountEl = document.getElementById("stat-duration");
 
-    if (qCountEl && initialExamCount > 0) qCountEl.textContent = `${total}/${maxTotal}`;
+    if (qCountEl && initialExamCount > 0) qCountEl.textContent = total;
     if (dCountEl && totalExamSeconds > 0) dCountEl.textContent = Math.ceil(totalExamSeconds / 60);
     answeredBadge.textContent = `${answeredCount}/${total} \u0111\u00e3 ch\u1ea5m - \u0110\u00fang ${scoreInfo.correct}/${answeredCount || 0} - \u0110i\u1ec3m ${scoreInfo.formatted}/10`;
 }
@@ -770,7 +761,6 @@ function isQuestionCorrect(question) {
 }
 
 function appendBonusQuestion() {
-    if (addedBonusQuestions >= maxBonusQuestions) return false;
     const usedIds = new Set(currentExam.map((item) => item.id));
     const nextQuestion = bonusQuestionQueue.find((item) => !usedIds.has(item.id));
     if (!nextQuestion) return false;
@@ -994,9 +984,6 @@ function showResult(options = {}) {
     }
 
     resultMsg.textContent = options.timedOut ? `Hết giờ. ${getResultMessage(score)}` : getResultMessage(score);
-    if (labelEl && initialExamCount > 0) {
-        labelEl.textContent += ` - t\u1ed1i \u0111a ${getMaxExamCount()} c\u00e2u`;
-    }
     renderReview();
 }
 
