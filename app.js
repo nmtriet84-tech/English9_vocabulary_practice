@@ -69,14 +69,26 @@ let suppressCheatDetection = false;
 let deadlineAt = 0;
 let isRestoringSession = false;
 
+function clearPendingCheatDetection() {
+    if (typeof cheatDetectionTimer !== "undefined" && cheatDetectionTimer) {
+        window.clearTimeout(cheatDetectionTimer);
+        cheatDetectionTimer = null;
+    }
+}
+
+function isInternalPopupOpen() {
+    return Boolean(cheatModal && cheatModal.style.display !== "none");
+}
+
 function runWithCheatDetectionPaused(callback) {
+    clearPendingCheatDetection();
     suppressCheatDetection = true;
     try {
         return callback();
     } finally {
         window.setTimeout(() => {
             suppressCheatDetection = false;
-        }, 300);
+        }, 1000);
     }
 }
 
@@ -213,9 +225,7 @@ function offerResumeActiveSession() {
         return;
     }
 
-    if (safeConfirm("Bạn có bài làm chưa hoàn tất. Bạn muốn tiếp tục bài đang làm không?")) {
-        restoreActiveSession(session);
-    }
+    restoreActiveSession(session);
 }
 
 function renderDatasetSelector() {
@@ -490,17 +500,8 @@ function finalizeOldSessionBeforeNewExam(nextTargetCount) {
     const session = getActiveSession();
     if (!session || session.datasetId !== currentDataset?.id) return false;
 
-    const shouldStartNew = safeConfirm("Bạn còn một bài làm chưa hoàn tất. Nếu làm bài mới, hệ thống sẽ chấm điểm phiên cũ trước. Tiếp tục làm bài mới?");
-    if (!shouldStartNew) {
-        restoreActiveSession(session);
-        return true;
-    }
-
-    const result = gradeStoredSession(session);
-    clearActiveSession();
-    setPendingRetryCount(0);
-    safeAlert(`Phiên cũ đã được chấm: ${result.formattedScore} điểm. Sau thông báo này, hệ thống sẽ tạo bài mới.`);
-    generateExam(nextTargetCount, { skipOldSessionCheck: true });
+    restoreActiveSession(session);
+    safeAlert("Bạn cần hoàn tất và nộp bài đang làm trước khi tạo bài mới.");
     return true;
 }
 
@@ -1147,6 +1148,11 @@ if (start15Btn) start15Btn.addEventListener("click", () => generateExam(20));
 if (start30Btn) start30Btn.addEventListener("click", () => generateExam(40));
 
 window.addEventListener("beforeunload", () => {
+    isPageUnloading = true;
+    if (cheatDetectionTimer) {
+        window.clearTimeout(cheatDetectionTimer);
+        cheatDetectionTimer = null;
+    }
     if (document.body.classList.contains("exam-active") && currentExam.length > 0) {
         setPendingRetryCount(currentExam.length);
         saveActiveSession();
@@ -1222,53 +1228,75 @@ document.addEventListener('keydown', event => {
 const cheatModal = document.getElementById("cheat-modal");
 const cheatResetBtn = document.getElementById("cheat-reset-btn");
 let isCheatTriggered = false;
+let isPageUnloading = false;
+let cheatDetectionTimer = null;
+
+function scheduleExamCheatingCheck() {
+    if (isPageUnloading || suppressCheatDetection || isInternalPopupOpen()) return;
+    if (cheatDetectionTimer) window.clearTimeout(cheatDetectionTimer);
+    cheatDetectionTimer = window.setTimeout(() => {
+        cheatDetectionTimer = null;
+        if (!isPageUnloading && !suppressCheatDetection && !isInternalPopupOpen()) {
+            handleExamCheating();
+        }
+    }, 350);
+}
 
 function handleExamCheating() {
     // Chỉ kích hoạt hình phạt khi đang ở trong phòng thi tích cực và chưa bị cảnh báo trước đó
-    if (suppressCheatDetection || !document.body.classList.contains("exam-active") || isCheatTriggered) {
+    if (isPageUnloading || suppressCheatDetection || isInternalPopupOpen() || !document.body.classList.contains("exam-active") || isCheatTriggered) {
         return;
     }
     
     isCheatTriggered = true;
-    const nextTargetCount = currentExam.length || currentExamTargetCount || 20;
-    const oldSession = createSessionSnapshot();
+    const addedPenalty = appendBonusQuestion();
+    updateTimerDisplay();
+    updateExamStats();
+    saveActiveSession();
 
-    stopTimer();
-    gradeStoredSession(oldSession);
-    clearActiveSession();
-    setPendingRetryCount(0);
-
-    if (cheatModal) cheatModal.style.display = "none";
-    document.body.classList.remove("exam-active", "result-active");
-    isCheatTriggered = false;
-
-    generateExam(nextTargetCount, { skipOldSessionCheck: true });
+    if (cheatModal) {
+        clearPendingCheatDetection();
+        const penaltyText = document.getElementById("cheat-penalty-text");
+        if (penaltyText) {
+            penaltyText.textContent = addedPenalty
+                ? "Bạn bị phạt thêm 1 câu vào đề. Hãy tiếp tục làm bài."
+                : "Hệ thống không thể thêm câu phạt vì đã đạt giới hạn câu hỏi.";
+        }
+        cheatModal.style.display = "flex";
+    } else {
+        safeAlert(addedPenalty ? "Bạn đã chuyển tab. Hệ thống phạt thêm 1 câu vào đề." : "Bạn đã chuyển tab.");
+        isCheatTriggered = false;
+    }
 }
 
 // Khi nhấn "Bốc đề mới & Làm lại" trên modal cảnh báo
 if (cheatResetBtn) {
     cheatResetBtn.addEventListener("click", () => {
+        clearPendingCheatDetection();
+        suppressCheatDetection = true;
         if (cheatModal) {
             cheatModal.style.display = "none";
         }
         isCheatTriggered = false;
         
         // Hủy kết quả làm bài hiện tại và tự động bốc bộ đề mới với cấu hình tương đương
-        const targetCount = currentExam.length || currentExamTargetCount || 20;
-        generateExam(targetCount);
+        renderQuestion();
+        window.setTimeout(() => {
+            suppressCheatDetection = false;
+        }, 800);
     });
 }
 
 // Lắng nghe sự kiện ẩn/hiện tab (Page Visibility API)
 document.addEventListener("visibilitychange", () => {
     if (document.hidden) {
-        handleExamCheating();
+        scheduleExamCheatingCheck();
     }
 });
 
 // Lắng nghe sự kiện mất tiêu điểm của trình duyệt (chuyển cửa sổ khác, chia màn hình)
 window.addEventListener("blur", () => {
-    handleExamCheating();
+    scheduleExamCheatingCheck();
 });
 
 init();
