@@ -864,6 +864,8 @@ function renderQuestion() {
 
     prevBtn.style.visibility = currentIdx === 0 ? "hidden" : "visible";
     nextBtn.hidden = currentIdx === total - 1;
+    nextBtn.disabled = userAnswers[question.id] === undefined;
+    nextBtn.setAttribute("aria-disabled", String(nextBtn.disabled));
     submitBtn.hidden = currentIdx !== total - 1;
     saveActiveSession();
 }
@@ -1166,7 +1168,8 @@ prevBtn.addEventListener("click", () => {
     }
 });
 nextBtn.addEventListener("click", () => {
-    if (currentIdx < currentExam.length - 1) {
+    const question = currentExam[currentIdx];
+    if (userAnswers[question.id] !== undefined && currentIdx < currentExam.length - 1) {
         currentIdx++;
         renderQuestion();
     }
