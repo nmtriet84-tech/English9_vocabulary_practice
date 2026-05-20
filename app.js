@@ -63,8 +63,11 @@ const studentNameInput = document.getElementById("student-name");
 const studentClassInput = document.getElementById("student-class");
 
 const RETRY_COUNT_KEY = "examPendingRetryCount";
+const ACTIVE_SESSION_KEY = "examActiveSession";
 const SCORE_HISTORY_KEY = "examScoreHistory";
 let suppressCheatDetection = false;
+let deadlineAt = 0;
+let isRestoringSession = false;
 
 function runWithCheatDetectionPaused(callback) {
     suppressCheatDetection = true;
@@ -83,6 +86,82 @@ function safeAlert(message) {
 
 function safeConfirm(message) {
     return runWithCheatDetectionPaused(() => confirm(message));
+}
+
+function getActiveSession() {
+    try {
+        const session = JSON.parse(localStorage.getItem(ACTIVE_SESSION_KEY) || "null");
+        if (!session || !Array.isArray(session.currentExam) || session.submitted) return null;
+        return session;
+    } catch {
+        return null;
+    }
+}
+
+function clearActiveSession() {
+    localStorage.removeItem(ACTIVE_SESSION_KEY);
+}
+
+function saveActiveSession() {
+    if (!document.body.classList.contains("exam-active") || currentExam.length === 0) return;
+
+    localStorage.setItem(ACTIVE_SESSION_KEY, JSON.stringify(createSessionSnapshot()));
+}
+
+function createSessionSnapshot() {
+    const session = {
+        datasetId: currentDataset?.id || "",
+        currentExam,
+        userAnswers,
+        currentIdx,
+        initialExamCount,
+        maxBonusQuestions,
+        addedBonusQuestions,
+        bonusQuestionQueue,
+        evaluatedQuestionIds: [...evaluatedQuestionIds],
+        baseExamQuestionCount,
+        currentExamTargetCount,
+        totalExamSeconds,
+        deadlineAt,
+        examStartTimestamp,
+        examStartTimeIso: examStartTime ? examStartTime.toISOString() : null,
+        studentName,
+        studentClass
+    };
+
+    return session;
+}
+
+function restoreActiveSession(session) {
+    currentExam = session.currentExam || [];
+    userAnswers = session.userAnswers || {};
+    currentIdx = Math.min(session.currentIdx || 0, Math.max(currentExam.length - 1, 0));
+    initialExamCount = session.initialExamCount || currentExam.length;
+    maxBonusQuestions = session.maxBonusQuestions || initialExamCount;
+    addedBonusQuestions = session.addedBonusQuestions || 0;
+    bonusQuestionQueue = session.bonusQuestionQueue || [];
+    evaluatedQuestionIds = new Set(session.evaluatedQuestionIds || []);
+    baseExamQuestionCount = session.baseExamQuestionCount || initialExamCount || 20;
+    currentExamTargetCount = session.currentExamTargetCount || currentExam.length || 20;
+    totalExamSeconds = session.totalExamSeconds || (baseExamQuestionCount === 40 ? 1800 : 900);
+    deadlineAt = session.deadlineAt || (Date.now() + totalExamSeconds * 1000);
+    examStartTimestamp = session.examStartTimestamp || Date.now();
+    examStartTime = session.examStartTimeIso ? new Date(session.examStartTimeIso) : new Date(examStartTimestamp);
+    studentName = session.studentName || studentName;
+    studentClass = session.studentClass || studentClass;
+
+    if (studentNameInput && studentName) studentNameInput.value = studentName;
+    if (studentClassInput && studentClass) studentClassInput.value = studentClass;
+
+    setupScreen.hidden = true;
+    resultScreen.hidden = true;
+    examScreen.hidden = false;
+    document.body.classList.add("exam-active");
+    document.body.classList.remove("result-active");
+
+    startTimer({ resume: true });
+    updateExamStats();
+    renderQuestion();
 }
 
 // Tải thông tin học sinh đã lưu từ localStorage
@@ -112,11 +191,30 @@ async function init() {
         if (DATASETS.length > 0) {
             await setMode(DATASETS[0].id);
         }
+        offerResumeActiveSession();
     } catch (error) {
         console.error(error);
         selectionCount.textContent = "Không tải được cấu hình hệ thống.";
     } finally {
         setLoadingState(false);
+    }
+}
+
+function offerResumeActiveSession() {
+    const session = getActiveSession();
+    if (!session || session.datasetId !== currentDataset?.id) return;
+
+    const remaining = Math.ceil(((session.deadlineAt || 0) - Date.now()) / 1000);
+    if (remaining <= 0) {
+        gradeStoredSession(session);
+        clearActiveSession();
+        setPendingRetryCount(0);
+        safeAlert("Phiên làm bài trước đã hết giờ. Hệ thống đã tự chấm điểm và lưu vào điểm trung bình.");
+        return;
+    }
+
+    if (safeConfirm("Bạn có bài làm chưa hoàn tất. Bạn muốn tiếp tục bài đang làm không?")) {
+        restoreActiveSession(session);
     }
 }
 
@@ -388,7 +486,49 @@ function setPendingRetryCount(count) {
     }
 }
 
-function generateExam(targetCount) {
+function finalizeOldSessionBeforeNewExam(nextTargetCount) {
+    const session = getActiveSession();
+    if (!session || session.datasetId !== currentDataset?.id) return false;
+
+    const shouldStartNew = safeConfirm("Bạn còn một bài làm chưa hoàn tất. Nếu làm bài mới, hệ thống sẽ chấm điểm phiên cũ trước. Tiếp tục làm bài mới?");
+    if (!shouldStartNew) {
+        restoreActiveSession(session);
+        return true;
+    }
+
+    const result = gradeStoredSession(session);
+    clearActiveSession();
+    setPendingRetryCount(0);
+    safeAlert(`Phiên cũ đã được chấm: ${result.formattedScore} điểm. Sau thông báo này, hệ thống sẽ tạo bài mới.`);
+    generateExam(nextTargetCount, { skipOldSessionCheck: true });
+    return true;
+}
+
+function gradeStoredSession(session) {
+    const questions = session.currentExam || [];
+    const answers = session.userAnswers || {};
+    const score = questions.reduce((total, question) => {
+        const selectedIdx = answers[question.id];
+        if (selectedIdx === undefined) return total;
+        return total + (question.shuffledOptions?.[selectedIdx]?.originalIdx === 0 ? 1 : 0);
+    }, 0);
+    const scoreTenVal = questions.length ? (score / questions.length * 10) : 0;
+    const formattedScore = Number(scoreTenVal.toFixed(2)).toString().replace('.', ',');
+
+    const oldStudentName = studentName;
+    const oldStudentClass = studentClass;
+    studentName = session.studentName || studentName || "guest";
+    studentClass = session.studentClass || studentClass || "";
+    const summary = saveAttemptScore(scoreTenVal);
+    studentName = oldStudentName;
+    studentClass = oldStudentClass;
+
+    return { score, total: questions.length, scoreTenVal, formattedScore, summary };
+}
+
+function generateExam(targetCount, options = {}) {
+    if (!options.skipOldSessionCheck && finalizeOldSessionBeforeNewExam(targetCount)) return;
+
     // Yêu cầu điền tên trước khi làm bài
     const nameVal = studentNameInput ? studentNameInput.value.trim() : '';
     if (!nameVal) {
@@ -543,16 +683,21 @@ function startTest() {
     renderQuestion();
 }
 
-function startTimer() {
+function startTimer(options = {}) {
     stopTimer();
     
-    const baseSeconds = baseExamQuestionCount === 40 ? 30 * 60 : 15 * 60;
-    totalExamSeconds = baseSeconds + Math.max(0, currentExam.length - baseExamQuestionCount) * 30;
-    remainingSeconds = totalExamSeconds;
+    if (!options.resume) {
+        const baseSeconds = baseExamQuestionCount === 40 ? 30 * 60 : 15 * 60;
+        totalExamSeconds = baseSeconds + Math.max(0, currentExam.length - baseExamQuestionCount) * 30;
+        remainingSeconds = totalExamSeconds;
+        deadlineAt = Date.now() + remainingSeconds * 1000;
+    } else {
+        remainingSeconds = Math.ceil((deadlineAt - Date.now()) / 1000);
+    }
     
     updateTimerDisplay();
     timerId = window.setInterval(() => {
-        remainingSeconds -= 1;
+        remainingSeconds = Math.ceil((deadlineAt - Date.now()) / 1000);
         updateTimerDisplay();
 
         if (remainingSeconds <= 0) {
@@ -560,6 +705,7 @@ function startTimer() {
             showResult({ timedOut: true });
         }
     }, 1000);
+    saveActiveSession();
 }
 
 function stopTimer() {
@@ -593,12 +739,33 @@ function updateExamStats() {
     const total = currentExam.length;
     const maxTotal = getMaxExamCount();
     const answeredCount = Object.keys(userAnswers).length;
+    const scoreInfo = getRealtimeScoreInfo();
     const qCountEl = document.getElementById("stat-questions");
     const dCountEl = document.getElementById("stat-duration");
 
     if (qCountEl && initialExamCount > 0) qCountEl.textContent = `${total}/${maxTotal}`;
     if (dCountEl && totalExamSeconds > 0) dCountEl.textContent = Math.ceil(totalExamSeconds / 60);
-    answeredBadge.textContent = `${answeredCount}/${total} \u0111\u00e3 tr\u1ea3 l\u1eddi - t\u1ed1i \u0111a ${maxTotal} c\u00e2u`;
+    answeredBadge.textContent = `${answeredCount}/${total} \u0111\u00e3 ch\u1ea5m - \u0110\u00fang ${scoreInfo.correct}/${answeredCount || 0} - \u0110i\u1ec3m ${scoreInfo.formatted}/10`;
+}
+
+function getRealtimeScoreInfo() {
+    const answeredQuestions = currentExam.filter((question) => userAnswers[question.id] !== undefined);
+    const correct = answeredQuestions.reduce((total, question) => {
+        return total + (isQuestionCorrect(question) ? 1 : 0);
+    }, 0);
+    const scoreTenVal = answeredQuestions.length ? (correct / answeredQuestions.length * 10) : 0;
+
+    return {
+        correct,
+        answered: answeredQuestions.length,
+        scoreTenVal,
+        formatted: Number(scoreTenVal.toFixed(2)).toString().replace('.', ',')
+    };
+}
+
+function isQuestionCorrect(question) {
+    const selectedIdx = userAnswers[question.id];
+    return selectedIdx !== undefined && question.shuffledOptions[selectedIdx]?.originalIdx === 0;
 }
 
 function appendBonusQuestion() {
@@ -612,7 +779,9 @@ function appendBonusQuestion() {
     addedBonusQuestions += 1;
     totalExamSeconds += 30;
     remainingSeconds += 30;
+    deadlineAt += 30 * 1000;
     setPendingRetryCount(currentExam.length);
+    saveActiveSession();
     return true;
 }
 
@@ -695,6 +864,7 @@ function renderQuestion() {
     prevBtn.style.visibility = currentIdx === 0 ? "hidden" : "visible";
     nextBtn.hidden = currentIdx === total - 1;
     submitBtn.hidden = currentIdx !== total - 1;
+    saveActiveSession();
 }
 
 function renderQuestionNav() {
@@ -721,12 +891,20 @@ function renderReading(question) {
 
 function renderOptions(question) {
     optionsList.replaceChildren();
+    const selectedIdx = userAnswers[question.id];
+    const isGraded = selectedIdx !== undefined;
 
     question.shuffledOptions.forEach((option, index) => {
         const button = document.createElement("button");
         button.type = "button";
         button.className = "option-btn";
-        if (userAnswers[question.id] === index) button.classList.add("selected");
+        if (selectedIdx === index) button.classList.add("selected");
+        if (isGraded) {
+            button.disabled = true;
+            button.classList.add("graded");
+            if (option.originalIdx === 0) button.classList.add("correct-answer");
+            if (selectedIdx === index && option.originalIdx !== 0) button.classList.add("wrong-answer");
+        }
         button.addEventListener("click", () => selectOption(index));
 
         const label = document.createElement("span");
@@ -738,19 +916,29 @@ function renderOptions(question) {
         text.textContent = option.text;
 
         button.append(label, text);
+        if (isGraded && option.originalIdx === 0) {
+            const marker = document.createElement("span");
+            marker.className = "answer-marker";
+            marker.textContent = "\u0110\u00e1p \u00e1n \u0111\u00fang";
+            button.appendChild(marker);
+        }
         optionsList.appendChild(button);
     });
 }
 
 function selectOption(index) {
     const question = currentExam[currentIdx];
+    if (userAnswers[question.id] !== undefined) return;
     userAnswers[question.id] = index;
+    updateExamStats();
+    saveActiveSession();
     renderQuestion();
 }
 
 function showResult(options = {}) {
     stopTimer();
     setPendingRetryCount(0);
+    clearActiveSession();
     examScreen.hidden = true;
     resultScreen.hidden = false;
     document.body.classList.remove("exam-active");
@@ -786,11 +974,7 @@ function showResult(options = {}) {
         durationEl.textContent = `${mins} phút ${secs} giây`;
     }
 
-    const score = currentExam.reduce((total, question) => {
-        const selectedIdx = userAnswers[question.id];
-        if (selectedIdx === undefined) return total;
-        return total + (question.shuffledOptions[selectedIdx].originalIdx === 0 ? 1 : 0);
-    }, 0);
+    const score = currentExam.reduce((total, question) => total + (isQuestionCorrect(question) ? 1 : 0), 0);
 
     // Tính điểm hệ 10 và định dạng dạng "8,5 điểm" hay "8,54 điểm"
     const scoreTenVal = (score / currentExam.length * 10);
@@ -965,6 +1149,7 @@ if (start30Btn) start30Btn.addEventListener("click", () => generateExam(40));
 window.addEventListener("beforeunload", () => {
     if (document.body.classList.contains("exam-active") && currentExam.length > 0) {
         setPendingRetryCount(currentExam.length);
+        saveActiveSession();
     }
 });
 
@@ -1045,13 +1230,19 @@ function handleExamCheating() {
     }
     
     isCheatTriggered = true;
-    setPendingRetryCount(currentExam.length || currentExamTargetCount || 20);
-    stopTimer(); // Dừng thời gian đếm ngược ngay lập tức
-    
-    // Hiển thị modal cảnh báo gian lận
-    if (cheatModal) {
-        cheatModal.style.display = "flex";
-    }
+    const nextTargetCount = currentExam.length || currentExamTargetCount || 20;
+    const oldSession = createSessionSnapshot();
+
+    stopTimer();
+    gradeStoredSession(oldSession);
+    clearActiveSession();
+    setPendingRetryCount(0);
+
+    if (cheatModal) cheatModal.style.display = "none";
+    document.body.classList.remove("exam-active", "result-active");
+    isCheatTriggered = false;
+
+    generateExam(nextTargetCount, { skipOldSessionCheck: true });
 }
 
 // Khi nhấn "Bốc đề mới & Làm lại" trên modal cảnh báo
