@@ -1,0 +1,110 @@
+{
+  "U01": {
+    "title": "Unit 1: LEISURE TIME",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U02": {
+    "title": "Unit 2: LIFE IN THE COUNTRYSIDE",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U03": {
+    "title": "Unit 3: TEENAGERS",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U04": {
+    "title": "Unit 4: ETHNIC GROUPS OF VIETNAM",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U05": {
+    "title": "Unit 5: OUR CUSTOMS AND TRADITIONS",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U06": {
+    "title": "Unit 6: LIFESTYLE",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U07": {
+    "title": "Unit 7: ENVIRONMENTAL PROTECTION",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U08": {
+    "title": "Unit 8: SHOPPING",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U09": {
+    "title": "Unit 9: NATURAL DISASTERS",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U10": {
+    "title": "Unit 10: COMMUNICATION IN THE FUTURE",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U11": {
+    "title": "Unit 11: SCIENCE AND TECHNOLOGY",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U12": {
+    "title": "Unit 12: LIFE ON OTHER PLANETS",
+    "grammar": {
+      "GR-01": "Từ vựng"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  }
+}
