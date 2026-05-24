@@ -16,6 +16,7 @@ let addedBonusQuestions = 0;
 let bonusQuestionQueue = [];
 let evaluatedQuestionIds = new Set();
 let baseExamQuestionCount = 20;
+let selectedUnitTitles = [];
 let totalExamSeconds = 0;
 let remainingSeconds = 0;
 let timerId = null;
@@ -130,6 +131,7 @@ function createSessionSnapshot() {
         bonusQuestionQueue,
         evaluatedQuestionIds: [...evaluatedQuestionIds],
         baseExamQuestionCount,
+        selectedUnitTitles,
         currentExamTargetCount,
         totalExamSeconds,
         deadlineAt,
@@ -151,6 +153,7 @@ function restoreActiveSession(session) {
     bonusQuestionQueue = session.bonusQuestionQueue || [];
     evaluatedQuestionIds = new Set(session.evaluatedQuestionIds || []);
     baseExamQuestionCount = session.baseExamQuestionCount || initialExamCount || 20;
+    selectedUnitTitles = session.selectedUnitTitles || getUnitTitlesFromQuestions(currentExam);
     currentExamTargetCount = session.currentExamTargetCount || currentExam.length || 20;
     totalExamSeconds = session.totalExamSeconds || (baseExamQuestionCount === 40 ? 1800 : 900);
     deadlineAt = session.deadlineAt || (Date.now() + totalExamSeconds * 1000);
@@ -319,6 +322,25 @@ function getQuestionGrammar(question) {
 
 function getGrammarKey(question) {
     return `${getQuestionUnit(question)}-${getQuestionGrammar(question)}`;
+}
+
+function getUnitTitle(unit) {
+    const unitData = ALL_GRAMMAR[unit] || ALL_GRAMMAR[unit.replace(/^0+/, '')] || ALL_GRAMMAR[unit.replace(/^U0*/i, 'U')];
+    return unitData ? unitData.title : `Unit ${unit.replace(/^U0*/i, "")}`;
+}
+
+function getUnitTitlesFromKeys(grammarKeys) {
+    const units = [...new Set(grammarKeys.map((key) => key.split("-GR-")[0]))];
+    return units
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+        .map((unit) => getUnitTitle(unit));
+}
+
+function getUnitTitlesFromQuestions(questions) {
+    const units = [...new Set(questions.map((question) => getQuestionUnit(question)))];
+    return units
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+        .map((unit) => getUnitTitle(unit));
 }
 
 function renderSelector() {
@@ -555,6 +577,7 @@ function generateExam(targetCount, options = {}) {
 
     let finalExam = [];
     const selectedGrammars = getSelectedGrammarKeys();
+    selectedUnitTitles = getUnitTitlesFromKeys(selectedGrammars);
     let allocation = {};
     // 1. Pick reading passages globally
     const readingQs = pool.filter(q => q.r);
@@ -967,6 +990,8 @@ function showResult(options = {}) {
         durationEl.textContent = `${mins} phút ${secs} giây`;
     }
 
+    renderResultUnits();
+
     const score = currentExam.reduce((total, question) => total + (isQuestionCorrect(question) ? 1 : 0), 0);
 
     // Tính điểm hệ 10 và định dạng dạng "8,5 điểm" hay "8,54 điểm"
@@ -985,6 +1010,22 @@ function showResult(options = {}) {
 
     resultMsg.textContent = options.timedOut ? `Hết giờ. ${getResultMessage(score)}` : getResultMessage(score);
     renderReview();
+}
+
+function renderResultUnits() {
+    const container = document.getElementById("result-unit-list");
+    if (!container) return;
+
+    const units = selectedUnitTitles.length ? selectedUnitTitles : getUnitTitlesFromQuestions(currentExam);
+    container.replaceChildren();
+
+    const label = document.createElement("span");
+    label.textContent = "Unit đã chọn:";
+
+    const value = document.createElement("strong");
+    value.textContent = units.length ? units.join(", ") : "Không có dữ liệu Unit";
+
+    container.append(label, value);
 }
 
 function getScoreHistoryKey() {

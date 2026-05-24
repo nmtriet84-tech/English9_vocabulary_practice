@@ -1440,6 +1440,29 @@ body.exam-active {
     font-weight: 700;
 }
 
+.result-unit-list {
+    display: grid;
+    gap: 6px;
+    border-top: 1px solid var(--border);
+    padding-top: 8px;
+    margin-top: 2px;
+}
+
+.result-unit-list span {
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.result-unit-list strong {
+    color: var(--ink);
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
 .question-nav {
     display: none !important;
 }
