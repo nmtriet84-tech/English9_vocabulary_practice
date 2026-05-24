@@ -48,6 +48,11 @@ const questionMeta = document.getElementById("question-meta");
 const questionInstruction = document.getElementById("question-instruction");
 const questionText = document.getElementById("question-text");
 const optionsList = document.getElementById("options-list");
+const questionExplanation = document.createElement("div");
+questionExplanation.id = "question-explanation";
+questionExplanation.className = "question-explanation";
+questionExplanation.hidden = true;
+optionsList.insertAdjacentElement("afterend", questionExplanation);
 const prevBtn = document.getElementById("prev-btn");
 const nextBtn = document.getElementById("next-btn");
 const submitBtn = document.getElementById("submit-btn");
@@ -940,6 +945,24 @@ function renderOptions(question) {
         }
         optionsList.appendChild(button);
     });
+    renderQuestionExplanation(question, isGraded);
+}
+
+function renderQuestionExplanation(question, isGraded) {
+    if (!isGraded) {
+        questionExplanation.hidden = true;
+        questionExplanation.replaceChildren();
+        return;
+    }
+
+    const title = document.createElement("strong");
+    title.textContent = "Giải thích";
+
+    const content = document.createElement("p");
+    content.textContent = question.e || "Chưa có giải thích cho câu này.";
+
+    questionExplanation.replaceChildren(title, content);
+    questionExplanation.hidden = false;
 }
 
 function selectOption(index) {
