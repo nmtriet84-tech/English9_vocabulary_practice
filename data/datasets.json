@@ -18,5 +18,15 @@
     "type": "vocab",
     "has_reading": false,
     "path": "data/EN09_VOCAB"
+  },
+  {
+    "id": "GRAMMAR_IN_USE",
+    "title": "Luyện Ngữ Pháp Grammar in Use",
+    "subtitle": "Tạo đề luyện tập trắc nghiệm ngữ pháp từ 99 chuyên đề cốt lõi.",
+    "eyebrow": "Grammar In Use",
+    "setup_title": "Grammar Chapters",
+    "type": "grammar",
+    "has_reading": false,
+    "path": "data/GRAMMAR_IN_USE"
   }
 ]

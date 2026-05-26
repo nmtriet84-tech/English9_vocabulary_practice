@@ -1,0 +1,181 @@
+{
+  "U01": {
+    "title": "Chương 1: Present and Past",
+    "grammar": {
+      "GR-01": "Present continuous (I am doing)",
+      "GR-02": "Present simple (I do)",
+      "GR-03": "Past simple (I did)",
+      "GR-04": "Past continuous (I was doing)",
+      "GR-05": "Present perfect (I have done)",
+      "GR-06": "Present perfect continuous (I have been doing)",
+      "GR-07": "how long have you (been) … ?",
+      "GR-08": "for and since when … ? and how long … ?",
+      "GR-09": "Past perfect (I had done)",
+      "GR-10": "Past perfect continuous (I had been doing)"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U02": {
+    "title": "Chương 2: Present Perfect and Past Perfect",
+    "grammar": {
+      "GR-01": "have and have got",
+      "GR-02": "Present tenses (I am doing / I do) for the future",
+      "GR-03": "I’m going to (do)",
+      "GR-04": "will and shall",
+      "GR-05": "will be doing and will have done",
+      "GR-06": "when I do and when I’ve done if and when",
+      "GR-07": "could (do) and could have (done)",
+      "GR-08": "must mustn’t needn’t",
+      "GR-09": "I’d better … it’s time …",
+      "GR-10": "can/could/would you … ? etc. (Requests, offers, permission and invitations)"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U03": {
+    "title": "Chương 3: Future Tenses",
+    "grammar": {
+      "GR-01": "if I knew … I wish I knew …",
+      "GR-02": "wish",
+      "GR-03": "Passive (is done / was done / etc.)",
+      "GR-04": "it is said that … he is said to … he is supposed to …",
+      "GR-05": "have something done",
+      "GR-06": "Reported speech (he said that …)",
+      "GR-07": "Questions (do you know where … ? / he asked me where …)",
+      "GR-08": "Auxiliary verbs (have/do/can etc.) I think so / I hope so etc.",
+      "GR-09": "Question tags (do you? isn’t it? etc.)",
+      "GR-10": "Verb + -ing (enjoy doing / stop doing etc.)"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U04": {
+    "title": "Chương 4: Modals (Can, Could, Must, May, Should...)",
+    "grammar": {
+      "GR-01": "Verb + to … (decide to … / forget to … etc.)",
+      "GR-02": "Verb (+ object) + to … (I want you to …)",
+      "GR-03": "Preposition (in/for/about etc.) + -ing",
+      "GR-04": "Verb + preposition + -ing (succeed in -ing / insist on -ing etc.)",
+      "GR-05": "there’s no point in -ing, it’s worth -ing etc.",
+      "GR-06": "to … , for … and so that …",
+      "GR-07": "Adjective + to …",
+      "GR-08": "see somebody do and see somebody doing",
+      "GR-09": "-ing clauses (He hurt his knee playing football.)",
+      "GR-10": "Countable and uncountable"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U05": {
+    "title": "Chương 5: Conditionals and Wish (If, Wish, Would...)",
+    "grammar": {
+      "GR-01": "Countable nouns with a/an and some",
+      "GR-02": "the",
+      "GR-03": "Names with and without the",
+      "GR-04": "Singular and plural",
+      "GR-05": "Noun + noun (a bus driver / a headache)",
+      "GR-06": "myself/yourself/themselves etc.",
+      "GR-07": "a friend of mine my own house on my own / by myself",
+      "GR-08": "there … and it …",
+      "GR-09": "some and any",
+      "GR-10": "no/none/any nothing/nobody etc."
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U06": {
+    "title": "Chương 6: Passive Voice and Reported Speech",
+    "grammar": {
+      "GR-01": "much, many, little, few, a lot, plenty",
+      "GR-02": "all / all of most / most of no / none of etc.",
+      "GR-03": "both / both of neither / neither of either / either of",
+      "GR-04": "all every whole",
+      "GR-05": "each and every",
+      "GR-06": "Relative clauses (who/that/which/whose/whom/where)",
+      "GR-07": "-ing and -ed clauses (the woman talking to Tom, the boy injured in the accident)",
+      "GR-08": "Adjectives ending in -ing and -ed (boring/bored etc.)",
+      "GR-09": "Adjectives: a nice new house, you look tired",
+      "GR-10": "Adjectives and adverbs"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U07": {
+    "title": "Chương 7: Pronouns and Nouns (myself, relative clauses...)",
+    "grammar": {
+      "GR-01": "so and such",
+      "GR-02": "enough and too",
+      "GR-03": "quite, pretty, rather and fairly",
+      "GR-04": "Comparative",
+      "GR-05": "Superlative (the longest, the most enjoyable etc.)",
+      "GR-06": "Word order 1: verb + object; place and time",
+      "GR-07": "Word order 2: adverbs with the verb",
+      "GR-08": "still any more yet already",
+      "GR-09": "even",
+      "GR-10": "although though even though in spite of despite"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U08": {
+    "title": "Chương 8: Determiners and Quantifiers (a/an/the, some/any...)",
+    "grammar": {
+      "GR-01": "in case",
+      "GR-02": "unless as long as provided",
+      "GR-03": "as (as I walked … / as I was … etc.)",
+      "GR-04": "like and as",
+      "GR-05": "like as if",
+      "GR-06": "during for while",
+      "GR-07": "by and until by the time …",
+      "GR-08": "at/on/in (time)",
+      "GR-09": "on time and in time at the end and in the end",
+      "GR-10": "in/at/on (position)"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U09": {
+    "title": "Chương 9: Adjectives and Adverbs (comparative, superlative...)",
+    "grammar": {
+      "GR-01": "to, at, in and into",
+      "GR-02": "in/on/at (other uses)",
+      "GR-03": "by",
+      "GR-04": "Noun + preposition (reason for, cause of etc.)",
+      "GR-05": "Adjective + preposition",
+      "GR-06": "Verb + preposition",
+      "GR-07": "Phrasal verbs (Introduction, in/out, on/off, up/down, away/back)",
+      "GR-08": "used to (do)",
+      "GR-09": "can, could and (be) able to",
+      "GR-10": "must and can’t"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  },
+  "U10": {
+    "title": "Chương 10: Conjunctions and Prepositions (although, in case, during...)",
+    "grammar": {
+      "GR-01": "may and might",
+      "GR-02": "have to and must",
+      "GR-03": "should",
+      "GR-04": "if I do … and if I did …",
+      "GR-05": "be/get used to … (I’m used to …)",
+      "GR-06": "would",
+      "GR-07": "if I had known … I wish I had known …",
+      "GR-08": "prefer and would rather",
+      "GR-09": "-’s (your sister’s name) and of … (the name of the book)"
+    },
+    "config": {
+      "pick_questions": 5
+    }
+  }
+}
