@@ -62,12 +62,25 @@ button {
     position: sticky;
     top: 24px;
     min-height: 560px;
+    max-height: calc(100vh - 48px);
+    overflow-y: auto;
     border-radius: 8px;
     padding: 28px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow: hidden;
+}
+
+/* Custom scrollbar for brand-panel to look clean and premium */
+.brand-panel::-webkit-scrollbar {
+    width: 6px;
+}
+.brand-panel::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 3px;
+}
+.brand-panel::-webkit-scrollbar-track {
+    background: transparent;
 }
 
 .brand-panel::before {
@@ -121,7 +134,8 @@ h2 {
 
 .stats-strip {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
     gap: 10px;
 }
 
@@ -833,9 +847,27 @@ h2 {
         min-height: auto;
         display: grid;
         grid-template-columns: minmax(0, 1fr) minmax(260px, 320px);
-        align-items: end;
+        grid-template-rows: auto auto;
+        align-items: start;
         gap: 20px;
         padding: 24px;
+    }
+
+    .brand-panel > div:first-child {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .brand-panel .mode-selector {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+        margin: 0;
+    }
+
+    .brand-panel .stats-strip {
+        grid-column: 1;
+        grid-row: 2;
+        align-self: end;
     }
 
     h1 {
@@ -1013,6 +1045,22 @@ h2 {
         box-shadow: none;
     }
 
+    .brand-panel > div:first-child {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .brand-panel .mode-selector {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .brand-panel .stats-strip {
+        grid-column: auto;
+        grid-row: auto;
+        align-self: auto;
+    }
+
     .workspace-panel {
         box-shadow: none;
     }
@@ -1063,7 +1111,8 @@ h2 {
     }
 
     .stats-strip {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
         gap: 8px;
     }
 

@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=20260524-question-explanation-v12">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="app-shell">
@@ -59,6 +59,15 @@
                     <span id="question-pool-count"></span>
                 </div>
 
+                <div id="band-filter-container" class="band-filter-container" style="display: none; align-items: center; gap: 8px; margin: 12px 0 16px 0; padding: 10px 12px; background: var(--surface-soft); border: 1px solid var(--border); border-radius: 6px;">
+                    <span style="font-size: 0.85rem; font-weight: 600; color: var(--muted); display: flex; align-items: center; gap: 4px;">
+                        🎯 Độ khó / IELTS Band:
+                    </span>
+                    <select id="band-select" style="font-size: 0.85rem; font-weight: 600; padding: 6px 10px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); cursor: pointer; outline: none; transition: border-color 0.2s;">
+                        <option value="all">Tất cả (Hỗn hợp)</option>
+                    </select>
+                </div>
+
                 <div id="unified-selector" class="unified-selector" aria-live="polite"></div>
 
                 <div class="student-info-form">
@@ -72,7 +81,7 @@
                     </div>
                 </div>
 
-                <div style="display: flex; gap: 12px; margin-top: 16px; width: 100%;">
+                <div id="start-btn" style="display: flex; gap: 12px; margin-top: 16px; width: 100%;">
                     <button id="start-15-btn" class="primary-btn" type="button" style="flex: 1; padding: 0 10px; font-size: 0.9rem; min-height: 48px; border-radius: 8px; font-weight: 800;">Làm 15 phút<br><span style="font-size: 0.78rem; font-weight: 500; opacity: 0.9;">(20 câu)</span></button>
                     <button id="start-30-btn" class="primary-btn" type="button" style="flex: 1; padding: 0 10px; font-size: 0.9rem; min-height: 48px; border-radius: 8px; font-weight: 800; background: var(--accent); box-shadow: 0 10px 22px rgb(217 137 53 / 0.23);">Làm 30 phút<br><span style="font-size: 0.78rem; font-weight: 500; opacity: 0.9;">(40 câu)</span></button>
                 </div>
@@ -169,6 +178,6 @@
         </div>
     </div>
 
-    <script src="app.js?v=20260524-question-explanation-v12"></script>
+    <script src="app.js"></script>
 </body>
 </html>

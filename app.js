@@ -273,6 +273,33 @@ async function setMode(datasetId) {
     
     try {
         await loadData();
+        
+        // Dynamically build and show/hide the band filter
+        const bandFilterContainer = document.getElementById("band-filter-container");
+        const bandSelect = document.getElementById("band-select");
+        if (bandFilterContainer && bandSelect) {
+            const bands = [...new Set(ALL_QUESTIONS.map(q => q.band).filter(Boolean))].sort();
+            if (bands.length > 1) {
+                bandFilterContainer.style.display = "flex";
+                bandSelect.replaceChildren();
+                
+                const allOption = document.createElement("option");
+                allOption.value = "all";
+                allOption.textContent = "Tất cả (Hỗn hợp)";
+                bandSelect.appendChild(allOption);
+                
+                bands.forEach(band => {
+                    const opt = document.createElement("option");
+                    opt.value = band;
+                    opt.textContent = `Band ${band}`;
+                    bandSelect.appendChild(opt);
+                });
+                bandSelect.value = "all";
+            } else {
+                bandFilterContainer.style.display = "none";
+            }
+        }
+
         renderSelector();
         updateSelectionSummary();
     } catch(e) {
@@ -398,7 +425,7 @@ function renderSelector() {
         unitCount.className = "unit-count";
         const totalPoints = unitMap.get(unit).size;
         const totalQuestions = unitQuestionCount.get(unit) || 0;
-        unitCount.textContent = currentDataset.type === 'vocab' 
+        unitCount.textContent = (currentDataset.type === 'vocab' || currentDataset.type === 'reading') 
             ? `${totalQuestions} câu` 
             : `${totalPoints} points, ${totalQuestions} câu`;
 
@@ -475,7 +502,18 @@ function getSelectedGrammarKeys() {
 
 function getSelectedPool() {
     const selectedKeys = new Set(getSelectedGrammarKeys());
-    return ALL_QUESTIONS.filter((question) => selectedKeys.has(getGrammarKey(question)));
+    let pool = ALL_QUESTIONS.filter((question) => selectedKeys.has(getGrammarKey(question)));
+    if (currentDataset.type === 'reading') {
+        pool = pool.filter(q => q.r);
+    }
+    
+    const bandFilterContainer = document.getElementById("band-filter-container");
+    const bandSelect = document.getElementById("band-select");
+    if (bandFilterContainer && bandFilterContainer.style.display !== "none" && bandSelect && bandSelect.value !== "all") {
+        pool = pool.filter(q => q.band === bandSelect.value);
+    }
+    
+    return pool;
 }
 
 function updateSelectionSummary() {
@@ -486,7 +524,11 @@ function updateSelectionSummary() {
     if (currentDataset.has_reading) {
         const selectedGrammar = getSelectedGrammarKeys();
         selectionCount.textContent = `${selectedGrammar.length} điểm kiến thức đã chọn`;
-        questionPoolCount.textContent = `${readingCount} bài đọc, ${mcCount} câu MC`;
+        if (currentDataset.type === 'reading') {
+            questionPoolCount.textContent = `${readingCount} bài đọc (${readingCount * 10} câu hỏi)`;
+        } else {
+            questionPoolCount.textContent = `${readingCount} bài đọc, ${mcCount} câu MC`;
+        }
     } else {
         selectionCount.textContent = `Chế độ ${currentDataset.title}`;
         questionPoolCount.textContent = `${pool.length} câu hỏi MC`;
@@ -583,84 +625,104 @@ function generateExam(targetCount, options = {}) {
     let finalExam = [];
     const selectedGrammars = getSelectedGrammarKeys();
     selectedUnitTitles = getUnitTitlesFromKeys(selectedGrammars);
-    let allocation = {};
-    // 1. Pick reading passages globally
-    const readingQs = pool.filter(q => q.r);
-    const mcQs = pool.filter(q => !q.r);
-    const uniqueRefs = [...new Set(readingQs.map(q => q.r))];
     
-    const maxReadings = Math.max(1, Math.floor(targetCount / 10)); // 20->2, 40->4 readings max
-    const selectedRefs = shuffle(uniqueRefs).slice(0, maxReadings);
-    
-    for (const ref of selectedRefs) {
-        const qsForRef = readingQs.filter(q => q.r === ref);
-        if (finalExam.length + qsForRef.length <= targetCount + 2) { // Allow slight exceed
-            finalExam.push(...qsForRef);
-        }
-    }
-    
-    let remaining = targetCount - finalExam.length;
-    
-    // 2. Distribute remaining across grammar points using MC questions
-    let activeGrammars = [...selectedGrammars];
-    activeGrammars.forEach(g => allocation[g] = 0);
-    
-    while (remaining > 0 && activeGrammars.length > 0) {
-        const perGrammar = Math.max(1, Math.floor(remaining / activeGrammars.length));
-        let stillActive = [];
+    if (currentDataset.type === 'reading') {
+        const readingQs = pool.filter(q => q.r);
+        const uniqueRefs = [...new Set(readingQs.map(q => q.r))];
+        const passagesNeeded = Math.ceil(targetCount / 5);
         
-        for (const g of activeGrammars) {
-            if (remaining <= 0) break;
+        if (uniqueRefs.length < passagesNeeded) {
+            alert(`Ngân hàng đề không đủ bài đọc để tạo đề. Vui lòng chọn thêm Unit (cần ít nhất ${passagesNeeded} bài đọc cho đề ${targetCount} câu, hiện tại chỉ có ${uniqueRefs.length} bài đọc trong các phần đã chọn).`);
+            return;
+        }
+        
+        const selectedRefs = shuffle(uniqueRefs).slice(0, passagesNeeded);
+        for (const ref of selectedRefs) {
+            const qsForRef = readingQs.filter(q => q.r === ref);
+            // Chọn ngẫu nhiên đúng 5 câu hỏi trong số 10 câu của bài đọc đó
+            const takenQs = shuffle(qsForRef).slice(0, 5);
+            finalExam.push(...takenQs);
+        }
+    } else {
+        let allocation = {};
+        // 1. Pick reading passages globally
+        const readingQs = pool.filter(q => q.r);
+        const mcQs = pool.filter(q => !q.r);
+        const uniqueRefs = [...new Set(readingQs.map(q => q.r))];
+        
+        const maxReadings = Math.max(1, Math.floor(targetCount / 10)); // 20->2, 40->4 readings max
+        const selectedRefs = shuffle(uniqueRefs).slice(0, maxReadings);
+        
+        for (const ref of selectedRefs) {
+            const qsForRef = readingQs.filter(q => q.r === ref);
+            if (finalExam.length + qsForRef.length <= targetCount + 2) { // Allow slight exceed
+                finalExam.push(...qsForRef);
+            }
+        }
+        
+        let remaining = targetCount - finalExam.length;
+        
+        // 2. Distribute remaining across grammar points using MC questions
+        let activeGrammars = [...selectedGrammars];
+        activeGrammars.forEach(g => allocation[g] = 0);
+        
+        while (remaining > 0 && activeGrammars.length > 0) {
+            const perGrammar = Math.max(1, Math.floor(remaining / activeGrammars.length));
+            let stillActive = [];
             
-            const availableMC = mcQs.filter(q => getGrammarKey(q) === g);
-            const currentAlloc = allocation[g];
-            const take = Math.min(perGrammar, availableMC.length - currentAlloc);
-            
-            if (take > 0) {
-                allocation[g] += take;
-                remaining -= take;
-                if (allocation[g] < availableMC.length) {
-                    stillActive.push(g);
+            for (const g of activeGrammars) {
+                if (remaining <= 0) break;
+                
+                const availableMC = mcQs.filter(q => getGrammarKey(q) === g);
+                const currentAlloc = allocation[g];
+                const take = Math.min(perGrammar, availableMC.length - currentAlloc);
+                
+                if (take > 0) {
+                    allocation[g] += take;
+                    remaining -= take;
+                    if (allocation[g] < availableMC.length) {
+                        stillActive.push(g);
+                    }
                 }
             }
+            
+            if (activeGrammars.length === stillActive.length && remaining > 0 && remaining < activeGrammars.length) {
+                const shuffled = shuffle(stillActive);
+                for (let i = 0; i < remaining; i++) {
+                    allocation[shuffled[i]] += 1;
+                }
+                remaining = 0;
+                break;
+            }
+            activeGrammars = stillActive;
+        }
+
+        // 3. Fulfill the MC allocation
+        for (const g of selectedGrammars) {
+            let needed = allocation[g];
+            if (needed <= 0) continue;
+            const availableMC = mcQs.filter(q => getGrammarKey(q) === g);
+            finalExam.push(...shuffle(availableMC).slice(0, needed));
         }
         
-        if (activeGrammars.length === stillActive.length && remaining > 0 && remaining < activeGrammars.length) {
-            const shuffled = shuffle(stillActive);
-            for (let i = 0; i < remaining; i++) {
-                allocation[shuffled[i]] += 1;
+        // 4. Cắt gọt MC dư thừa nếu pick reading bị lố
+        let exceed = finalExam.length - targetCount;
+        if (exceed > 0) {
+            let mcIndices = [];
+            finalExam.forEach((q, idx) => { if (!q.r) mcIndices.push(idx); });
+            mcIndices = shuffle(mcIndices).slice(0, exceed).sort((a,b) => b-a);
+            for (let idx of mcIndices) {
+                finalExam.splice(idx, 1);
             }
-            remaining = 0;
-            break;
         }
-        activeGrammars = stillActive;
-    }
-
-    // 3. Fulfill the MC allocation
-    for (const g of selectedGrammars) {
-        let needed = allocation[g];
-        if (needed <= 0) continue;
-        const availableMC = mcQs.filter(q => getGrammarKey(q) === g);
-        finalExam.push(...shuffle(availableMC).slice(0, needed));
-    }
-    
-    // 4. Cắt gọt MC dư thừa nếu pick reading bị lố
-    let exceed = finalExam.length - targetCount;
-    if (exceed > 0) {
-        let mcIndices = [];
-        finalExam.forEach((q, idx) => { if (!q.r) mcIndices.push(idx); });
-        mcIndices = shuffle(mcIndices).slice(0, exceed).sort((a,b) => b-a);
-        for (let idx of mcIndices) {
-            finalExam.splice(idx, 1);
+        
+        // 5. Nếu thiếu MC, lấy đại các MC chưa được chọn để bù vào
+        let deficit = targetCount - finalExam.length;
+        if (deficit > 0) {
+            const selectedIds = new Set(finalExam.map(q => q.id));
+            const unusedMC = mcQs.filter(q => !selectedIds.has(q.id));
+            finalExam.push(...shuffle(unusedMC).slice(0, deficit));
         }
-    }
-    
-    // 5. Nếu thiếu MC, lấy đại các MC chưa được chọn để bù vào
-    let deficit = targetCount - finalExam.length;
-    if (deficit > 0) {
-        const selectedIds = new Set(finalExam.map(q => q.id));
-        const unusedMC = mcQs.filter(q => !selectedIds.has(q.id));
-        finalExam.push(...shuffle(unusedMC).slice(0, deficit));
     }
 
     if (finalExam.length === 0) {
@@ -843,7 +905,11 @@ function renderQuestion() {
     examTitle.textContent = "L\u00e0m b\u00e0i";
     updateExamStats();
     
-    questionMeta.textContent = getGrammarKey(question);
+    let metaText = getGrammarKey(question);
+    if (question.band) {
+        metaText += ` | Band ${question.band}`;
+    }
+    questionMeta.textContent = metaText;
     
     // Xử lý Instruction
     const grammarKey = getQuestionGrammar(question);
@@ -1153,7 +1219,19 @@ function renderReview() {
         explainWrap.appendChild(explain);
 
 
-        item.append(status, title);
+        const meta = document.createElement("p");
+        meta.className = "review-meta";
+        let metaText = getGrammarKey(question);
+        if (question.band) {
+            metaText += ` | Band ${question.band}`;
+        }
+        meta.textContent = metaText;
+        meta.style.fontSize = "0.82rem";
+        meta.style.fontWeight = "600";
+        meta.style.color = "var(--muted)";
+        meta.style.margin = "4px 0 10px 0";
+
+        item.append(status, title, meta);
         if (readingReview) item.appendChild(readingReview);
         item.append(chosen, correct, explainWrap);
         reviewList.appendChild(item);
@@ -1199,6 +1277,13 @@ selectAllBtn.addEventListener("click", () => setAllSelections(true));
 clearAllBtn.addEventListener("click", () => setAllSelections(false));
 if (start15Btn) start15Btn.addEventListener("click", () => generateExam(20));
 if (start30Btn) start30Btn.addEventListener("click", () => generateExam(40));
+
+const bandSelect = document.getElementById("band-select");
+if (bandSelect) {
+    bandSelect.addEventListener("change", () => {
+        updateSelectionSummary();
+    });
+}
 
 window.addEventListener("beforeunload", () => {
     isPageUnloading = true;
