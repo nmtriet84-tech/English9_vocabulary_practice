@@ -1,0 +1,5762 @@
+[
+  {
+    "id": "EN08-U01-GR-01-90001",
+    "u": "U01",
+    "q": "Many teenagers are ________ of different leisure activities after a long week of schoolwork.",
+    "o": [
+      "fond",
+      "afraid",
+      "tired",
+      "full"
+    ],
+    "e": "Đáp án đúng là A: 'fond'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-01",
+    "target": "fond",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U01-GR-01-90002",
+    "u": "U01",
+    "q": "Some students prefer spending time ________ to stay in shape.",
+    "o": [
+      "outdoors",
+      "indoors",
+      "inside",
+      "online"
+    ],
+    "e": "Đáp án đúng là A: 'outdoors'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-01",
+    "target": "outdoors",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U01-GR-01-90003",
+    "u": "U01",
+    "q": "In the winter, some people might go ________.",
+    "o": [
+      "snowboarding",
+      "swimming",
+      "fishing",
+      "shopping"
+    ],
+    "e": "Đáp án đúng là A: 'snowboarding'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-01",
+    "target": "snowboarding",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U01-GR-01-90004",
+    "u": "U01",
+    "q": "Others are keen on indoor activities like doing ________ or making origami.",
+    "o": [
+      "puzzles",
+      "homework",
+      "chores",
+      "exercises"
+    ],
+    "e": "Đáp án đúng là A: 'puzzles'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-01",
+    "target": "puzzles",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U01-GR-01-90005",
+    "u": "U01",
+    "q": "If you fancy being creative, you can try ________ projects.",
+    "o": [
+      "DIY",
+      "math",
+      "science",
+      "history"
+    ],
+    "e": "Đáp án đúng là A: 'DIY'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-01",
+    "target": "diy",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U01-GR-01-90006",
+    "u": "U01",
+    "q": "You can make a beautiful bracelet using a craft ________.",
+    "o": [
+      "kit",
+      "book",
+      "map",
+      "phone"
+    ],
+    "e": "Đáp án đúng là A: 'kit'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-01",
+    "target": "kit",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U01-GR-01-90007",
+    "u": "U01",
+    "q": "Some people detest doing physical activities because they do not want to use their ________ too much.",
+    "o": [
+      "muscles",
+      "brains",
+      "eyes",
+      "laptops"
+    ],
+    "e": "Đáp án đúng là A: 'muscles'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-01",
+    "target": "muscles",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U01-GR-01-90008",
+    "u": "U01",
+    "q": "Instead of playing sports, they might send a ________ to their friends.",
+    "o": [
+      "message",
+      "gift",
+      "package",
+      "letter"
+    ],
+    "e": "Đáp án đúng là A: 'message'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-01",
+    "target": "message",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U01-GR-01-90009",
+    "u": "U01",
+    "q": "Sending texts is a quick way to keep in ________ with friends.",
+    "o": [
+      "touch",
+      "line",
+      "shape",
+      "mind"
+    ],
+    "e": "Đáp án đúng là A: 'touch'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-01",
+    "target": "touch",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U01-GR-01-90010",
+    "u": "U01",
+    "q": "Having a good ________ between study and play is never a crazy idea.",
+    "o": [
+      "balance",
+      "fight",
+      "problem",
+      "distance"
+    ],
+    "e": "Đáp án đúng là A: 'balance'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-01",
+    "target": "balance",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U02-GR-01-90001",
+    "u": "U02",
+    "q": "The villagers situate their ancient cottage near a vast, picturesque ________ that seems to stretch endlessly.",
+    "o": [
+      "canal",
+      "stadium",
+      "highway",
+      "building"
+    ],
+    "e": "Đáp án đúng là A: 'canal'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-01",
+    "target": "canal",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U02-GR-01-90002",
+    "u": "U02",
+    "q": "During the ________, hard-working farmers cultivate the crop.",
+    "o": [
+      "harvest",
+      "winter",
+      "midnight",
+      "holiday"
+    ],
+    "e": "Đáp án đúng là A: 'harvest'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-01",
+    "target": "harvest",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U02-GR-01-90003",
+    "u": "U02",
+    "q": "They might use a well-trained herd of cattle or a modern ________ to gather the grain.",
+    "o": [
+      "combine harvester",
+      "motorcycle",
+      "airplane",
+      "bicycle"
+    ],
+    "e": "Đáp án đúng là A: 'combine harvester'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-01",
+    "target": "combine harvester",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U02-GR-01-90004",
+    "u": "U02",
+    "q": "The villagers load the truck and ________ the dry goods near the ferry.",
+    "o": [
+      "unload",
+      "throw",
+      "destroy",
+      "hide"
+    ],
+    "e": "Đáp án đúng là A: 'unload'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-01",
+    "target": "unload",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U02-GR-01-90005",
+    "u": "U02",
+    "q": "The generous, hospitable, and supportive neighbors always share a fascinating ________ with us.",
+    "o": [
+      "speciality",
+      "secret",
+      "sadness",
+      "problem"
+    ],
+    "e": "Đáp án đúng là A: 'speciality'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-01",
+    "target": "speciality",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U02-GR-01-90006",
+    "u": "U02",
+    "q": "Working outside helps them get a ________ as they feed the poultry and milk the cows.",
+    "o": [
+      "tan",
+      "cold",
+      "disease",
+      "fever"
+    ],
+    "e": "Đáp án đúng là A: 'tan'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-01",
+    "target": "tan",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U02-GR-01-90007",
+    "u": "U02",
+    "q": "The locals also catch fish in the ________.",
+    "o": [
+      "pond",
+      "sky",
+      "desert",
+      "forest"
+    ],
+    "e": "Đáp án đúng là A: 'pond'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-01",
+    "target": "pond",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U02-GR-01-90008",
+    "u": "U02",
+    "q": "They pick delicious fruits in the ________.",
+    "o": [
+      "orchard",
+      "bedroom",
+      "library",
+      "cinema"
+    ],
+    "e": "Đáp án đúng là A: 'orchard'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-01",
+    "target": "orchard",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U02-GR-01-90009",
+    "u": "U02",
+    "q": "In the evenings, children enjoy outdoor activities like ________.",
+    "o": [
+      "kite-flying",
+      "surfing the net",
+      "doing homework",
+      "sleeping"
+    ],
+    "e": "Đáp án đúng là A: 'kite-flying'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-01",
+    "target": "kite-flying",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U02-GR-01-90010",
+    "u": "U02",
+    "q": "After a long day of playing the dragon-snake game, the children sleep ________.",
+    "o": [
+      "soundly",
+      "badly",
+      "noisily",
+      "terribly"
+    ],
+    "e": "Đáp án đúng là A: 'soundly'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-01",
+    "target": "soundly",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U03-GR-01-90001",
+    "u": "U03",
+    "q": "During the stressful midterm period, many teenagers struggle to ________ on their schoolwork.",
+    "o": [
+      "concentrate",
+      "sleep",
+      "rely",
+      "depend"
+    ],
+    "e": "Đáp án đúng là A: 'concentrate'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-01",
+    "target": "concentrate",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U03-GR-01-90002",
+    "u": "U03",
+    "q": "This struggle is often caused by high parental expectation and intense ________ pressure.",
+    "o": [
+      "peer",
+      "blood",
+      "water",
+      "weather"
+    ],
+    "e": "Đáp án đúng là A: 'peer'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-01",
+    "target": "peer",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U03-GR-01-90003",
+    "u": "U03",
+    "q": "To reduce stress, they often ________ a user-friendly website.",
+    "o": [
+      "log on to",
+      "run away from",
+      "look down on",
+      "get out of"
+    ],
+    "e": "Đáp án đúng là A: 'log on to'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-01",
+    "target": "log on to",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U03-GR-01-90004",
+    "u": "U03",
+    "q": "They join a social media forum to connect and ________ other talkative friends.",
+    "o": [
+      "get on with",
+      "break up with",
+      "fall out with",
+      "run out of"
+    ],
+    "e": "Đáp án đúng là A: 'get on with'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-01",
+    "target": "get on with",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U03-GR-01-90005",
+    "u": "U03",
+    "q": "Some are curious to ________ the internet for a new craft.",
+    "o": [
+      "browse",
+      "clean",
+      "sweep",
+      "cook"
+    ],
+    "e": "Đáp án đúng là A: 'browse'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-01",
+    "target": "browse",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U03-GR-01-90006",
+    "u": "U03",
+    "q": "They might prepare beforehand for a full-day gaming ________.",
+    "o": [
+      "tournament",
+      "hospital",
+      "museum",
+      "library"
+    ],
+    "e": "Đáp án đúng là A: 'tournament'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-01",
+    "target": "tournament",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U03-GR-01-90007",
+    "u": "U03",
+    "q": "Teenagers often ________ pictures to their personal account to show off their achievements.",
+    "o": [
+      "upload",
+      "download",
+      "delete",
+      "hide"
+    ],
+    "e": "Đáp án đúng là A: 'upload'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-01",
+    "target": "upload",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U03-GR-01-90008",
+    "u": "U03",
+    "q": "They excitedly wait for every new ________ during a late-night online session.",
+    "o": [
+      "notification",
+      "vehicle",
+      "vegetable",
+      "furniture"
+    ],
+    "e": "Đáp án đúng là A: 'notification'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-01",
+    "target": "notification",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U03-GR-01-90009",
+    "u": "U03",
+    "q": "Teenagers must be mature and stay ________ when using the internet.",
+    "o": [
+      "focused",
+      "dizzy",
+      "sleepy",
+      "hungry"
+    ],
+    "e": "Đáp án đúng là A: 'focused'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-01",
+    "target": "focused",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U03-GR-01-90010",
+    "u": "U03",
+    "q": "Otherwise, they might become victims of online ________ or face a cyber bully.",
+    "o": [
+      "bullying",
+      "shopping",
+      "cooking",
+      "fishing"
+    ],
+    "e": "Đáp án đúng là A: 'bullying'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-01",
+    "target": "bullying",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U04-GR-01-90001",
+    "u": "U04",
+    "q": "Vietnam has many a diverse ________ and minority living in both the highland and lowland areas.",
+    "o": [
+      "ethnic group",
+      "alien",
+      "ecosystem",
+      "planet"
+    ],
+    "e": "Đáp án đúng là A: 'ethnic group'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-01",
+    "target": "ethnic group",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U04-GR-01-90002",
+    "u": "U04",
+    "q": "In the mountains, people often live in a traditional wooden ________ built on a sturdy post.",
+    "o": [
+      "stilt house",
+      "igloo",
+      "apartment",
+      "skyscraper"
+    ],
+    "e": "Đáp án đúng là A: 'stilt house'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-01",
+    "target": "stilt house",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U04-GR-01-90003",
+    "u": "U04",
+    "q": "These traditional houses can ________ a beautiful terraced field.",
+    "o": [
+      "overlook",
+      "damage",
+      "destroy",
+      "predict"
+    ],
+    "e": "Đáp án đúng là A: 'overlook'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-01",
+    "target": "overlook",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U04-GR-01-90004",
+    "u": "U04",
+    "q": "A prominent ________ of their villages is the large communal house.",
+    "o": [
+      "feature",
+      "habit",
+      "schedule",
+      "complaint"
+    ],
+    "e": "Đáp án đúng là A: 'feature'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-01",
+    "target": "feature",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U04-GR-01-90005",
+    "u": "U04",
+    "q": "Locals gather at the communal house to play the gong, blow the flute, and sing ________ songs.",
+    "o": [
+      "folk",
+      "pop",
+      "rock",
+      "jazz"
+    ],
+    "e": "Đáp án đúng là A: 'folk'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-01",
+    "target": "folk",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U04-GR-01-90006",
+    "u": "U04",
+    "q": "Many villagers ________ colorful, traditional costumes for their cultural festivals.",
+    "o": [
+      "weave",
+      "erupt",
+      "tremble",
+      "shake"
+    ],
+    "e": "Đáp án đúng là A: 'weave'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-01",
+    "target": "weave",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U04-GR-01-90007",
+    "u": "U04",
+    "q": "They prepare delicious ________ sticky rice to enrich their celebrations.",
+    "o": [
+      "five-colour",
+      "one-colour",
+      "ten-colour",
+      "no-colour"
+    ],
+    "e": "Đáp án đúng là A: 'five-colour'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-01",
+    "target": "five-colour",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U04-GR-01-90008",
+    "u": "U04",
+    "q": "They raise ________ under their homes and use a waterwheel to irrigate the rich soil.",
+    "o": [
+      "livestock",
+      "vehicles",
+      "websites",
+      "smartphones"
+    ],
+    "e": "Đáp án đúng là A: 'livestock'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-01",
+    "target": "livestock",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U04-GR-01-90009",
+    "u": "U04",
+    "q": "The farmers irrigate the rich soil for their crop, especially during the busy ________ season.",
+    "o": [
+      "harvest",
+      "winter",
+      "sleeping",
+      "reading"
+    ],
+    "e": "Đáp án đúng là A: 'harvest'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-01",
+    "target": "harvest",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U04-GR-01-90010",
+    "u": "U04",
+    "q": "Some families carve a beautiful statue to place near the multi-storey ________ of their homes.",
+    "o": [
+      "staircase",
+      "roof",
+      "window",
+      "chimney"
+    ],
+    "e": "Đáp án đúng là A: 'staircase'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-01",
+    "target": "staircase",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U05-GR-01-90001",
+    "u": "U05",
+    "q": "In Vietnam, every unique ________ promotes strong family bonding and a joyous family reunion.",
+    "o": [
+      "custom",
+      "accident",
+      "disaster",
+      "pollution"
+    ],
+    "e": "Đáp án đúng là A: 'custom'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-01",
+    "target": "custom",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U05-GR-01-90002",
+    "u": "U05",
+    "q": "Before Tet, families worship the Kitchen Gods by preparing an ________.",
+    "o": [
+      "offering",
+      "argument",
+      "emergency",
+      "alien"
+    ],
+    "e": "Đáp án đúng là A: 'offering'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-01",
+    "target": "offering",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U05-GR-01-90003",
+    "u": "U05",
+    "q": "People ________ a live carp into the riverside to bring good luck.",
+    "o": [
+      "release",
+      "destroy",
+      "damage",
+      "complain"
+    ],
+    "e": "Đáp án đúng là A: 'release'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-01",
+    "target": "release",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U05-GR-01-90004",
+    "u": "U05",
+    "q": "Families set up a decorative bamboo pole to ________ any bad spirit.",
+    "o": [
+      "chase away",
+      "invite in",
+      "look after",
+      "depend on"
+    ],
+    "e": "Đáp án đúng là A: 'chase away'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-01",
+    "target": "chase away",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U05-GR-01-90005",
+    "u": "U05",
+    "q": "People visit pagodas to pray for ________ and listen to a wise monk.",
+    "o": [
+      "longevity",
+      "extinction",
+      "tragedy",
+      "gravity"
+    ],
+    "e": "Đáp án đúng là A: 'longevity'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-01",
+    "target": "longevity",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U05-GR-01-90006",
+    "u": "U05",
+    "q": "It is important to maintain good table ________ at home feasts.",
+    "o": [
+      "manners",
+      "legs",
+      "chairs",
+      "covers"
+    ],
+    "e": "Đáp án đúng là A: 'manners'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-01",
+    "target": "manners",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U05-GR-01-90007",
+    "u": "U05",
+    "q": "At Mid-Autumn, children light up a beautiful ________ to celebrate the Moon Goddess.",
+    "o": [
+      "lantern",
+      "smartphone",
+      "telescope",
+      "scanner"
+    ],
+    "e": "Đáp án đúng là A: 'lantern'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-01",
+    "target": "lantern",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U05-GR-01-90008",
+    "u": "U05",
+    "q": "They also enjoy sweet treats and young ________ under the moonlight.",
+    "o": [
+      "rice",
+      "toxic",
+      "substance",
+      "coral"
+    ],
+    "e": "Đáp án đúng là A: 'rice'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-01",
+    "target": "rice",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U05-GR-01-90009",
+    "u": "U05",
+    "q": "In coastal villages, a lively festival ________ might watch a thrilling lion dance.",
+    "o": [
+      "goer",
+      "hater",
+      "loser",
+      "breaker"
+    ],
+    "e": "Đáp án đúng là A: 'goer'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-01",
+    "target": "goer",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U05-GR-01-90010",
+    "u": "U05",
+    "q": "A skilled contestant might perform amazing ________ or traditional martial arts.",
+    "o": [
+      "acrobatics",
+      "mathematics",
+      "physics",
+      "biology"
+    ],
+    "e": "Đáp án đúng là A: 'acrobatics'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-01",
+    "target": "acrobatics",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U06-GR-01-90001",
+    "u": "U06",
+    "q": "People in the modern world are often ________ and in the habit of choosing online learning.",
+    "o": [
+      "in a hurry",
+      "in a hospital",
+      "in a museum",
+      "in a dream"
+    ],
+    "e": "Đáp án đúng là A: 'in a hurry'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-01",
+    "target": "in a hurry",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U06-GR-01-90002",
+    "u": "U06",
+    "q": "A nomadic ________ might travel by dogsled through the snow.",
+    "o": [
+      "musher",
+      "customer",
+      "victim",
+      "commander"
+    ],
+    "e": "Đáp án đúng là A: 'musher'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-01",
+    "target": "musher",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U06-GR-01-90003",
+    "u": "U06",
+    "q": "They travel through the cold snow to build an ________.",
+    "o": [
+      "igloo",
+      "apartment",
+      "ecosystem",
+      "crater"
+    ],
+    "e": "Đáp án đúng là A: 'igloo'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-01",
+    "target": "igloo",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U06-GR-01-90004",
+    "u": "U06",
+    "q": "A tribal artisan will practice to make craft items and ________ an ancient handicraft.",
+    "o": [
+      "revive",
+      "destroy",
+      "erupt",
+      "tremble"
+    ],
+    "e": "Đáp án đúng là A: 'revive'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-01",
+    "target": "revive",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U06-GR-01-90005",
+    "u": "U06",
+    "q": "The artisan creates a ________ piece that holds an important cultural title.",
+    "o": [
+      "decorative",
+      "toxic",
+      "single-use",
+      "liquid"
+    ],
+    "e": "Đáp án đúng là A: 'decorative'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-01",
+    "target": "decorative",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U06-GR-01-90006",
+    "u": "U06",
+    "q": "At ________, people might enjoy a local speciality or home-grown vegetables.",
+    "o": [
+      "mealtime",
+      "midnight",
+      "disaster",
+      "landslide"
+    ],
+    "e": "Đáp án đúng là A: 'mealtime'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-01",
+    "target": "mealtime",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U06-GR-01-90007",
+    "u": "U06",
+    "q": "A well-paid waiter or ________ will serve the delicious food.",
+    "o": [
+      "waitress",
+      "farmer",
+      "alien",
+      "resident"
+    ],
+    "e": "Đáp án đúng là A: 'waitress'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-01",
+    "target": "waitress",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U06-GR-01-90008",
+    "u": "U06",
+    "q": "A warm ________ is always how people greet each other.",
+    "o": [
+      "greeting",
+      "warning",
+      "earthquake",
+      "tsunami"
+    ],
+    "e": "Đáp án đúng là A: 'greeting'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-01",
+    "target": "greeting",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U06-GR-01-90009",
+    "u": "U06",
+    "q": "The ________ of technology has heavily changed human interaction.",
+    "o": [
+      "impact",
+      "storm",
+      "gravity",
+      "extinct"
+    ],
+    "e": "Đáp án đúng là A: 'impact'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-01",
+    "target": "impact",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U06-GR-01-90010",
+    "u": "U06",
+    "q": "Technology forces us to choose how we ________ both online and offline.",
+    "o": [
+      "interact",
+      "complain",
+      "predict",
+      "shake"
+    ],
+    "e": "Đáp án đúng là A: 'interact'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-01",
+    "target": "interact",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U07-GR-01-90001",
+    "u": "U07",
+    "q": "Every local resident should ________ in the environmental movement.",
+    "o": [
+      "participate",
+      "disappear",
+      "complain",
+      "destroy"
+    ],
+    "e": "Đáp án đúng là A: 'participate'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-01",
+    "target": "participate",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U07-GR-01-90002",
+    "u": "U07",
+    "q": "We need to protect our fragile ________ from further damage.",
+    "o": [
+      "ecosystem",
+      "smartphone",
+      "communal house",
+      "crater"
+    ],
+    "e": "Đáp án đúng là A: 'ecosystem'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-01",
+    "target": "ecosystem",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U07-GR-01-90003",
+    "u": "U07",
+    "q": "Burning a simple campfire can release too much ________ into the air.",
+    "o": [
+      "carbon dioxide",
+      "young rice",
+      "fresh water",
+      "herbal tea"
+    ],
+    "e": "Đáp án đúng là A: 'carbon dioxide'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-01",
+    "target": "carbon dioxide",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U07-GR-01-90004",
+    "u": "U07",
+    "q": "Trees are vital because they give us fresh ________ to breathe.",
+    "o": [
+      "oxygen",
+      "poison",
+      "liquid",
+      "plastic"
+    ],
+    "e": "Đáp án đúng là A: 'oxygen'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-01",
+    "target": "oxygen",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U07-GR-01-90005",
+    "u": "U07",
+    "q": "In the oceans, beautiful ________ reefs are losing their natural habitat.",
+    "o": [
+      "coral",
+      "desert",
+      "highland",
+      "terraced"
+    ],
+    "e": "Đáp án đúng là A: 'coral'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-01",
+    "target": "coral",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U07-GR-01-90006",
+    "u": "U07",
+    "q": "The rare ________ is losing its home due to terrible plastic rubbish.",
+    "o": [
+      "dugong",
+      "cattle",
+      "poultry",
+      "livestock"
+    ],
+    "e": "Đáp án đúng là A: 'dugong'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-01",
+    "target": "dugong",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U07-GR-01-90007",
+    "u": "U07",
+    "q": "We must reduce the use of ________ products to save the environment.",
+    "o": [
+      "single-use",
+      "multi-storey",
+      "well-trained",
+      "home-grown"
+    ],
+    "e": "Đáp án đúng là A: 'single-use'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-01",
+    "target": "single-use",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U07-GR-01-90008",
+    "u": "U07",
+    "q": "If we do not act quickly, many endangered species will face complete ________.",
+    "o": [
+      "extinction",
+      "longevity",
+      "tradition",
+      "interaction"
+    ],
+    "e": "Đáp án đúng là A: 'extinction'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-01",
+    "target": "extinction",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U07-GR-01-90009",
+    "u": "U07",
+    "q": "We must protect vulnerable species from human harm and a fierce ________.",
+    "o": [
+      "tornado",
+      "tablet",
+      "website",
+      "forum"
+    ],
+    "e": "Đáp án đúng là A: 'tornado'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-01",
+    "target": "tornado",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U07-GR-01-90010",
+    "u": "U07",
+    "q": "A destructive storm often appears as a ________ shape in the sky.",
+    "o": [
+      "conical",
+      "square",
+      "flat",
+      "rectangular"
+    ],
+    "e": "Đáp án đúng là A: 'conical'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-01",
+    "target": "conical",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U08-GR-01-90001",
+    "u": "U08",
+    "q": "A true ________ who is addicted to buying new things will look at every item on display.",
+    "o": [
+      "shopaholic",
+      "mechanic",
+      "farmer",
+      "alien"
+    ],
+    "e": "Đáp án đúng là A: 'shopaholic'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-01",
+    "target": "shopaholic",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U08-GR-01-90002",
+    "u": "U08",
+    "q": "They shop whenever an attractive ________ announces that products are on sale.",
+    "o": [
+      "advertisement",
+      "ecosystem",
+      "tornado",
+      "crater"
+    ],
+    "e": "Đáp án đúng là A: 'advertisement'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-01",
+    "target": "advertisement",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U08-GR-01-90003",
+    "u": "U08",
+    "q": "To ________ the best prices, a smart customer might take a quick shuttle.",
+    "o": [
+      "access",
+      "destroy",
+      "erupt",
+      "tremble"
+    ],
+    "e": "Đáp án đúng là A: 'access'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-01",
+    "target": "access",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U08-GR-01-90004",
+    "u": "U08",
+    "q": "A shopper can go to a ________, a dollar store, or a 24-hour convenience store.",
+    "o": [
+      "discount shop",
+      "communal house",
+      "stilt house",
+      "paddy field"
+    ],
+    "e": "Đáp án đúng là A: 'discount shop'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-01",
+    "target": "discount shop",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U08-GR-01-90005",
+    "u": "U08",
+    "q": "At a convenience store, the ________ is usually fixed.",
+    "o": [
+      "price tag",
+      "carbon footprint",
+      "bamboo pole",
+      "young rice"
+    ],
+    "e": "Đáp án đúng là A: 'price tag'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-01",
+    "target": "price tag",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U08-GR-01-90006",
+    "u": "U08",
+    "q": "A small ________ of shoppers prefer to browse the unique goods at an open-air market.",
+    "o": [
+      "minority",
+      "majority",
+      "gravity",
+      "longevity"
+    ],
+    "e": "Đáp án đúng là A: 'minority'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-01",
+    "target": "minority",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U08-GR-01-90007",
+    "u": "U08",
+    "q": "At this bustling market, they can ________ for a lovely yellowish bouquet from a local florist.",
+    "o": [
+      "bargain",
+      "release",
+      "overlook",
+      "worship"
+    ],
+    "e": "Đáp án đúng là A: 'bargain'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-01",
+    "target": "bargain",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U08-GR-01-90008",
+    "u": "U08",
+    "q": "They can easily find healthy ________ vegetables.",
+    "o": [
+      "home-grown",
+      "single-use",
+      "well-trained",
+      "multi-storey"
+    ],
+    "e": "Đáp án đúng là A: 'home-grown'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-01",
+    "target": "home-grown",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U08-GR-01-90009",
+    "u": "U08",
+    "q": "Shoppers can also buy delicious ________ foods at the open-air market.",
+    "o": [
+      "home-made",
+      "toxic",
+      "decorative",
+      "wooden"
+    ],
+    "e": "Đáp án đúng là A: 'home-made'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-01",
+    "target": "home-made",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U08-GR-01-90010",
+    "u": "U08",
+    "q": "If anyone ever has a ________ about a purchase, the friendly vendors are always ready to solve the issue.",
+    "o": [
+      "complaint",
+      "compliment",
+      "custom",
+      "ceremony"
+    ],
+    "e": "Đáp án đúng là A: 'complaint'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-01",
+    "target": "complaint",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U09-GR-01-90001",
+    "u": "U09",
+    "q": "A natural ________ like a tropical storm can suddenly pull up trees and destroy a pretty town.",
+    "o": [
+      "disaster",
+      "habit",
+      "lifestyle",
+      "pressure"
+    ],
+    "e": "Đáp án đúng là A: 'disaster'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-01",
+    "target": "disaster",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U09-GR-01-90002",
+    "u": "U09",
+    "q": "A tornado with a dark ________ can cause severe damage to the local area.",
+    "o": [
+      "funnel",
+      "ecosystem",
+      "lantern",
+      "website"
+    ],
+    "e": "Đáp án đúng là A: 'funnel'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-01",
+    "target": "funnel",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U09-GR-01-90003",
+    "u": "U09",
+    "q": "The ________ will broadcast and warn citizens about an incoming tsunami.",
+    "o": [
+      "authority",
+      "minority",
+      "alien",
+      "commander"
+    ],
+    "e": "Đáp án đúng là A: 'authority'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-01",
+    "target": "authority",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U09-GR-01-90004",
+    "u": "U09",
+    "q": "An earthquake is often measured on the ________.",
+    "o": [
+      "Richter scale",
+      "Fahrenheit",
+      "carbon footprint",
+      "emergency kit"
+    ],
+    "e": "Đáp án đúng là A: 'Richter scale'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-01",
+    "target": "richter scale",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U09-GR-01-90005",
+    "u": "U09",
+    "q": "In mountainous areas, heavy rain can cause a dangerous ________.",
+    "o": [
+      "landslide",
+      "coral",
+      "crater",
+      "species"
+    ],
+    "e": "Đáp án đúng là A: 'landslide'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-01",
+    "target": "landslide",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U09-GR-01-90006",
+    "u": "U09",
+    "q": "A volcanic eruption can cause a mountain to shake and ________ violently.",
+    "o": [
+      "tremble",
+      "interact",
+      "concentrate",
+      "log on to"
+    ],
+    "e": "Đáp án đúng là A: 'tremble'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-01",
+    "target": "tremble",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U09-GR-01-90007",
+    "u": "U09",
+    "q": "Because scientists cannot always ________ these events, everyone must be prepared.",
+    "o": [
+      "predict",
+      "maintain",
+      "weave",
+      "absorb"
+    ],
+    "e": "Đáp án đúng là A: 'predict'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-01",
+    "target": "predict",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U09-GR-01-90008",
+    "u": "U09",
+    "q": "Every family should prepare an emergency kit to protect their ________ from severe damage.",
+    "o": [
+      "property",
+      "table manners",
+      "bamboo pole",
+      "street food"
+    ],
+    "e": "Đáp án đúng là A: 'property'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-01",
+    "target": "property",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U09-GR-01-90009",
+    "u": "U09",
+    "q": "After the event, brave rescue ________ often face extreme temperatures to help people.",
+    "o": [
+      "workers",
+      "goers",
+      "musicians",
+      "farmers"
+    ],
+    "e": "Đáp án đúng là A: 'workers'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-01",
+    "target": "workers",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U09-GR-01-90010",
+    "u": "U09",
+    "q": "These brave people help every ________ and start the long clean-up process.",
+    "o": [
+      "victim",
+      "customer",
+      "shopaholic",
+      "resident"
+    ],
+    "e": "Đáp án đúng là A: 'victim'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-01",
+    "target": "victim",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U10-GR-01-90001",
+    "u": "U10",
+    "q": "Long ago, people used a slow ________ to send messages.",
+    "o": [
+      "carrier pigeon",
+      "translation machine",
+      "emergency kit",
+      "communal house"
+    ],
+    "e": "Đáp án đúng là A: 'carrier pigeon'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-01",
+    "target": "carrier pigeon",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U10-GR-01-90002",
+    "u": "U10",
+    "q": "In the future, communicating will be a piece of ________ thanks to advanced technology.",
+    "o": [
+      "cake",
+      "pie",
+      "bread",
+      "candy"
+    ],
+    "e": "Đáp án đúng là A: 'cake'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-01",
+    "target": "cake",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U10-GR-01-90003",
+    "u": "U10",
+    "q": "With a stable Internet connection, your devices can instantly ________ a text or a voice message.",
+    "o": [
+      "transmit",
+      "destroy",
+      "erupt",
+      "predict"
+    ],
+    "e": "Đáp án đúng là A: 'transmit'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-01",
+    "target": "transmit",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U10-GR-01-90004",
+    "u": "U10",
+    "q": "You can send a cute smiley emoji to any social network ________.",
+    "o": [
+      "account",
+      "property",
+      "disaster",
+      "lifestyle"
+    ],
+    "e": "Đáp án đúng là A: 'account'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-01",
+    "target": "account",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U10-GR-01-90005",
+    "u": "U10",
+    "q": "If you do not want to meet ________, you can easily adjust your webcam for a live video conference.",
+    "o": [
+      "in person",
+      "in a hurry",
+      "in the habit",
+      "in danger"
+    ],
+    "e": "Đáp án đúng là A: 'in person'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-01",
+    "target": "in person",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U10-GR-01-90006",
+    "u": "U10",
+    "q": "A live video conference ensures the meeting runs smoothly even for an ________.",
+    "o": [
+      "absentee",
+      "authority",
+      "shopaholic",
+      "alien"
+    ],
+    "e": "Đáp án đúng là A: 'absentee'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-01",
+    "target": "absentee",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U10-GR-01-90007",
+    "u": "U10",
+    "q": "During a call, you might need to say \"hold ________\" to filter out unwanted noise.",
+    "o": [
+      "on",
+      "up",
+      "down",
+      "in"
+    ],
+    "e": "Đáp án đúng là A: 'on'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-01",
+    "target": "on",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U10-GR-01-90008",
+    "u": "U10",
+    "q": "You should remember to ________ your device automatically so it works well.",
+    "o": [
+      "charge",
+      "weave",
+      "harvest",
+      "release"
+    ],
+    "e": "Đáp án đúng là A: 'charge'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-01",
+    "target": "charge",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U10-GR-01-90009",
+    "u": "U10",
+    "q": "To overcome any language ________, a built-in translation machine will help you understand everyone.",
+    "o": [
+      "barrier",
+      "pressure",
+      "disaster",
+      "footprint"
+    ],
+    "e": "Đáp án đúng là A: 'barrier'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-01",
+    "target": "barrier",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U10-GR-01-90010",
+    "u": "U10",
+    "q": "Scientists believe future humans might use ________ to share a thought directly from mind to mind.",
+    "o": [
+      "telepathy",
+      "holography",
+      "biology",
+      "geography"
+    ],
+    "e": "Đáp án đúng là A: 'telepathy'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-01",
+    "target": "telepathy",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U11-GR-01-90001",
+    "u": "U11",
+    "q": "The rapid development of science and ________ has helped us discover a powerful cure.",
+    "o": [
+      "technology",
+      "biology",
+      "history",
+      "literature"
+    ],
+    "e": "Đáp án đúng là A: 'technology'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-01",
+    "target": "technology",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U11-GR-01-90002",
+    "u": "U11",
+    "q": "Schools use a biometric scanner to mark attendance and reduce ________.",
+    "o": [
+      "truancy",
+      "honesty",
+      "loyalty",
+      "bravery"
+    ],
+    "e": "Đáp án đúng là A: 'truancy'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-01",
+    "target": "truancy",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U11-GR-01-90003",
+    "u": "U11",
+    "q": "The biometric scanner uses fingerprint, ________, and voice recognition.",
+    "o": [
+      "facial",
+      "emotional",
+      "physical",
+      "mental"
+    ],
+    "e": "Đáp án đúng là A: 'facial'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-01",
+    "target": "facial",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U11-GR-01-90004",
+    "u": "U11",
+    "q": "On a digital platform, teachers can develop a ________ to give direct feedback.",
+    "o": [
+      "breakout room",
+      "living room",
+      "communal house",
+      "stilt house"
+    ],
+    "e": "Đáp án đúng là A: 'breakout room'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-01",
+    "target": "breakout room",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U11-GR-01-90005",
+    "u": "U11",
+    "q": "At times, students might send a private message or ________ answers on the screen.",
+    "o": [
+      "swap",
+      "protect",
+      "worship",
+      "admire"
+    ],
+    "e": "Đáp án đúng là A: 'swap'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-01",
+    "target": "swap",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U11-GR-01-90006",
+    "u": "U11",
+    "q": "Swapping answers on the screen unfortunately leads to ________.",
+    "o": [
+      "cheating",
+      "learning",
+      "sleeping",
+      "reading"
+    ],
+    "e": "Đáp án đúng là A: 'cheating'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-01",
+    "target": "cheating",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U11-GR-01-90007",
+    "u": "U11",
+    "q": "A brilliant ________ using eye-tracking makes monitoring effortless.",
+    "o": [
+      "invention",
+      "disaster",
+      "epidemic",
+      "tornado"
+    ],
+    "e": "Đáp án đúng là A: 'invention'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-01",
+    "target": "invention",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U11-GR-01-90008",
+    "u": "U11",
+    "q": "Eye-tracking technology can be put inside a smart ________.",
+    "o": [
+      "contact lens",
+      "bamboo pole",
+      "price tag",
+      "carrier pigeon"
+    ],
+    "e": "Đáp án đúng là A: 'contact lens'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-01",
+    "target": "contact lens",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U11-GR-01-90009",
+    "u": "U11",
+    "q": "People rarely ________ about services because robots are very efficient.",
+    "o": [
+      "complain",
+      "display",
+      "access",
+      "release"
+    ],
+    "e": "Đáp án đúng là A: 'complain'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-01",
+    "target": "complain",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U11-GR-01-90010",
+    "u": "U11",
+    "q": "We even have a robot ________ performing every complex experiment perfectly.",
+    "o": [
+      "bartender",
+      "customer",
+      "shopaholic",
+      "resident"
+    ],
+    "e": "Đáp án đúng là A: 'bartender'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-01",
+    "target": "bartender",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U12-GR-01-90001",
+    "u": "U12",
+    "q": "Looking through a powerful ________ at our solar system, scientists explore the universe.",
+    "o": [
+      "telescope",
+      "microscope",
+      "stethoscope",
+      "camera"
+    ],
+    "e": "Đáp án đúng là A: 'telescope'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-01",
+    "target": "telescope",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U12-GR-01-90002",
+    "u": "U12",
+    "q": "Scientists explore the possibility of finding a ________ planet where humans could live.",
+    "o": [
+      "habitable",
+      "terrible",
+      "horrible",
+      "invisible"
+    ],
+    "e": "Đáp án đúng là A: 'habitable'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-01",
+    "target": "habitable",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U12-GR-01-90003",
+    "u": "U12",
+    "q": "The brave ________ of a high-speed spaceship must obey strict rules in outer space.",
+    "o": [
+      "commander",
+      "victim",
+      "resident",
+      "shopaholic"
+    ],
+    "e": "Đáp án đúng là A: 'commander'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-01",
+    "target": "commander",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U12-GR-01-90004",
+    "u": "U12",
+    "q": "They must ensure the rocket does not ________ during a thrilling mission.",
+    "o": [
+      "break down",
+      "get up",
+      "turn off",
+      "look after"
+    ],
+    "e": "Đáp án đúng là A: 'break down'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-01",
+    "target": "break down",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U12-GR-01-90005",
+    "u": "U12",
+    "q": "Mercury has a rocky surface with many a deep ________ and weak gravity.",
+    "o": [
+      "crater",
+      "lake",
+      "river",
+      "ocean"
+    ],
+    "e": "Đáp án đúng là A: 'crater'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-01",
+    "target": "crater",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U12-GR-01-90006",
+    "u": "U12",
+    "q": "Some people ________ the idea that a strange alien could take over our world.",
+    "o": [
+      "oppose",
+      "worship",
+      "admire",
+      "protect"
+    ],
+    "e": "Đáp án đúng là A: 'oppose'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-01",
+    "target": "oppose",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U12-GR-01-90007",
+    "u": "U12",
+    "q": "They worry a mysterious ________ could take over our planet.",
+    "o": [
+      "creature",
+      "vehicle",
+      "volcano",
+      "tornado"
+    ],
+    "e": "Đáp án đúng là A: 'creature'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-01",
+    "target": "creature",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U12-GR-01-90008",
+    "u": "U12",
+    "q": "People might panic even if a ________ UFO is spotted in the sky all year round.",
+    "o": [
+      "stormy",
+      "sunny",
+      "cloudy",
+      "snowy"
+    ],
+    "e": "Đáp án đúng là A: 'stormy'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-01",
+    "target": "stormy",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U12-GR-01-90009",
+    "u": "U12",
+    "q": "Finding even a tiny ________ of water is a good sign.",
+    "o": [
+      "trace",
+      "pile",
+      "block",
+      "piece"
+    ],
+    "e": "Đáp án đúng là A: 'trace'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-01",
+    "target": "trace",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U12-GR-01-90010",
+    "u": "U12",
+    "q": "This is a ________ sign that life might exist beyond Earth.",
+    "o": [
+      "promising",
+      "boring",
+      "disappointing",
+      "terrifying"
+    ],
+    "e": "Đáp án đúng là A: 'promising'. Câu hỏi dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-01",
+    "target": "promising",
+    "group": "Reading",
+    "band": "5"
+  },
+  {
+    "id": "EN08-U01-GR-01-95001",
+    "u": "U01",
+    "q": "During my ________ time, I prefer to hang out with friends outdoors to play badminton.",
+    "o": [
+      "leisure",
+      "working",
+      "stressful",
+      "boring"
+    ],
+    "e": "Đáp án đúng là A: 'leisure'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-02",
+    "target": "leisure",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-95002",
+    "u": "U01",
+    "q": "Playing badminton helps the author ________ and build muscle balance.",
+    "o": [
+      "stay in shape",
+      "gain weight",
+      "feel exhausted",
+      "lose sleep"
+    ],
+    "e": "Đáp án đúng là A: 'stay in shape'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-02",
+    "target": "stay in shape",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-95003",
+    "u": "U01",
+    "q": "The author's sister is ________ indoor activities, such as knitting and making a DIY dollhouse.",
+    "o": [
+      "crazy about",
+      "bored with",
+      "tired of",
+      "afraid of"
+    ],
+    "e": "Đáp án đúng là A: 'crazy about'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-02",
+    "target": "crazy about",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-95004",
+    "u": "U01",
+    "q": "The author's cat loves to watch the author ________ origami, especially a paper flower.",
+    "o": [
+      "fold",
+      "tear",
+      "burn",
+      "cut"
+    ],
+    "e": "Đáp án đúng là A: 'fold'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-02",
+    "target": "fold",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-95005",
+    "u": "U01",
+    "q": "The author absolutely ________ winter sports like skiing and snowboarding at a mountain resort.",
+    "o": [
+      "detests",
+      "adores",
+      "loves",
+      "enjoys"
+    ],
+    "e": "Đáp án đúng là A: 'detests'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-02",
+    "target": "detests",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-95006",
+    "u": "U01",
+    "q": "Instead of winter sports, the author is very ________ making a home-made bracelet or solving a puzzle.",
+    "o": [
+      "fond of",
+      "bad at",
+      "sick of",
+      "angry about"
+    ],
+    "e": "Đáp án đúng là A: 'fond of'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-02",
+    "target": "fond of",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-95007",
+    "u": "U01",
+    "q": "Whenever the author wants to relax, they ________ watching a funny comedy or reading a comic book.",
+    "o": [
+      "fancy",
+      "refuse",
+      "avoid",
+      "hate"
+    ],
+    "e": "Đáp án đúng là A: 'fancy'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-02",
+    "target": "fancy",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-95008",
+    "u": "U01",
+    "q": "The author also enjoys surfing the net to send a ________ to keep in touch with their cousins.",
+    "o": [
+      "message",
+      "package",
+      "present",
+      "suitcase"
+    ],
+    "e": "Đáp án đúng là A: 'message'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-02",
+    "target": "message",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-95009",
+    "u": "U01",
+    "q": "Some people might think it is ________ to keep pets indoors all day, nevertheless, the cat loves being inside.",
+    "o": [
+      "cruel",
+      "kind",
+      "helpful",
+      "wonderful"
+    ],
+    "e": "Đáp án đúng là A: 'cruel'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-02",
+    "target": "cruel",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-95010",
+    "u": "U01",
+    "q": "Everyone has different hobbies, but whether you ________ active or just quiet crafts, the most important thing is to enjoy what you do.",
+    "o": [
+      "are into something",
+      "are out of something",
+      "are tired of something",
+      "are giving up something"
+    ],
+    "e": "Đáp án đúng là A: 'are into something'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-02",
+    "target": "are into something",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-95001",
+    "u": "U02",
+    "q": "My grandparents live in a ________ ancient cottage situated by a vast stretch of green paddy field.",
+    "o": [
+      "picturesque",
+      "noisy",
+      "stressful",
+      "crowded"
+    ],
+    "e": "Đáp án đúng là A: 'picturesque'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-02",
+    "target": "picturesque",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-95002",
+    "u": "U02",
+    "q": "The hard-working farmers cultivate the crop, wait for the grain to dry, and use a ________ water buffalo to plough the soil.",
+    "o": [
+      "well-trained",
+      "wild",
+      "lazy",
+      "frightened"
+    ],
+    "e": "Đáp án đúng là A: 'well-trained'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-02",
+    "target": "well-trained",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-95003",
+    "u": "U02",
+    "q": "Nowadays, they also use a modern ________ to speed up their work during the busy harvest season.",
+    "o": [
+      "combine harvester",
+      "sports car",
+      "airplane",
+      "bicycle"
+    ],
+    "e": "Đáp án đúng là A: 'combine harvester'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-02",
+    "target": "combine harvester",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-95004",
+    "u": "U02",
+    "q": "Early every morning, I observe the villagers as they feed the poultry near the ________.",
+    "o": [
+      "pond",
+      "factory",
+      "skyscraper",
+      "traffic light"
+    ],
+    "e": "Đáp án đúng là A: 'pond'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-02",
+    "target": "pond",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-95005",
+    "u": "U02",
+    "q": "Later, they load baskets of fresh fruit from the ________ onto a truck to sell at the local market.",
+    "o": [
+      "orchard",
+      "hospital",
+      "library",
+      "post office"
+    ],
+    "e": "Đáp án đúng là A: 'orchard'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-02",
+    "target": "orchard",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-95006",
+    "u": "U02",
+    "q": "The scenery is truly ________, and the people are generous, supportive, and hospitable.",
+    "o": [
+      "fascinating",
+      "terrifying",
+      "boring",
+      "polluted"
+    ],
+    "e": "Đáp án đúng là A: 'fascinating'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-02",
+    "target": "fascinating",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-95007",
+    "u": "U02",
+    "q": "The locals never act unsociable to tourists who take a ferry to visit the nearby ________.",
+    "o": [
+      "lighthouse",
+      "stadium",
+      "cinema",
+      "shopping mall"
+    ],
+    "e": "Đáp án đúng là A: 'lighthouse'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-02",
+    "target": "lighthouse",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-95008",
+    "u": "U02",
+    "q": "In the afternoon, children with a sun-kissed tan enjoy ________, playing the dragon-snake game, or participating in bamboo dancing.",
+    "o": [
+      "kite-flying",
+      "surfing the net",
+      "snowboarding",
+      "doing DIY"
+    ],
+    "e": "Đáp án đúng là A: 'kite-flying'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-02",
+    "target": "kite-flying",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-95009",
+    "u": "U02",
+    "q": "Seeing this joyful lifestyle makes city dwellers ________ the people living in the countryside.",
+    "o": [
+      "envy",
+      "forget",
+      "ignore",
+      "hate"
+    ],
+    "e": "Đáp án đúng là A: 'envy'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-02",
+    "target": "envy",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-95010",
+    "u": "U02",
+    "q": "After a long day of work and play, everyone in the village sleeps ________ at night.",
+    "o": [
+      "soundly",
+      "terribly",
+      "badly",
+      "loudly"
+    ],
+    "e": "Đáp án đúng là A: 'soundly'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-02",
+    "target": "soundly",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-95001",
+    "u": "U03",
+    "q": "Teenagers today often face immense expectation and peer ________ to perform well in their schoolwork.",
+    "o": [
+      "pressure",
+      "pleasure",
+      "leisure",
+      "treasure"
+    ],
+    "e": "Đáp án đúng là A: 'pressure'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-02",
+    "target": "pressure",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-95002",
+    "u": "U03",
+    "q": "The period during a ________ session can be highly stressful for students.",
+    "o": [
+      "midterm",
+      "vacation",
+      "holiday",
+      "weekend"
+    ],
+    "e": "Đáp án đúng là A: 'midterm'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-02",
+    "target": "midterm",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-95003",
+    "u": "U03",
+    "q": "They must concentrate and stay ________ on their studies, otherwise the academic burden can become overwhelming.",
+    "o": [
+      "focused",
+      "distracted",
+      "confused",
+      "bored"
+    ],
+    "e": "Đáp án đúng là A: 'focused'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-02",
+    "target": "focused",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-95004",
+    "u": "U03",
+    "q": "To manage stress, many find it enjoyable to take a break after a ________ of classes to connect with friends.",
+    "o": [
+      "full-day",
+      "part-time",
+      "short-term",
+      "half-hour"
+    ],
+    "e": "Đáp án đúng là A: 'full-day'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-02",
+    "target": "full-day",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-95005",
+    "u": "U03",
+    "q": "Being naturally curious and highly ________, teenagers frequently log on to user-friendly websites.",
+    "o": [
+      "talkative",
+      "silent",
+      "quiet",
+      "inactive"
+    ],
+    "e": "Đáp án đúng là A: 'talkative'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-02",
+    "target": "talkative",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-95006",
+    "u": "U03",
+    "q": "Teens often check every new ________ and get on with their classmates online.",
+    "o": [
+      "notification",
+      "application",
+      "tradition",
+      "limitation"
+    ],
+    "e": "Đáp án đúng là A: 'notification'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-02",
+    "target": "notification",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-95007",
+    "u": "U03",
+    "q": "Some teens use their online account to ________ photos and show off their achievements.",
+    "o": [
+      "upload",
+      "download",
+      "delete",
+      "destroy"
+    ],
+    "e": "Đáp án đúng là A: 'upload'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-02",
+    "target": "upload",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-95008",
+    "u": "U03",
+    "q": "Many teenagers prefer to join a discussion ________ to prepare for events beforehand.",
+    "o": [
+      "forum",
+      "stadium",
+      "factory",
+      "museum"
+    ],
+    "e": "Đáp án đúng là A: 'forum'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-02",
+    "target": "forum",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-95009",
+    "u": "U03",
+    "q": "Unfortunately, the digital world exposes them to cyber ________, where a cruel person might target someone.",
+    "o": [
+      "bullying",
+      "studying",
+      "helping",
+      "caring"
+    ],
+    "e": "Đáp án đúng là A: 'bullying'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-02",
+    "target": "bullying",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-95010",
+    "u": "U03",
+    "q": "Facing these negative experiences online forces youths to become more ________ in handling difficult situations.",
+    "o": [
+      "mature",
+      "childish",
+      "immature",
+      "silly"
+    ],
+    "e": "Đáp án đúng là A: 'mature'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-02",
+    "target": "mature",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-95001",
+    "u": "U04",
+    "q": "Vietnam is home to a diverse population, where each minority ________ in the highland helps enrich the cultural heritage.",
+    "o": [
+      "ethnic group",
+      "tourist group",
+      "age group",
+      "study group"
+    ],
+    "e": "Đáp án đúng là A: 'ethnic group'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-02",
+    "target": "ethnic group",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-95002",
+    "u": "U04",
+    "q": "A striking feature of mountainous villages is the traditional wooden ________, built on sturdy posts.",
+    "o": [
+      "stilt house",
+      "apartment",
+      "skyscraper",
+      "factory"
+    ],
+    "e": "Đáp án đúng là A: 'stilt house'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-02",
+    "target": "stilt house",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-95003",
+    "u": "U04",
+    "q": "These traditional houses are designed with a steep ________ and overlook the breathtaking terraced fields.",
+    "o": [
+      "staircase",
+      "elevator",
+      "escalator",
+      "chimney"
+    ],
+    "e": "Đáp án đúng là A: 'staircase'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-02",
+    "target": "staircase",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-95004",
+    "u": "U04",
+    "q": "To ensure a bountiful harvest, the farmers mix burnt ash into the ________ to grow their main crop.",
+    "o": [
+      "soil",
+      "water",
+      "sand",
+      "cloud"
+    ],
+    "e": "Đáp án đúng là A: 'soil'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-02",
+    "target": "soil",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-95005",
+    "u": "U04",
+    "q": "Alongside growing crops, farmers also manage a vast rubber tree ________ and raise livestock.",
+    "o": [
+      "plantation",
+      "hospital",
+      "museum",
+      "stadium"
+    ],
+    "e": "Đáp án đúng là A: 'plantation'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-02",
+    "target": "plantation",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-95006",
+    "u": "U04",
+    "q": "During festivals, people gather at the ________ around an open fire to celebrate.",
+    "o": [
+      "communal house",
+      "shopping mall",
+      "police station",
+      "post office"
+    ],
+    "e": "Đáp án đúng là A: 'communal house'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-02",
+    "target": "communal house",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-95007",
+    "u": "U04",
+    "q": "At these gatherings, villagers enjoy delicious ________ and worship before a carved statue.",
+    "o": [
+      "five-colour sticky rice",
+      "fast food",
+      "fried chicken",
+      "sweet soup"
+    ],
+    "e": "Đáp án đúng là A: 'five-colour sticky rice'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-02",
+    "target": "five-colour sticky rice",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-95008",
+    "u": "U04",
+    "q": "Vibrant traditions are expressed when women ________ intricate patterns for their traditional costume.",
+    "o": [
+      "weave",
+      "destroy",
+      "forget",
+      "erase"
+    ],
+    "e": "Đáp án đúng là A: 'weave'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-02",
+    "target": "weave",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-95009",
+    "u": "U04",
+    "q": "During traditional celebrations, men often play a bamboo ________ to create beautiful melodies.",
+    "o": [
+      "flute",
+      "guitar",
+      "piano",
+      "drum"
+    ],
+    "e": "Đáp án đúng là A: 'flute'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-02",
+    "target": "flute",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-95010",
+    "u": "U04",
+    "q": "People also strike a resounding ________ to the rhythm of lively folk dances.",
+    "o": [
+      "gong",
+      "bell",
+      "keyboard",
+      "trumpet"
+    ],
+    "e": "Đáp án đúng là A: 'gong'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-02",
+    "target": "gong",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-95001",
+    "u": "U05",
+    "q": "In Vietnam, every meaningful ________ provides a wonderful opportunity for family reunion and family bonding.",
+    "o": [
+      "custom",
+      "accident",
+      "disaster",
+      "mistake"
+    ],
+    "e": "Đáp án đúng là A: 'custom'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-02",
+    "target": "custom",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-95002",
+    "u": "U05",
+    "q": "Before the Lunar New Year, people make an offering and ________ a live carp to bid farewell to the Kitchen Gods.",
+    "o": [
+      "release",
+      "cook",
+      "eat",
+      "hide"
+    ],
+    "e": "Đáp án đúng là A: 'release'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-02",
+    "target": "release",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-95003",
+    "u": "U05",
+    "q": "Families decorate their houses with a decorative kumquat or other ornamental tree to ________ any bad spirit.",
+    "o": [
+      "chase away",
+      "invite in",
+      "welcome back",
+      "smile at"
+    ],
+    "e": "Đáp án đúng là A: 'chase away'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-02",
+    "target": "chase away",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-95004",
+    "u": "U05",
+    "q": "During the New Year ceremony, a wise monk will often pray for the ________ of the elders.",
+    "o": [
+      "longevity",
+      "sickness",
+      "sadness",
+      "weakness"
+    ],
+    "e": "Đáp án đúng là A: 'longevity'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-02",
+    "target": "longevity",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-95005",
+    "u": "U05",
+    "q": "Parents often remind children of proper ________ before they start the grand New Year feast.",
+    "o": [
+      "table manners",
+      "martial arts",
+      "bad habits",
+      "street food"
+    ],
+    "e": "Đáp án đúng là A: 'table manners'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-02",
+    "target": "table manners",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-95006",
+    "u": "U05",
+    "q": "Later in the year, children admire the bright ________ lighting up the streets.",
+    "o": [
+      "lantern",
+      "shadow",
+      "storm",
+      "tornado"
+    ],
+    "e": "Đáp án đúng là A: 'lantern'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-02",
+    "target": "lantern",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-95007",
+    "u": "U05",
+    "q": "They also worship the Moon Goddess and enjoy sweet cakes made from ________.",
+    "o": [
+      "young rice",
+      "old corn",
+      "salt water",
+      "bitter leaves"
+    ],
+    "e": "Đáp án đúng là A: 'young rice'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-02",
+    "target": "young rice",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-95008",
+    "u": "U05",
+    "q": "In a ________ village, local events attract many a festival goer.",
+    "o": [
+      "coastal",
+      "desert",
+      "space",
+      "underground"
+    ],
+    "e": "Đáp án đúng là A: 'coastal'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-02",
+    "target": "coastal",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-95009",
+    "u": "U05",
+    "q": "The festival goers gather to watch a spectacular ________ alongside thrilling acrobatics.",
+    "o": [
+      "lion dance",
+      "sleeping cat",
+      "flying bird",
+      "crying baby"
+    ],
+    "e": "Đáp án đúng là A: 'lion dance'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-02",
+    "target": "lion dance",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-95010",
+    "u": "U05",
+    "q": "During the games, skilled contestants even balance on top of a tall ________.",
+    "o": [
+      "bamboo pole",
+      "glass window",
+      "paper box",
+      "plastic bottle"
+    ],
+    "e": "Đáp án đúng là A: 'bamboo pole'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-02",
+    "target": "bamboo pole",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-95001",
+    "u": "U06",
+    "q": "In today's fast-paced world, many people are _________ and often grab street food from a roadside stall.",
+    "o": [
+      "in a hurry",
+      "sleeping soundly",
+      "moving slowly",
+      "staying at home"
+    ],
+    "e": "Đáp án đúng là A: 'in a hurry'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-02",
+    "target": "in a hurry",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-95002",
+    "u": "U06",
+    "q": "Some individuals try to maintain an independent lifestyle by cooking with _________ ingredients.",
+    "o": [
+      "home-grown",
+      "highly toxic",
+      "factory-made",
+      "plastic-wrapped"
+    ],
+    "e": "Đáp án đúng là A: 'home-grown'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-02",
+    "target": "home-grown",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-95003",
+    "u": "U06",
+    "q": "Instead of having face-to-face offline interaction, many students now interact through _________.",
+    "o": [
+      "online learning",
+      "hunting animals",
+      "planting trees",
+      "building houses"
+    ],
+    "e": "Đáp án đúng là A: 'online learning'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-02",
+    "target": "online learning",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-95004",
+    "u": "U06",
+    "q": "People with a nomadic or tribal background in freezing climates might sleep in a traditional _________.",
+    "o": [
+      "igloo",
+      "skyscraper",
+      "stilt house",
+      "apartment"
+    ],
+    "e": "Đáp án đúng là A: 'igloo'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-02",
+    "target": "igloo",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-95005",
+    "u": "U06",
+    "q": "A skilled musher leads the dogs in the practice of _________ for miles, even when their feet feel sore.",
+    "o": [
+      "mushing",
+      "swimming",
+      "flying",
+      "driving"
+    ],
+    "e": "Đáp án đúng là A: 'mushing'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-02",
+    "target": "mushing",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-95006",
+    "u": "U06",
+    "q": "To revive local traditions, a dedicated artisan will often make craft products, such as a beautiful _________.",
+    "o": [
+      "handicraft",
+      "smartphone",
+      "modern car",
+      "translation machine"
+    ],
+    "e": "Đáp án đúng là A: 'handicraft'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-02",
+    "target": "handicraft",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-95007",
+    "u": "U06",
+    "q": "These beautiful decorative items often become a famous regional _________ that tourists love to buy.",
+    "o": [
+      "speciality",
+      "mistake",
+      "disease",
+      "disaster"
+    ],
+    "e": "Đáp án đúng là A: 'speciality'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-02",
+    "target": "speciality",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-95008",
+    "u": "U06",
+    "q": "Creating such amazing traditional items can earn the artisan a highly respected _________.",
+    "o": [
+      "title",
+      "punishment",
+      "complaint",
+      "injury"
+    ],
+    "e": "Đáp án đúng là A: 'title'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-02",
+    "target": "title",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-95009",
+    "u": "U06",
+    "q": "When tourists visit, a friendly waiter or waitress will always _________ them with a warm greeting.",
+    "o": [
+      "greet",
+      "ignore",
+      "attack",
+      "insult"
+    ],
+    "e": "Đáp án đúng là A: 'greet'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-02",
+    "target": "greet",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-95010",
+    "u": "U06",
+    "q": "The local people will serve delicious food, providing a truly unforgettable cultural _________ for the visitors.",
+    "o": [
+      "experience",
+      "disappointment",
+      "nightmare",
+      "failure"
+    ],
+    "e": "Đáp án đúng là A: 'experience'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-02",
+    "target": "experience",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-95001",
+    "u": "U07",
+    "q": "Environmental protection is a crucial ________ that encourages every resident to help save the planet.",
+    "o": [
+      "movement",
+      "disaster",
+      "vacation",
+      "celebration"
+    ],
+    "e": "Đáp án đúng là A: 'movement'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-02",
+    "target": "movement",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-95002",
+    "u": "U07",
+    "q": "Everyone is encouraged to participate in efforts to reduce our ________ and protect the fragile ecosystem.",
+    "o": [
+      "carbon footprint",
+      "online learning",
+      "table manners",
+      "traditional craft"
+    ],
+    "e": "Đáp án đúng là A: 'carbon footprint'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-02",
+    "target": "carbon footprint",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-95003",
+    "u": "U07",
+    "q": "Trees play a vital role because they ________ dangerous gases and provide oxygen for us to breathe.",
+    "o": [
+      "absorb",
+      "release",
+      "ignore",
+      "invent"
+    ],
+    "e": "Đáp án đúng là A: 'absorb'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-02",
+    "target": "absorb",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-95004",
+    "u": "U07",
+    "q": "Human activities often release a lot of ________ substances and carbon dioxide into the atmosphere.",
+    "o": [
+      "toxic",
+      "healthy",
+      "safe",
+      "beneficial"
+    ],
+    "e": "Đáp án đúng là A: 'toxic'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-02",
+    "target": "toxic",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-95005",
+    "u": "U07",
+    "q": "Pollution and severe weather events, like a destructive ________, threaten the natural habitat of many animals.",
+    "o": [
+      "tornado",
+      "dugong",
+      "campfire",
+      "resident"
+    ],
+    "e": "Đáp án đúng là A: 'tornado'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-02",
+    "target": "tornado",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-95006",
+    "u": "U07",
+    "q": "The loss of natural habitats pushes many endangered species closer to ________.",
+    "o": [
+      "extinction",
+      "survival",
+      "evolution",
+      "reproduction"
+    ],
+    "e": "Đáp án đúng là A: 'extinction'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-02",
+    "target": "extinction",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-95007",
+    "u": "U07",
+    "q": "In the ocean, beautiful ________ reefs and gentle dugongs suffer greatly from marine pollution.",
+    "o": [
+      "coral",
+      "forest",
+      "mountain",
+      "desert"
+    ],
+    "e": "Đáp án đúng là A: 'coral'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-02",
+    "target": "coral",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-95008",
+    "u": "U07",
+    "q": "Marine life is threatened when careless people dump plastic rubbish and ________ products into the water.",
+    "o": [
+      "single-use",
+      "well-trained",
+      "long-lasting",
+      "multi-storey"
+    ],
+    "e": "Đáp án đúng là A: 'single-use'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-02",
+    "target": "single-use",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-95009",
+    "u": "U07",
+    "q": "On land, leaving a ________ unattended can cause massive forest fires.",
+    "o": [
+      "campfire",
+      "snowman",
+      "waterwheel",
+      "waterfall"
+    ],
+    "e": "Đáp án đúng là A: 'campfire'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-02",
+    "target": "campfire",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-95010",
+    "u": "U07",
+    "q": "Forest fires can easily destroy both wildlife and valuable ________ plants used for healing.",
+    "o": [
+      "medicinal",
+      "poisonous",
+      "useless",
+      "decorative"
+    ],
+    "e": "Đáp án đúng là A: 'medicinal'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-02",
+    "target": "medicinal",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-95001",
+    "u": "U08",
+    "q": "Being a true ________ who is absolutely addicted to buying new goods, I often take a free shuttle bus to the city center.",
+    "o": [
+      "shopaholic",
+      "workaholic",
+      "mechanic",
+      "farmer"
+    ],
+    "e": "Đáp án đúng là A: 'shopaholic'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-02",
+    "target": "shopaholic",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-95002",
+    "u": "U08",
+    "q": "I often take a free shuttle bus to the city center to ________ a huge year-round market.",
+    "o": [
+      "access",
+      "deny",
+      "destroy",
+      "forget"
+    ],
+    "e": "Đáp án đúng là A: 'access'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-02",
+    "target": "access",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-95003",
+    "u": "U08",
+    "q": "I also enjoy visiting a vibrant open-air market to ________ through the beautiful flowers at a local florist.",
+    "o": [
+      "browse",
+      "break",
+      "burn",
+      "build"
+    ],
+    "e": "Đáp án đúng là A: 'browse'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-02",
+    "target": "browse",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-95004",
+    "u": "U08",
+    "q": "Sometimes, an attractive ________ on display outside a convenience store catches my eye.",
+    "o": [
+      "advertisement",
+      "achievement",
+      "environment",
+      "instrument"
+    ],
+    "e": "Đáp án đúng là A: 'advertisement'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-02",
+    "target": "advertisement",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-95005",
+    "u": "U08",
+    "q": "I prefer to shop at places where I can find a great ________ to save some money.",
+    "o": [
+      "bargain",
+      "burden",
+      "complaint",
+      "argument"
+    ],
+    "e": "Đáp án đúng là A: 'bargain'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-02",
+    "target": "bargain",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-95006",
+    "u": "U08",
+    "q": "I frequently visit a cheap dollar store or a discount shop where almost every item has a ________ price tag.",
+    "o": [
+      "fixed",
+      "broken",
+      "hidden",
+      "flexible"
+    ],
+    "e": "Đáp án đúng là A: 'fixed'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-02",
+    "target": "fixed",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-95007",
+    "u": "U08",
+    "q": "In the discount shop, a lot of things are often ________.",
+    "o": [
+      "on sale",
+      "on fire",
+      "in danger",
+      "out of order"
+    ],
+    "e": "Đáp án đúng là A: 'on sale'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-02",
+    "target": "on sale",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-95008",
+    "u": "U08",
+    "q": "Yesterday, I went to a community fair organized by a local ________ group.",
+    "o": [
+      "minority",
+      "majority",
+      "dominant",
+      "massive"
+    ],
+    "e": "Đáp án đúng là A: 'minority'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-02",
+    "target": "minority",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-95009",
+    "u": "U08",
+    "q": "At the fair, I bought fresh ________ vegetables and tasted a special yellowish home-made cake.",
+    "o": [
+      "home-grown",
+      "wild",
+      "plastic",
+      "artificial"
+    ],
+    "e": "Đáp án đúng là A: 'home-grown'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-02",
+    "target": "home-grown",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-95010",
+    "u": "U08",
+    "q": "As a happy ________, I have never needed to file a complaint about my shopping trips.",
+    "o": [
+      "customer",
+      "manager",
+      "seller",
+      "owner"
+    ],
+    "e": "Đáp án đúng là A: 'customer'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-02",
+    "target": "customer",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-95001",
+    "u": "U09",
+    "q": "It is hard to ________ when a devastating disaster like a tropical storm will suddenly strike.",
+    "o": [
+      "predict",
+      "forget",
+      "ignore",
+      "invite"
+    ],
+    "e": "Đáp án đúng là A: 'predict'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-02",
+    "target": "predict",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-95002",
+    "u": "U09",
+    "q": "A tornado with its dark ________ can suddenly destroy a pretty coastal town.",
+    "o": [
+      "funnel",
+      "tunnel",
+      "channel",
+      "panel"
+    ],
+    "e": "Đáp án đúng là A: 'funnel'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-02",
+    "target": "funnel",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-95003",
+    "u": "U09",
+    "q": "In mountainous regions, heavy rains can cause a dangerous mass movement of earth known as a ________.",
+    "o": [
+      "landslide",
+      "earthquake",
+      "tsunami",
+      "drought"
+    ],
+    "e": "Đáp án đúng là A: 'landslide'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-02",
+    "target": "landslide",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-95004",
+    "u": "U09",
+    "q": "If an earthquake happens, you might feel the ground tremble and ________ violently.",
+    "o": [
+      "shake",
+      "break",
+      "bake",
+      "wake"
+    ],
+    "e": "Đáp án đúng là A: 'shake'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-02",
+    "target": "shake",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-95005",
+    "u": "U09",
+    "q": "A strong earthquake registers high on the ________, prompting the local authority to broadcast a warning.",
+    "o": [
+      "Richter scale",
+      "weighing scale",
+      "thermometer",
+      "ruler"
+    ],
+    "e": "Đáp án đúng là A: 'Richter scale'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-02",
+    "target": "richter scale",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-95006",
+    "u": "U09",
+    "q": "A volcanic eruption causes the volcano to erupt, shooting burning ________ rock into the sky.",
+    "o": [
+      "liquid",
+      "solid",
+      "frozen",
+      "soft"
+    ],
+    "e": "Đáp án đúng là A: 'liquid'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-02",
+    "target": "liquid",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-95007",
+    "u": "U09",
+    "q": "The intense heat from the volcano is often measured in degrees ________.",
+    "o": [
+      "Fahrenheit",
+      "Celsius",
+      "Kelvin",
+      "meter"
+    ],
+    "e": "Đáp án đúng là A: 'Fahrenheit'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-02",
+    "target": "fahrenheit",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-95008",
+    "u": "U09",
+    "q": "A severe sea storm can trigger a massive ________ that crashes onto the shore.",
+    "o": [
+      "tsunami",
+      "tornado",
+      "volcano",
+      "landslide"
+    ],
+    "e": "Đáp án đúng là A: 'tsunami'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-02",
+    "target": "tsunami",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-95009",
+    "u": "U09",
+    "q": "After the event, a dedicated ________ must often pull up debris to find a trapped victim.",
+    "o": [
+      "rescue worker",
+      "office worker",
+      "factory worker",
+      "shop assistant"
+    ],
+    "e": "Đáp án đúng là A: 'rescue worker'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-02",
+    "target": "rescue worker",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-95010",
+    "u": "U09",
+    "q": "Volunteers often carry an ________ to ensure their safety during the massive clean-up process.",
+    "o": [
+      "emergency kit",
+      "art kit",
+      "makeup kit",
+      "sewing kit"
+    ],
+    "e": "Đáp án đúng là A: 'emergency kit'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-02",
+    "target": "emergency kit",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-95001",
+    "u": "U10",
+    "q": "In the past, people might have relied on a slow ________ to send messages over long distances.",
+    "o": [
+      "carrier pigeon",
+      "translation machine",
+      "social network",
+      "webcam"
+    ],
+    "e": "Đáp án đúng là A: 'carrier pigeon'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-02",
+    "target": "carrier pigeon",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-95002",
+    "u": "U10",
+    "q": "In the future, advanced technologies like ________ might be used to transmit a thought instantly without physical devices.",
+    "o": [
+      "telepathy",
+      "holography",
+      "a piece of cake",
+      "a smartwatch"
+    ],
+    "e": "Đáp án đúng là A: 'telepathy'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-02",
+    "target": "telepathy",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-95003",
+    "u": "U10",
+    "q": "It is now ________ to use a smartphone or a tablet with a high-speed Internet connection to contact friends.",
+    "o": [
+      "a piece of cake",
+      "a hard nut to crack",
+      "out of this world",
+      "a waste of time"
+    ],
+    "e": "Đáp án đúng là A: 'a piece of cake'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-02",
+    "target": "a piece of cake",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-95004",
+    "u": "U10",
+    "q": "You can easily send a text or a smiley ________ on a social network using your personal account.",
+    "o": [
+      "emoji",
+      "absentee",
+      "barrier",
+      "charge"
+    ],
+    "e": "Đáp án đúng là A: 'emoji'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-02",
+    "target": "emoji",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-95005",
+    "u": "U10",
+    "q": "If you want to avoid ________ calls, your modern devices can automatically adjust their settings.",
+    "o": [
+      "unwanted",
+      "advanced",
+      "introductory",
+      "live"
+    ],
+    "e": "Đáp án đúng là A: 'unwanted'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-02",
+    "target": "unwanted",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-95006",
+    "u": "U10",
+    "q": "Your smart device can politely ask the caller to \"________\" if you are currently busy or away.",
+    "o": [
+      "hold on",
+      "step down",
+      "give up",
+      "pull up"
+    ],
+    "e": "Đáp án đúng là A: 'hold on'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-02",
+    "target": "hold on",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-95007",
+    "u": "U10",
+    "q": "To overcome a language ________, a modern translation machine can be incredibly useful.",
+    "o": [
+      "barrier",
+      "bridge",
+      "connection",
+      "account"
+    ],
+    "e": "Đáp án đúng là A: 'barrier'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-02",
+    "target": "barrier",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-95008",
+    "u": "U10",
+    "q": "This machine will translate the conversation live during a ________.",
+    "o": [
+      "video conference",
+      "carrier pigeon",
+      "voice message",
+      "smartwatch"
+    ],
+    "e": "Đáp án đúng là A: 'video conference'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-02",
+    "target": "video conference",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-95009",
+    "u": "U10",
+    "q": "Before starting the online meeting, make sure you remember to ________ your high-tech webcam.",
+    "o": [
+      "charge",
+      "break",
+      "destroy",
+      "lose"
+    ],
+    "e": "Đáp án đúng là A: 'charge'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-02",
+    "target": "charge",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-95010",
+    "u": "U10",
+    "q": "Schools will even be able to monitor an ________ using stunning holography.",
+    "o": [
+      "absentee",
+      "employee",
+      "inventor",
+      "account"
+    ],
+    "e": "Đáp án đúng là A: 'absentee'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-02",
+    "target": "absentee",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-95001",
+    "u": "U11",
+    "q": "The rapid advancement of science and ________ has helped scientists develop new ways to discover a cure for an epidemic.",
+    "o": [
+      "technology",
+      "ecology",
+      "biology",
+      "history"
+    ],
+    "e": "Đáp án đúng là A: 'technology'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-02",
+    "target": "technology",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-95002",
+    "u": "U11",
+    "q": "A digital ________ allows students to learn online without meeting face to face.",
+    "o": [
+      "platform",
+      "uniform",
+      "blanket",
+      "notebook"
+    ],
+    "e": "Đáp án đúng là A: 'platform'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-02",
+    "target": "platform",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-95003",
+    "u": "U11",
+    "q": "Students can use a specific application to join a ________ or send a private message to their teacher.",
+    "o": [
+      "breakout room",
+      "dining room",
+      "living room",
+      "fitting room"
+    ],
+    "e": "Đáp án đúng là A: 'breakout room'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-02",
+    "target": "breakout room",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-95004",
+    "u": "U11",
+    "q": "To solve issues like ________, schools now use a biometric scanner to track attendance.",
+    "o": [
+      "truancy",
+      "loyalty",
+      "honesty",
+      "bravery"
+    ],
+    "e": "Đáp án đúng là A: 'truancy'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-02",
+    "target": "truancy",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-95005",
+    "u": "U11",
+    "q": "The biometric scanner requires a fingerprint or facial ________ rather than relying on a manual mark.",
+    "o": [
+      "recognition",
+      "expression",
+      "decoration",
+      "completion"
+    ],
+    "e": "Đáp án đúng là A: 'recognition'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-02",
+    "target": "recognition",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-95006",
+    "u": "U11",
+    "q": "To prevent ________ during online exams, teachers use eye-tracking software.",
+    "o": [
+      "cheating",
+      "studying",
+      "sleeping",
+      "reading"
+    ],
+    "e": "Đáp án đúng là A: 'cheating'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-02",
+    "target": "cheating",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-95007",
+    "u": "U11",
+    "q": "Teachers can monitor students through the computer screen or a smart ________, giving immediate feedback.",
+    "o": [
+      "contact lens",
+      "magnifying glass",
+      "reading glass",
+      "sunglasses"
+    ],
+    "e": "Đáp án đúng là A: 'contact lens'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-02",
+    "target": "contact lens",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-95008",
+    "u": "U11",
+    "q": "________, people might complain about losing jobs to automation.",
+    "o": [
+      "At times",
+      "On time",
+      "In time",
+      "Out of time"
+    ],
+    "e": "Đáp án đúng là A: 'At times'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-02",
+    "target": "at times",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-95009",
+    "u": "U11",
+    "q": "A robot ________ with voice recognition can easily swap ingredients to mix drinks perfectly.",
+    "o": [
+      "bartender",
+      "carpenter",
+      "plumber",
+      "farmer"
+    ],
+    "e": "Đáp án đúng là A: 'bartender'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-02",
+    "target": "bartender",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-95010",
+    "u": "U11",
+    "q": "Through continuous ________, researchers continue to invent a better solution for our future.",
+    "o": [
+      "experiment",
+      "argument",
+      "punishment",
+      "entertainment"
+    ],
+    "e": "Đáp án đúng là A: 'experiment'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-02",
+    "target": "experiment",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-95001",
+    "u": "U12",
+    "q": "Looking through a powerful ________ at the majestic milky way galaxy, scientists search for a new home.",
+    "o": [
+      "telescope",
+      "microscope",
+      "stethoscope",
+      "camera"
+    ],
+    "e": "Đáp án đúng là A: 'telescope'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-02",
+    "target": "telescope",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-95002",
+    "u": "U12",
+    "q": "They are searching for a ________ planet where humans could survive all year round.",
+    "o": [
+      "habitable",
+      "dangerous",
+      "toxic",
+      "freezing"
+    ],
+    "e": "Đáp án đúng là A: 'habitable'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-02",
+    "target": "habitable",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-95003",
+    "u": "U12",
+    "q": "Planets like Mercury and Venus are dangerously hot during the ________.",
+    "o": [
+      "daytime",
+      "nighttime",
+      "winter",
+      "weekend"
+    ],
+    "e": "Đáp án đúng là A: 'daytime'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-02",
+    "target": "daytime",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-95004",
+    "u": "U12",
+    "q": "Mars remains a ________ candidate for human exploration despite its harsh conditions.",
+    "o": [
+      "promising",
+      "boring",
+      "terrifying",
+      "disappointing"
+    ],
+    "e": "Đáp án đúng là A: 'promising'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-02",
+    "target": "promising",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-95005",
+    "u": "U12",
+    "q": "The rocky surface of Mars is marked by many a deep ________.",
+    "o": [
+      "crater",
+      "river",
+      "ocean",
+      "forest"
+    ],
+    "e": "Đáp án đúng là A: 'crater'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-02",
+    "target": "crater",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-95006",
+    "u": "U12",
+    "q": "Researchers are excited about the possibility of finding a ________ of a microscopic creature on Mars.",
+    "o": [
+      "trace",
+      "pile",
+      "ton",
+      "mountain"
+    ],
+    "e": "Đáp án đúng là A: 'trace'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-02",
+    "target": "trace",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-95007",
+    "u": "U12",
+    "q": "A brave commander led a thrilling expedition, boarding a high-tech ________.",
+    "o": [
+      "spaceship",
+      "submarine",
+      "train",
+      "bicycle"
+    ],
+    "e": "Đáp án đúng là A: 'spaceship'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-02",
+    "target": "spaceship",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-95008",
+    "u": "U12",
+    "q": "The massive rocket is made up of advanced materials so it will never ________ mid-flight.",
+    "o": [
+      "break down",
+      "speed up",
+      "take off",
+      "wake up"
+    ],
+    "e": "Đáp án đúng là A: 'break down'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-02",
+    "target": "break down",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-95009",
+    "u": "U12",
+    "q": "The crew wondered if they would encounter a mysterious ________ or an intelligent alien species.",
+    "o": [
+      "UFO",
+      "ATM",
+      "VIP",
+      "CEO"
+    ],
+    "e": "Đáp án đúng là A: 'UFO'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-02",
+    "target": "ufo",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-95010",
+    "u": "U12",
+    "q": "Humanity must stand united to ________ any extraterrestrial force that tries to take over our world.",
+    "o": [
+      "oppose",
+      "obey",
+      "invite",
+      "welcome"
+    ],
+    "e": "Đáp án đúng là A: 'oppose'. Câu hỏi đọc hiểu và từ vựng band 6.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-02",
+    "target": "oppose",
+    "group": "Reading",
+    "band": "6.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-97501",
+    "u": "U01",
+    "q": "According to the passage, engaging in a variety of ________ pursuits is essential for individuals attempting to achieve a state of psychological and physical equilibrium in their lives.",
+    "o": [
+      "leisure",
+      "demanding",
+      "monotonous",
+      "professional"
+    ],
+    "e": "Đáp án đúng là A: 'leisure'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-03",
+    "target": "leisure",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-97502",
+    "u": "U01",
+    "q": "Some sports enthusiasts are exceptionally ________ extreme physical activities at mountain resorts as a means to enhance their conditioning.",
+    "o": [
+      "crazy about",
+      "indifferent towards",
+      "terrified of",
+      "oblivious to"
+    ],
+    "e": "Đáp án đúng là A: 'crazy about'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-03",
+    "target": "crazy about",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-97503",
+    "u": "U01",
+    "q": "Conversely, there is a demographic that absolutely ________ rigorous physical activities, perceiving them as overly harsh or punishing to their physique.",
+    "o": [
+      "detest",
+      "fancy",
+      "embrace",
+      "advocate"
+    ],
+    "e": "Đáp án đúng là A: 'detest'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-03",
+    "target": "detest",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-97504",
+    "u": "U01",
+    "q": "________, a significant number of adolescents exhibit a strong inclination toward more sedentary forms of entertainment with their peers rather than extreme sports.",
+    "o": [
+      "Nevertheless",
+      "Furthermore",
+      "Consequently",
+      "Similarly"
+    ],
+    "e": "Đáp án đúng là A: 'Nevertheless'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-03",
+    "target": "nevertheless",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-97505",
+    "u": "U01",
+    "q": "A common modern habit among youths is to dedicate hours to ________ in order to instantaneously transmit text and maintain their social networks.",
+    "o": [
+      "surfing the net",
+      "rigorous training",
+      "intensive reading",
+      "isolating themselves"
+    ],
+    "e": "Đáp án đúng là A: 'surfing the net'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-03",
+    "target": "surfing the net",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-97506",
+    "u": "U01",
+    "q": "Individuals who ________ practical, hands-on projects often utilize specialized materials to assemble intricate miniature models.",
+    "o": [
+      "are into",
+      "shy away from",
+      "struggle with",
+      "rigorously object to"
+    ],
+    "e": "Đáp án đúng là A: 'are into'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-03",
+    "target": "are into",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-97507",
+    "u": "U01",
+    "q": "A creatively inclined person might be highly ________ utilizing specialized tool sets to manufacture personalized accessories.",
+    "o": [
+      "keen on",
+      "deterred by",
+      "unaccustomed to",
+      "entirely incapable of"
+    ],
+    "e": "Đáp án đúng là A: 'keen on'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-03",
+    "target": "keen on",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-97508",
+    "u": "U01",
+    "q": "Patiently manipulating and choosing to ________ materials is a fundamental prerequisite for those aiming to master specific traditional Asian art forms mentioned in the text.",
+    "o": [
+      "fold",
+      "discard",
+      "randomly tear",
+      "digitally paint"
+    ],
+    "e": "Đáp án đúng là A: 'fold'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-03",
+    "target": "fold",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-97509",
+    "u": "U01",
+    "q": "Crafting ________ garments through techniques such as yarn manipulation offers a fulfilling, domestic alternative to intense physical exertion.",
+    "o": [
+      "home-made",
+      "mass-produced",
+      "commercially imported",
+      "synthetic"
+    ],
+    "e": "Đáp án đúng là A: 'home-made'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-03",
+    "target": "home-made",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U01-GR-01-97510",
+    "u": "U01",
+    "q": "Even individuals who regularly engage in competitive racquet sports like ________ benefit significantly from incorporating diverse, less strenuous hobbies into their routines.",
+    "o": [
+      "badminton",
+      "origami",
+      "dollhouse making",
+      "knitting"
+    ],
+    "e": "Đáp án đúng là A: 'badminton'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U01-R-03",
+    "target": "badminton",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-97501",
+    "u": "U02",
+    "q": "Urban residents frequently experience a sense of ________ when they witness how harmoniously country dwellers position their historical homes amidst stunning landscapes.",
+    "o": [
+      "envy",
+      "indifference",
+      "resentment",
+      "isolation"
+    ],
+    "e": "Đáp án đúng là A: 'envy'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-03",
+    "target": "envy",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-97502",
+    "u": "U02",
+    "q": "Contrary to the misconception that rural inhabitants are ________, they are widely recognized for their accommodating, benevolent, and highly supportive nature.",
+    "o": [
+      "unsociable",
+      "hospitable",
+      "supportive",
+      "hard-working"
+    ],
+    "e": "Đáp án đúng là A: 'unsociable'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-03",
+    "target": "unsociable",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-97503",
+    "u": "U02",
+    "q": "To expedite agricultural processes, modern farmers heavily depend on a sophisticated ________ rather than resorting to archaic, labor-intensive harvesting methods.",
+    "o": [
+      "combine harvester",
+      "manual plough",
+      "cargo truck",
+      "traditional ferry"
+    ],
+    "e": "Đáp án đúng là A: 'combine harvester'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-03",
+    "target": "combine harvester",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-97504",
+    "u": "U02",
+    "q": "Observers traversing the waterways can often see agricultural workers acquiring a deep ________ due to prolonged exposure to intense solar radiation while tending to their duties.",
+    "o": [
+      "tan",
+      "grain",
+      "crop",
+      "canal"
+    ],
+    "e": "Đáp án đúng là A: 'tan'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-03",
+    "target": "tan",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-97505",
+    "u": "U02",
+    "q": "The meticulous daily routine of the agrarian lifestyle includes the vital tasks of providing sustenance for the ________ and extracting dairy from the livestock.",
+    "o": [
+      "poultry",
+      "cattle",
+      "orchard",
+      "lighthouse"
+    ],
+    "e": "Đáp án đúng là A: 'poultry'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-03",
+    "target": "poultry",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-97506",
+    "u": "U02",
+    "q": "It is a uniquely ________ experience to witness a skilled shepherd effortlessly direct a flock using highly disciplined and responsive canines.",
+    "o": [
+      "fascinating",
+      "tedious",
+      "monotonous",
+      "overwhelming"
+    ],
+    "e": "Đáp án đúng là A: 'fascinating'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-03",
+    "target": "fascinating",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-97507",
+    "u": "U02",
+    "q": "Some individuals prefer to spend their leisure time attempting to ________ aquatic life in secluded, tranquil bodies of water.",
+    "o": [
+      "catch",
+      "load",
+      "cultivate",
+      "situate"
+    ],
+    "e": "Đáp án đúng là A: 'catch'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-03",
+    "target": "catch",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-97508",
+    "u": "U02",
+    "q": "After a grueling day of physical labor, locals often indulge in a regional ________, celebrating the unique culinary heritage of their community.",
+    "o": [
+      "speciality",
+      "cottage",
+      "scenery",
+      "harvest"
+    ],
+    "e": "Đáp án đúng là A: 'speciality'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-03",
+    "target": "speciality",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-97509",
+    "u": "U02",
+    "q": "As dusk falls, the rural landscape is animated by children engaging in communal recreational activities, such as ________ and traditional folklore games.",
+    "o": [
+      "bamboo dancing",
+      "heavy ploughing",
+      "unloading cargo",
+      "sleeping soundly"
+    ],
+    "e": "Đáp án đúng là A: 'bamboo dancing'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-03",
+    "target": "bamboo dancing",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U02-GR-01-97510",
+    "u": "U02",
+    "q": "The ultimate reward for a day filled with rigorous agricultural exertion is the ability to rest ________, unburdened by the cacophony of urban life.",
+    "o": [
+      "soundly",
+      "restlessly",
+      "sporadically",
+      "unsociably"
+    ],
+    "e": "Đáp án đúng là A: 'soundly'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U02-R-03",
+    "target": "soundly",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-97501",
+    "u": "U03",
+    "q": "Adolescents nowadays constantly grapple with profound familial ________ and intense social dynamics among their contemporaries, rendering their existence significantly challenging.",
+    "o": [
+      "expectation",
+      "indifference",
+      "detachment",
+      "autonomy"
+    ],
+    "e": "Đáp án đúng là A: 'expectation'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-03",
+    "target": "expectation",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-97502",
+    "u": "U03",
+    "q": "In order to mitigate the overwhelming demands of academic assessments such as ________ exams, students must meticulously process their studies and maintain unwavering attention.",
+    "o": [
+      "midterm",
+      "trivial",
+      "preliminary",
+      "rudimentary"
+    ],
+    "e": "Đáp án đúng là A: 'midterm'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-03",
+    "target": "midterm",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-97503",
+    "u": "U03",
+    "q": "Failure to rigorously ________ during each intensive academic period may lead to severe educational deficits, prompting students to deploy rigorous cognitive strategies.",
+    "o": [
+      "concentrate",
+      "browse",
+      "upload",
+      "disconnect"
+    ],
+    "e": "Đáp án đúng là A: 'concentrate'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-03",
+    "target": "concentrate",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-97504",
+    "u": "U03",
+    "q": "To alleviate psychological burdens, youths frequently pursue ________ endeavors, which may range from cultivating a hands-on hobby to establishing meaningful interpersonal bonds.",
+    "o": [
+      "enjoyable",
+      "stressful",
+      "monotonous",
+      "arduous"
+    ],
+    "e": "Đáp án đúng là A: 'enjoyable'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-03",
+    "target": "enjoyable",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-97505",
+    "u": "U03",
+    "q": "It is ubiquitous for contemporary youths to seamlessly access a ________ digital interface, establishing personalized profiles to interact within the virtual community.",
+    "o": [
+      "user-friendly",
+      "labyrinthine",
+      "convoluted",
+      "primitive"
+    ],
+    "e": "Đáp án đúng là A: 'user-friendly'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-03",
+    "target": "user-friendly",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-97506",
+    "u": "U03",
+    "q": "Many tech-savvy adolescents habitually ________ virtual discussion boards, ensuring they remain acutely aware of every real-time digital alert they receive.",
+    "o": [
+      "browse",
+      "overlook",
+      "dismantle",
+      "boycott"
+    ],
+    "e": "Đáp án đúng là A: 'browse'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-03",
+    "target": "browse",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-97507",
+    "u": "U03",
+    "q": "Virtual platforms are occasionally exploited by youths to ostentatiously ________ their triumphs in competitive events, fostering an environment of superficial rivalry.",
+    "o": [
+      "show off",
+      "suppress",
+      "conceal",
+      "understate"
+    ],
+    "e": "Đáp án đúng là A: 'show off'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-03",
+    "target": "show off",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-97508",
+    "u": "U03",
+    "q": "The proliferation of digital networks has unfortunately facilitated toxic behaviors, wherein malevolent individuals maliciously ________ vulnerable peers, causing severe psychological trauma.",
+    "o": [
+      "bully",
+      "support",
+      "uplift",
+      "commend"
+    ],
+    "e": "Đáp án đúng là A: 'bully'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-03",
+    "target": "bully",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-97509",
+    "u": "U03",
+    "q": "Cultivating the emotional intelligence to amicably ________ fellow classmates is deemed essential for navigating the complex social hierarchy of adolescence.",
+    "o": [
+      "get on with",
+      "alienate from",
+      "clash with",
+      "detach from"
+    ],
+    "e": "Đáp án đúng là A: 'get on with'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-03",
+    "target": "get on with",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U03-GR-01-97510",
+    "u": "U03",
+    "q": "Proactive teenagers often orchestrate their comprehensive itineraries ________, establishing a structured regimen that effectively balances scholastic duties and leisure.",
+    "o": [
+      "beforehand",
+      "retroactively",
+      "spontaneously",
+      "haphazardly"
+    ],
+    "e": "Đáp án đúng là A: 'beforehand'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U03-R-03",
+    "target": "beforehand",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-97501",
+    "u": "U04",
+    "q": "In the diverse demographic landscape of Vietnam, various indigenous ________ populations harmoniously coexist with the majority demographic across diverse topographies.",
+    "o": [
+      "minority",
+      "dominant",
+      "lowland",
+      "homogeneous"
+    ],
+    "e": "Đáp án đúng là A: 'minority'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-03",
+    "target": "minority",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-97502",
+    "u": "U04",
+    "q": "The architectural masterpiece of many indigenous villages is the grand ________, an elevated structure that serves as the epicentre for community gatherings and rituals.",
+    "o": [
+      "communal house",
+      "wooden post",
+      "rubber plantation",
+      "terraced field"
+    ],
+    "e": "Đáp án đúng là A: 'communal house'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-03",
+    "target": "communal house",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-97503",
+    "u": "U04",
+    "q": "These traditional elevated dwellings are meticulously constructed upon robust timber ________, strategically positioned to command a panoramic view of the adjacent valleys.",
+    "o": [
+      "posts",
+      "staircases",
+      "statues",
+      "crops"
+    ],
+    "e": "Đáp án đúng là A: 'posts'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-03",
+    "target": "posts",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-97504",
+    "u": "U04",
+    "q": "To organically ________ the arable land, indigenous farmers ingeniously utilize the combustible residue from their domestic hearths as a natural fertilizer.",
+    "o": [
+      "enrich",
+      "harvest",
+      "raise",
+      "weave"
+    ],
+    "e": "Đáp án đúng là A: 'enrich'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-03",
+    "target": "enrich",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-97505",
+    "u": "U04",
+    "q": "A culinary hallmark of certain highland cultures involves meticulously preparing ________ over a traditional hearth, a dish where the vivid hues often symbolize elements of the cosmos.",
+    "o": [
+      "five-colour sticky rice",
+      "raw crops",
+      "processed livestock",
+      "organic ash"
+    ],
+    "e": "Đáp án đúng là A: 'five-colour sticky rice'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-03",
+    "target": "five-colour sticky rice",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-97506",
+    "u": "U04",
+    "q": "Ingenious agricultural practices in mountainous terrains frequently entail cultivating ________ landscapes to maximize yield prior to the crucial reaping season.",
+    "o": [
+      "terraced",
+      "multi-storey",
+      "lowland",
+      "barren"
+    ],
+    "e": "Đáp án đúng là A: 'terraced'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-03",
+    "target": "terraced",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-97507",
+    "u": "U04",
+    "q": "Alongside subsistence farming, indigenous communities actively ________ domesticated animals to secure a reliable source of protein and invaluable agricultural assistance.",
+    "o": [
+      "raise",
+      "overlook",
+      "weave",
+      "enrich"
+    ],
+    "e": "Đáp án đúng là A: 'raise'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-03",
+    "target": "raise",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-97508",
+    "u": "U04",
+    "q": "To preserve their sartorial heritage, local artisans meticulously ________ intricate geometric patterns into textiles to produce their culturally significant attire.",
+    "o": [
+      "weave",
+      "harvest",
+      "raise",
+      "crop"
+    ],
+    "e": "Đáp án đúng là A: 'weave'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-03",
+    "target": "weave",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-97509",
+    "u": "U04",
+    "q": "The vibrant cultural festivals are frequently accompanied by the resonant acoustics of a traditional ________, creating a profound atmosphere steeped in ancestral reverence.",
+    "o": [
+      "gong",
+      "waterwheel",
+      "costume",
+      "statue"
+    ],
+    "e": "Đáp án đúng là A: 'gong'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-03",
+    "target": "gong",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U04-GR-01-97510",
+    "u": "U04",
+    "q": "During festive occasions, elders transmit their ancestral legacy through captivating ________ narratives, perfectly complemented by the ethereal melodies of traditional wind instruments.",
+    "o": [
+      "folk",
+      "dominant",
+      "multi-storey",
+      "lowland"
+    ],
+    "e": "Đáp án đúng là A: 'folk'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U04-R-03",
+    "target": "folk",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-97501",
+    "u": "U05",
+    "q": "In Vietnam, deeply rooted ________ play a pivotal role in fostering familial harmony and ensuring traditional etiquette is systematically passed down to younger generations.",
+    "o": [
+      "customs",
+      "acrobatics",
+      "contestants",
+      "lanterns"
+    ],
+    "e": "Đáp án đúng là A: 'customs'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-03",
+    "target": "customs",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-97502",
+    "u": "U05",
+    "q": "Prior to the Lunar New Year, it is a quintessential tradition to acquire a live ________ and subsequently liberate it into a freshwater habitat to spiritually transport deities to the heavens.",
+    "o": [
+      "carp",
+      "kumquat",
+      "ornamental tree",
+      "bamboo pole"
+    ],
+    "e": "Đáp án đúng là A: 'carp'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-03",
+    "target": "carp",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-97503",
+    "u": "U05",
+    "q": "During sacred temple visits, individuals frequently present a meticulous ________ to the altars while engaging in profound spiritual veneration.",
+    "o": [
+      "offering",
+      "family reunion",
+      "table manners",
+      "martial arts"
+    ],
+    "e": "Đáp án đúng là A: 'offering'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-03",
+    "target": "offering",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-97504",
+    "u": "U05",
+    "q": "Devout individuals often seek spiritual guidance from a venerable ________ and subsequently engage in quiet meditation to wish for extended lifespans.",
+    "o": [
+      "monk",
+      "festival goer",
+      "contestant",
+      "Moon Goddess"
+    ],
+    "e": "Đáp án đúng là A: 'monk'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-03",
+    "target": "monk",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-97505",
+    "u": "U05",
+    "q": "The Mid-Autumn celebration features culinary specialties delicately crafted from newly harvested ________, a seasonal ingredient highly prized for its subtle fragrance.",
+    "o": [
+      "young rice",
+      "decorative",
+      "coastal",
+      "riverside"
+    ],
+    "e": "Đáp án đúng là A: 'young rice'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-03",
+    "target": "young rice",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-97506",
+    "u": "U05",
+    "q": "The rhythmic and highly energetic ________ is deeply embedded in local celebrations, primarily functioning to dispel malevolent entities from the community.",
+    "o": [
+      "lion dance",
+      "family bonding",
+      "worship",
+      "ceremony"
+    ],
+    "e": "Đáp án đúng là A: 'lion dance'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-03",
+    "target": "lion dance",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-97507",
+    "u": "U05",
+    "q": "Spectators at seasonal cultural fairs are consistently mesmerized by the sheer physical prowess demonstrated through complex ________ and traditional combat disciplines.",
+    "o": [
+      "acrobatics",
+      "longevity",
+      "bad spirit",
+      "the Kitchen Gods"
+    ],
+    "e": "Đáp án đúng là A: 'acrobatics'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-03",
+    "target": "acrobatics",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-97508",
+    "u": "U05",
+    "q": "It is widely believed by local communities that specific energetic rituals, accompanied by loud noises and vibrant colors, effectively ________ any lingering negative energies from the preceding year.",
+    "o": [
+      "chase away",
+      "release",
+      "admire",
+      "pray"
+    ],
+    "e": "Đáp án đúng là A: 'chase away'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-03",
+    "target": "chase away",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-97509",
+    "u": "U05",
+    "q": "During elaborate maritime celebrations held in ________ communities, elaborately adorned vessels navigate the waterways to honour the nation's seafaring ancestors.",
+    "o": [
+      "coastal",
+      "landlocked",
+      "mountainous",
+      "terrestrial"
+    ],
+    "e": "Đáp án đúng là A: 'coastal'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-03",
+    "target": "coastal",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U05-GR-01-97510",
+    "u": "U05",
+    "q": "A highly motivated ________ in these traditional regattas must exhibit exceptional cardiovascular stamina and teamwork to secure victory during the grand aquatic pageant.",
+    "o": [
+      "contestant",
+      "monk",
+      "carp",
+      "festival goer"
+    ],
+    "e": "Đáp án đúng là A: 'contestant'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U05-R-03",
+    "target": "contestant",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-97501",
+    "u": "U06",
+    "q": "Despite the modern world's propensity for digital connectivity and virtual education, a distinct demographic consciously chooses to remain completely ________, rejecting the contemporary digital ecosystem.",
+    "o": [
+      "offline",
+      "nomadic",
+      "well-paid",
+      "online"
+    ],
+    "e": "Đáp án đúng là A: 'offline'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-03",
+    "target": "offline",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-97502",
+    "u": "U06",
+    "q": "In extreme Arctic environments, an experienced ________ must possess immense physical stamina to navigate the treacherous icy terrain using traditional canine-powered transportation.",
+    "o": [
+      "musher",
+      "artisan",
+      "waiter",
+      "title"
+    ],
+    "e": "Đáp án đúng là A: 'musher'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-03",
+    "target": "musher",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-97503",
+    "u": "U06",
+    "q": "Indigenous populations dwelling in freezing climates often adopt a transient, ________ existence, occasionally constructing temporary ice shelters to survive the harsh elements.",
+    "o": [
+      "nomadic",
+      "decorative",
+      "independent",
+      "roadside"
+    ],
+    "e": "Đáp án đúng là A: 'nomadic'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-03",
+    "target": "nomadic",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-97504",
+    "u": "U06",
+    "q": "Cultural preservationists in these isolated communities actively attempt to ________ dormant ancestral traditions to ensure they leave a lasting, meaningful impression on foreign visitors.",
+    "o": [
+      "revive",
+      "practice",
+      "greet",
+      "maintain"
+    ],
+    "e": "Đáp án đúng là A: 'revive'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-03",
+    "target": "revive",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-97505",
+    "u": "U06",
+    "q": "Urban dwellers who are perpetually ________ frequently forsake the psychological benefits of a structured family dinner in favour of rapid, on-the-go nourishment.",
+    "o": [
+      "in a hurry",
+      "in the habit of",
+      "online",
+      "sore"
+    ],
+    "e": "Đáp án đúng là A: 'in a hurry'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-03",
+    "target": "in a hurry",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-97506",
+    "u": "U06",
+    "q": "Rather than dining in formal establishments, busy city workers often procure culturally ubiquitous ________ delicacies from informal vendors positioned along busy thoroughfares.",
+    "o": [
+      "street food",
+      "handicraft",
+      "speciality",
+      "dogsled"
+    ],
+    "e": "Đáp án đúng là A: 'street food'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-03",
+    "target": "street food",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-97507",
+    "u": "U06",
+    "q": "A profoundly skilled ________ is frequently bestowed with an honorary designation, reflecting their lifelong dedication to mastering traditional manufacturing techniques.",
+    "o": [
+      "artisan",
+      "waitress",
+      "musher",
+      "igloo"
+    ],
+    "e": "Đáp án đúng là A: 'artisan'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-03",
+    "target": "artisan",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-97508",
+    "u": "U06",
+    "q": "These master craftsmen dedicate their lives to producing intricate and highly ________ artifacts that serve as tangible representations of their community's historical legacy.",
+    "o": [
+      "decorative",
+      "well-paid",
+      "sore",
+      "offline"
+    ],
+    "e": "Đáp án đúng là A: 'decorative'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-03",
+    "target": "decorative",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-97509",
+    "u": "U06",
+    "q": "Within the upscale echelons of the contemporary hospitality industry, a sufficiently ________ server is expected to exhibit impeccable etiquette while presenting gourmet dishes.",
+    "o": [
+      "well-paid",
+      "independent",
+      "tribal",
+      "nomadic"
+    ],
+    "e": "Đáp án đúng là A: 'well-paid'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-03",
+    "target": "well-paid",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U06-GR-01-97510",
+    "u": "U06",
+    "q": "Discerning epicureans often seek out establishments where staff expertly present a regional ________, thereby elevating the gastronomic experience through profound cultural authenticity.",
+    "o": [
+      "speciality",
+      "interaction",
+      "online learning",
+      "lifestyle"
+    ],
+    "e": "Đáp án đúng là A: 'speciality'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U06-R-03",
+    "target": "speciality",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-97501",
+    "u": "U07",
+    "q": "According to the passage, it is crucial that every community ________ engages in concerted efforts to safeguard the delicate balance of our natural surroundings.",
+    "o": [
+      "resident",
+      "outsider",
+      "spectator",
+      "adversary"
+    ],
+    "e": "Đáp án đúng là A: 'resident'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-03",
+    "target": "resident",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-97502",
+    "u": "U07",
+    "q": "The widespread, rampant consumption of every ________ item has catalyzed an unprecedented crisis of oceanic pollution.",
+    "o": [
+      "single-use",
+      "sustainable",
+      "biodegradable",
+      "permanent"
+    ],
+    "e": "Đáp án đúng là A: 'single-use'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-03",
+    "target": "single-use",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-97503",
+    "u": "U07",
+    "q": "The accumulation of synthetic refuse inevitably leaches many a hazardous ________ into the aquatic environment, threatening organisms across all trophic levels.",
+    "o": [
+      "substance",
+      "nutrient",
+      "organism",
+      "phenomenon"
+    ],
+    "e": "Đáp án đúng là A: 'substance'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-03",
+    "target": "substance",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-97504",
+    "u": "U07",
+    "q": "The relentless deterioration of marine environments, most notably the bleaching of vibrant ________ reefs, severely disrupts aquatic biodiversity and food chains.",
+    "o": [
+      "coral",
+      "glacial",
+      "terrestrial",
+      "atmospheric"
+    ],
+    "e": "Đáp án đúng là A: 'coral'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-03",
+    "target": "coral",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-97505",
+    "u": "U07",
+    "q": "Due to severe ecological degradation, the gentle marine herbivore widely recognized as the ________ is now precariously close to total annihilation.",
+    "o": [
+      "dugong",
+      "predator",
+      "amphibian",
+      "crustacean"
+    ],
+    "e": "Đáp án đúng là A: 'dugong'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-03",
+    "target": "dugong",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-97506",
+    "u": "U07",
+    "q": "In a balanced ecological state, vast tracts of forested land naturally ________ harmful atmospheric emissions while concurrently generating vital breathable air.",
+    "o": [
+      "absorb",
+      "emit",
+      "reflect",
+      "synthesize"
+    ],
+    "e": "Đáp án đúng là A: 'absorb'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-03",
+    "target": "absorb",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-97507",
+    "u": "U07",
+    "q": "Anthropogenic activities, heavily reliant on fossil fuels, continuously ________ massive quantities of greenhouse gases, exacerbating global warming.",
+    "o": [
+      "release",
+      "sequester",
+      "purify",
+      "contain"
+    ],
+    "e": "Đáp án đúng là A: 'release'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-03",
+    "target": "release",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-97508",
+    "u": "U07",
+    "q": "The cumulative environmental impact of an individual's or organization's lifestyle is commonly quantified and referred to as their ________.",
+    "o": [
+      "carbon footprint",
+      "ecological surplus",
+      "thermal threshold",
+      "atmospheric volume"
+    ],
+    "e": "Đáp án đúng là A: 'carbon footprint'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-03",
+    "target": "carbon footprint",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-97509",
+    "u": "U07",
+    "q": "The text implies that human negligence, such as abandoning an improperly extinguished ________, contributes significantly to the broader narrative of environmental degradation.",
+    "o": [
+      "campfire",
+      "tornado",
+      "ecosystem",
+      "conical"
+    ],
+    "e": "Đáp án đúng là A: 'campfire'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-03",
+    "target": "campfire",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U07-GR-01-97510",
+    "u": "U07",
+    "q": "Escalating climatic instability poses a severe threat to the proliferation of rare ________ flora, which traditionally thrive on uniquely shaped topographies.",
+    "o": [
+      "medicinal",
+      "synthetic",
+      "ornamental",
+      "invasive"
+    ],
+    "e": "Đáp án đúng là A: 'medicinal'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U07-R-03",
+    "target": "medicinal",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-97501",
+    "u": "U08",
+    "q": "In contemporary society, a significant demographic has become completely ________ retail therapy, often exhibiting compulsive buying behaviors.",
+    "o": [
+      "addicted to",
+      "alienated by",
+      "indifferent to",
+      "shielded from"
+    ],
+    "e": "Đáp án đúng là A: 'addicted to'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-03",
+    "target": "addicted to",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-97502",
+    "u": "U08",
+    "q": "To optimally engage a prospective ________, commercial entities deploy sophisticated promotional campaigns and visually striking product arrangements.",
+    "o": [
+      "customer",
+      "florist",
+      "shopaholic",
+      "shuttle"
+    ],
+    "e": "Đáp án đúng là A: 'customer'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-03",
+    "target": "customer",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-97503",
+    "u": "U08",
+    "q": "Frugal individuals who are determined to secure a lucrative ________ often prefer navigating alternative retail environments rather than premium boutiques.",
+    "o": [
+      "bargain",
+      "advertisement",
+      "complaint",
+      "price tag"
+    ],
+    "e": "Đáp án đúng là A: 'bargain'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-03",
+    "target": "bargain",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-97504",
+    "u": "U08",
+    "q": "These budget-conscious consumers frequently patronize a ________ or a similar low-cost establishment to procure everyday necessities at minimized costs.",
+    "o": [
+      "dollar store",
+      "open-air market",
+      "high-end florist",
+      "luxury market"
+    ],
+    "e": "Đáp án đúng là A: 'dollar store'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-03",
+    "target": "dollar store",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-97505",
+    "u": "U08",
+    "q": "Unlike upscale retailers that strictly enforce a ________ pricing strategy, some markets allow for flexible negotiation on commodity values.",
+    "o": [
+      "fixed",
+      "yellowish",
+      "home-grown",
+      "home-made"
+    ],
+    "e": "Đáp án đúng là A: 'fixed'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-03",
+    "target": "fixed",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-97506",
+    "u": "U08",
+    "q": "Retailers frequently manipulate visual merchandising to create a compelling ________ of every single product that has been temporarily discounted.",
+    "o": [
+      "display",
+      "shuttle",
+      "minority",
+      "access"
+    ],
+    "e": "Đáp án đúng là A: 'display'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-03",
+    "target": "display",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-97507",
+    "u": "U08",
+    "q": "Despite offering exceptional 24/7 ________ to basic commodities, some 24-hour retail outlets face criticism regarding the freshness of their inventory.",
+    "o": [
+      "access",
+      "advertisement",
+      "complaint",
+      "item"
+    ],
+    "e": "Đáp án đúng là A: 'access'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-03",
+    "target": "access",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-97508",
+    "u": "U08",
+    "q": "Occasionally, management at these round-the-clock establishments must address a formal ________ submitted by dissatisfied patrons regarding sub-par merchandise.",
+    "o": [
+      "complaint",
+      "fair",
+      "market",
+      "discount shop"
+    ],
+    "e": "Đáp án đúng là A: 'complaint'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-03",
+    "target": "complaint",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-97509",
+    "u": "U08",
+    "q": "A culturally conscious ________ of the population actively eschews corporate retailers in favor of supporting local artisans at traditional bazaars.",
+    "o": [
+      "minority",
+      "goods",
+      "shopaholic",
+      "convenience store"
+    ],
+    "e": "Đáp án đúng là A: 'minority'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-03",
+    "target": "minority",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U08-GR-01-97510",
+    "u": "U08",
+    "q": "In authentic outdoor bazaars, buyers can acquire an array of ________ produce and artisanal crafts, directly supporting sustainable agricultural practices.",
+    "o": [
+      "home-grown",
+      "fixed",
+      "yellowish",
+      "on sale"
+    ],
+    "e": "Đáp án đúng là A: 'home-grown'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U08-R-03",
+    "target": "home-grown",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-97501",
+    "u": "U09",
+    "q": "In the face of imminent seismic threats, the local ________ is mandated to disseminate an immediate alert to caution the populace regarding perilous conditions.",
+    "o": [
+      "authority",
+      "victim",
+      "property",
+      "shelter"
+    ],
+    "e": "Đáp án đúng là A: 'authority'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-03",
+    "target": "authority",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-97502",
+    "u": "U09",
+    "q": "Advanced meteorological models attempt to ________ the exact trajectory of a swirling vortex, characterized by its distinctive funnel, before it touches down.",
+    "o": [
+      "predict",
+      "erupt",
+      "shake",
+      "tremble"
+    ],
+    "e": "Đáp án đúng là A: 'predict'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-03",
+    "target": "predict",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-97503",
+    "u": "U09",
+    "q": "The sheer kinetic force of such extreme atmospheric disturbances can easily ________ deeply rooted vegetation and annihilate structural foundations.",
+    "o": [
+      "pull up",
+      "sweep away",
+      "come down",
+      "clean-up"
+    ],
+    "e": "Đáp án đúng là A: 'pull up'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-03",
+    "target": "pull up",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-97504",
+    "u": "U09",
+    "q": "Topographically elevated and ________ terrains are particularly susceptible to catastrophic geological shifts when saturated by torrential rains.",
+    "o": [
+      "mountainous",
+      "unsafe",
+      "volcanic",
+      "liquid"
+    ],
+    "e": "Đáp án đúng là A: 'mountainous'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-03",
+    "target": "mountainous",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-97505",
+    "u": "U09",
+    "q": "When subterranean pressure forces a summit to ________, it expels a lethal, incandescent fluid that obliterates everything in its path.",
+    "o": [
+      "erupt",
+      "tremble",
+      "damage",
+      "warn"
+    ],
+    "e": "Đáp án đúng là A: 'erupt'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-03",
+    "target": "erupt",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-97506",
+    "u": "U09",
+    "q": "The molten rock ejected during these violent geological events frequently achieves blistering temperatures exceeding several thousand degrees ________.",
+    "o": [
+      "Fahrenheit",
+      "Richter scale",
+      "emergency kit",
+      "disaster"
+    ],
+    "e": "Đáp án đúng là A: 'Fahrenheit'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-03",
+    "target": "fahrenheit",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-97507",
+    "u": "U09",
+    "q": "To mitigate the risk of becoming a casualty, civilians are strongly advised to remain profoundly ________ and stockpile essential survival supplies.",
+    "o": [
+      "cautious",
+      "pretty",
+      "poisonous",
+      "unsafe"
+    ],
+    "e": "Đáp án đúng là A: 'cautious'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-03",
+    "target": "cautious",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-97508",
+    "u": "U09",
+    "q": "In the aftermath of the devastation, a highly trained ________ is often deployed to meticulously search the debris and coordinate rehabilitation efforts.",
+    "o": [
+      "rescue worker",
+      "authority",
+      "mass movement",
+      "tropical storm"
+    ],
+    "e": "Đáp án đúng là A: 'rescue worker'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-03",
+    "target": "rescue worker",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-97509",
+    "u": "U09",
+    "q": "Seismologists rely on precise logarithmic measurements, such as the ________, to quantify the immense energy released during subterranean ruptures.",
+    "o": [
+      "Richter scale",
+      "funnel",
+      "lighting",
+      "property"
+    ],
+    "e": "Đáp án đúng là A: 'Richter scale'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-03",
+    "target": "richter scale",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U09-GR-01-97510",
+    "u": "U09",
+    "q": "Coastal inhabitants live under the perpetual threat of immense oceanic displacement, which can effortlessly ________ entire settlements without warning.",
+    "o": [
+      "sweep away",
+      "pull up",
+      "come down",
+      "broadcast"
+    ],
+    "e": "Đáp án đúng là A: 'sweep away'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U09-R-03",
+    "target": "sweep away",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-97501",
+    "u": "U10",
+    "q": "The historical transition of information exchange has moved away from primitive methods, such as the ________, towards highly sophisticated digital mediums.",
+    "o": [
+      "carrier pigeon",
+      "translation machine",
+      "holography",
+      "smartwatch"
+    ],
+    "e": "Đáp án đúng là A: 'carrier pigeon'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-03",
+    "target": "carrier pigeon",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-97502",
+    "u": "U10",
+    "q": "Establishing a personalized ________ on a mainstream digital platform allows users to seamlessly disseminate multimedia content across the globe.",
+    "o": [
+      "account",
+      "absentee",
+      "charge",
+      "language barrier"
+    ],
+    "e": "Đáp án đúng là A: 'account'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-03",
+    "target": "account",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-97503",
+    "u": "U10",
+    "q": "With intuitive technological interfaces, sending an emotionally expressive ________ to convey nuanced interpersonal feelings has become remarkably effortless.",
+    "o": [
+      "emoji",
+      "introductory",
+      "webcam",
+      "Internet connection"
+    ],
+    "e": "Đáp án đúng là A: 'emoji'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-03",
+    "target": "emoji",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-97504",
+    "u": "U10",
+    "q": "Modern communication devices are ingeniously engineered to effectively screen ________ solicitations, allowing individuals to maintain focus without trivial interruptions.",
+    "o": [
+      "unwanted",
+      "advanced",
+      "live",
+      "high-speed"
+    ],
+    "e": "Đáp án đúng là A: 'unwanted'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-03",
+    "target": "unwanted",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-97505",
+    "u": "U10",
+    "q": "To guarantee a seamless auditory experience during virtual meetings, sophisticated software can ________ modulate the microphone's input levels to optimize clarity.",
+    "o": [
+      "automatically",
+      "smoothly",
+      "instantly",
+      "in person"
+    ],
+    "e": "Đáp án đúng là A: 'automatically'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-03",
+    "target": "automatically",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-97506",
+    "u": "U10",
+    "q": "Whenever a critical stakeholder becomes an ________ and cannot be physically present, corporations typically leverage synchronous digital broadcasting solutions.",
+    "o": [
+      "absentee",
+      "tablet",
+      "text",
+      "smartphone"
+    ],
+    "e": "Đáp án đúng là A: 'absentee'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-03",
+    "target": "absentee",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-97507",
+    "u": "U10",
+    "q": "Global enterprises successfully circumvent the complex ________ by deploying sophisticated algorithms that interpret foreign dialects in real-time.",
+    "o": [
+      "language barrier",
+      "social network",
+      "voice message",
+      "video conference"
+    ],
+    "e": "Đáp án đúng là A: 'language barrier'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-03",
+    "target": "language barrier",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-97508",
+    "u": "U10",
+    "q": "The advent of an AI-driven ________ ensures that multinational negotiations proceed efficiently without profound linguistic misunderstandings.",
+    "o": [
+      "translation machine",
+      "telepathy",
+      "smiley",
+      "thought"
+    ],
+    "e": "Đáp án đúng là A: 'translation machine'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-03",
+    "target": "translation machine",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-97509",
+    "u": "U10",
+    "q": "Anticipated technological breakthroughs include ________, an innovative medium capable of projecting complex three-dimensional visual representations into physical space.",
+    "o": [
+      "holography",
+      "telepathy",
+      "charge",
+      "tablet"
+    ],
+    "e": "Đáp án đúng là A: 'holography'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-03",
+    "target": "holography",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U10-GR-01-97510",
+    "u": "U10",
+    "q": "At the very frontier of speculative cognitive science lies ________, a paradigm where neural impulses could be exchanged without reliance on any external sensory channels.",
+    "o": [
+      "telepathy",
+      "a piece of cake",
+      "introductory",
+      "hold on"
+    ],
+    "e": "Đáp án đúng là A: 'telepathy'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U10-R-03",
+    "target": "telepathy",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-97501",
+    "u": "U11",
+    "q": "The integration of sophisticated ________ technology in academic settings is primarily designed to securely authenticate student presence through physiological characteristics.",
+    "o": [
+      "biometric",
+      "manual",
+      "rudimentary",
+      "effortless"
+    ],
+    "e": "Đáp án đúng là A: 'biometric'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-03",
+    "target": "biometric",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-97502",
+    "u": "U11",
+    "q": "By systematically tracking student attendance through advanced surveillance, administrative bodies can effectively mitigate the escalating issue of chronic ________.",
+    "o": [
+      "truancy",
+      "innovation",
+      "feedback",
+      "collaboration"
+    ],
+    "e": "Đáp án đúng là A: 'truancy'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-03",
+    "target": "truancy",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-97503",
+    "u": "U11",
+    "q": "These rigorous authentication protocols serve as an essential deterrent against academic ________, ensuring that all scholastic achievements remain completely legitimate.",
+    "o": [
+      "cheating",
+      "complaining",
+      "developing",
+      "discovering"
+    ],
+    "e": "Đáp án đúng là A: 'cheating'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-03",
+    "target": "cheating",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-97504",
+    "u": "U11",
+    "q": "Revolutionary visual interfaces now incorporate an intelligent ________ mechanism, allowing users to seamlessly navigate virtual environments using mere ocular movements.",
+    "o": [
+      "eye-tracking",
+      "fingerprint",
+      "face to face",
+      "voice recognition"
+    ],
+    "e": "Đáp án đúng là A: 'eye-tracking'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-03",
+    "target": "eye-tracking",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-97505",
+    "u": "U11",
+    "q": "The implementation of augmented reality via a sophisticated contact lens renders the user's interaction with the digital interface phenomenally ________.",
+    "o": [
+      "effortless",
+      "arduous",
+      "hazardous",
+      "redundant"
+    ],
+    "e": "Đáp án đúng là A: 'effortless'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-03",
+    "target": "effortless",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-97506",
+    "u": "U11",
+    "q": "Instructors frequently ________ about the exhaustive administrative burden associated with physically evaluating examinations before the advent of algorithmic grading.",
+    "o": [
+      "complain",
+      "swap",
+      "discover",
+      "invent"
+    ],
+    "e": "Đáp án đúng là A: 'complain'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-03",
+    "target": "complain",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-97507",
+    "u": "U11",
+    "q": "Traditional pedagogy often necessitated a highly laborious, ________ assessment process to assign an accurate academic evaluation to each pupil's intricate assignment.",
+    "o": [
+      "manual",
+      "digital",
+      "biometric",
+      "effortless"
+    ],
+    "e": "Đáp án đúng là A: 'manual'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-03",
+    "target": "manual",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-97508",
+    "u": "U11",
+    "q": "The hospitality sector has witnessed a paradigm shift with the introduction of an autonomous ________, a machine capable of meticulously formulating complex cocktails.",
+    "o": [
+      "bartender",
+      "scanner",
+      "epidemic",
+      "platform"
+    ],
+    "e": "Đáp án đúng là A: 'bartender'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-03",
+    "target": "bartender",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-97509",
+    "u": "U11",
+    "q": "Through relentless scientific inquiry, eminent chemists managed to isolate ________, an intrinsically radioactive element that eventually revolutionized medical treatments.",
+    "o": [
+      "radium",
+      "carbon",
+      "oxygen",
+      "copper"
+    ],
+    "e": "Đáp án đúng là A: 'radium'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-03",
+    "target": "radium",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U11-GR-01-97510",
+    "u": "U11",
+    "q": "Breakthrough pharmacological discoveries have historically provided the critical means to irrevocably cure widespread infectious diseases during a devastating ________.",
+    "o": [
+      "epidemic",
+      "platform",
+      "invention",
+      "breakout room"
+    ],
+    "e": "Đáp án đúng là A: 'epidemic'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U11-R-03",
+    "target": "epidemic",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-97501",
+    "u": "U12",
+    "q": "Astronomers utilize sophisticated optical instruments to scrutinize our local planetary system, which is exclusively ________ diverse celestial entities located within our broader galaxy.",
+    "o": [
+      "made up of",
+      "devoid of",
+      "oblivious to",
+      "detached from"
+    ],
+    "e": "Đáp án đúng là A: 'made up of'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-03",
+    "target": "made up of",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-97502",
+    "u": "U12",
+    "q": "Unlike the inner planets that endure blistering heat during the ________, the distant gas behemoths are characterized by violent atmospheric disturbances.",
+    "o": [
+      "daytime",
+      "galaxy",
+      "trace",
+      "outer space"
+    ],
+    "e": "Đáp án đúng là A: 'daytime'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-03",
+    "target": "daytime",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-97503",
+    "u": "U12",
+    "q": "Despite the hostile conditions characterizing most celestial bodies, the fourth planet from the sun stands out as the most ________ environment for potential human settlement.",
+    "o": [
+      "promising",
+      "stormy",
+      "thrilling",
+      "obsolete"
+    ],
+    "e": "Đáp án đúng là A: 'promising'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-03",
+    "target": "promising",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-97504",
+    "u": "U12",
+    "q": "Astrobiologists are meticulously analyzing topographical depressions for any microscopic ________ of ancient aquifers to substantiate theories of past life.",
+    "o": [
+      "trace",
+      "crater",
+      "surface",
+      "gravity"
+    ],
+    "e": "Đáp án đúng là A: 'trace'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-03",
+    "target": "trace",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-97505",
+    "u": "U12",
+    "q": "The identification of ancient riverbeds significantly bolsters the tantalizing ________ that this now-desolate world was historically an environment conducive to biological organisms.",
+    "o": [
+      "possibility",
+      "creature",
+      "commander",
+      "spaceship"
+    ],
+    "e": "Đáp án đúng là A: 'possibility'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-03",
+    "target": "possibility",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-97506",
+    "u": "U12",
+    "q": "While many enthusiasts champion the search for extraterrestrial intelligence, stringent skeptics consistently ________ the validity of unverified sightings of unidentified aerial phenomena.",
+    "o": [
+      "oppose",
+      "obey",
+      "take over",
+      "break down"
+    ],
+    "e": "Đáp án đúng là A: 'oppose'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-03",
+    "target": "oppose",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-97507",
+    "u": "U12",
+    "q": "The fundamentally ________ notion of encountering an unprecedented biological entity beyond our planetary boundaries continues to drive massive investments in deep-space exploration.",
+    "o": [
+      "thrilling",
+      "habitable",
+      "stormy",
+      "conventional"
+    ],
+    "e": "Đáp án đúng là A: 'thrilling'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-03",
+    "target": "thrilling",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-97508",
+    "u": "U12",
+    "q": "Initiating an interplanetary expedition requires immense propulsion capabilities to generate sufficient thrust to overcome Earth's relentless ________.",
+    "o": [
+      "gravity",
+      "telescope",
+      "galaxy",
+      "milky way"
+    ],
+    "e": "Đáp án đúng là A: 'gravity'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-03",
+    "target": "gravity",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-97509",
+    "u": "U12",
+    "q": "Given the precarious nature of interstellar travel, it is absolutely imperative that all personnel unequivocally ________ the stringent operational directives established by their superior officer.",
+    "o": [
+      "obey",
+      "oppose",
+      "break down",
+      "take over"
+    ],
+    "e": "Đáp án đúng là A: 'obey'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-03",
+    "target": "obey",
+    "group": "Reading",
+    "band": "7.5"
+  },
+  {
+    "id": "EN08-U12-GR-01-97510",
+    "u": "U12",
+    "q": "In the catastrophic event that essential life-sustaining infrastructure were to ________, redundant artificial intelligence protocols are programmed to assume immediate control of the vessel.",
+    "o": [
+      "break down",
+      "take over",
+      "make up of",
+      "obey"
+    ],
+    "e": "Đáp án đúng là A: 'break down'. Câu hỏi đọc hiểu và từ vựng band 7.5 dựa trên nội dung bài đọc.",
+    "r": "EN08-U12-R-03",
+    "target": "break down",
+    "group": "Reading",
+    "band": "7.5"
+  }
+]

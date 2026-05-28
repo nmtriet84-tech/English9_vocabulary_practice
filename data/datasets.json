@@ -10,6 +10,16 @@
     "path": "data/EN08_VOCAB"
   },
   {
+    "id": "EN08_READING",
+    "title": "Luyện Đọc Hiểu Tiếng Anh 8",
+    "subtitle": "Tạo đề trắc nghiệm đọc hiểu Tiếng Anh 8 (5 câu hỏi cho mỗi bài đọc).",
+    "eyebrow": "Grade 8 Reading",
+    "setup_title": "Reading Units",
+    "type": "reading",
+    "has_reading": true,
+    "path": "data/EN08_READING"
+  },
+  {
     "id": "EN09_VOCAB",
     "title": "Luyện Từ Vựng Tiếng Anh 9",
     "subtitle": "Tạo đề luyện tập trắc nghiệm từ vựng và collocations từ Unit 1 đến Unit 12.",
